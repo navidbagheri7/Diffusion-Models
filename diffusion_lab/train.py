@@ -13,7 +13,7 @@ from hydra.utils import to_absolute_path
 from omegaconf import DictConfig, OmegaConf
 from torch.nn import functional as F
 from torch.nn.parallel import DistributedDataParallel
-from torch.utils.data import DataLoader, DistributedSampler
+from torch.utils.data import DataLoader
 
 from .bridges import bridge_training_pair
 from .data import GaussianMixture, ImageDataset
@@ -21,6 +21,7 @@ from .guidance import drop_labels
 from .metrics import gmm_metrics, image_metrics
 from .models import ImageClassifier, TimeMLP, make_model
 from .paths import expand, flow_coefficients, make_path
+from .resume import PermutationSampler, capture_rng, restore_rng, signature
 from .sampling import sample, sample_batched
 from .targets import training_target
 from .transport import conditional_pairing, exact_pairing, sample_coupling, sinkhorn_plan
@@ -192,6 +193,9 @@ def main(cfg: DictConfig):
     seed_everything(cfg.seed + rank, cfg.cpu_threads)
     directory = Path(to_absolute_path(cfg.run_dir))
     directory.mkdir(parents=True, exist_ok=True)
+    if (directory / "checkpoint.pt").exists() and not cfg.resume:
+        raise ValueError("Run already has weights; supply resume or choose a new run_dir")
+    config_signature = signature(OmegaConf.to_container(cfg, resolve=True))
     process = prepare_process(cfg.process, device)
     mixture, endpoints, loader, validation_loader = None, None, None, None
     if cfg.data.kind == "gmm":
@@ -226,19 +230,19 @@ def main(cfg: DictConfig):
             ]
             endpoints = source, torch.cat(targets), None
     else:
-        train_data, validation_data = ImageDataset(cfg.data), ImageDataset(cfg.data, "validation")
+        train_cfg = OmegaConf.create(OmegaConf.to_container(cfg.data, resolve=True))
+        train_cfg.horizontal_flip = False
+        train_data, validation_data = ImageDataset(train_cfg), ImageDataset(train_cfg, "validation")
         if train_data.class_names != validation_data.class_names:
             raise ValueError("Train/validation class folders do not match")
         classes = len(train_data.class_names) if cfg.conditional else 0
         if cfg.conditional and classes < 2:
             raise ValueError("Conditional image training needs at least two labeled class folders")
-        distributed_sampler = (
-            DistributedSampler(train_data, shuffle=True, seed=cfg.seed) if world > 1 else None
-        )
+        distributed_sampler = PermutationSampler(train_data, cfg.seed, rank, world)
         loader = DataLoader(
             train_data,
             batch_size=cfg.batch_size,
-            shuffle=distributed_sampler is None,
+            shuffle=False,
             sampler=distributed_sampler,
             num_workers=cfg.workers,
             pin_memory=device.type == "cuda",
@@ -248,7 +252,11 @@ def main(cfg: DictConfig):
         if not len(loader):
             raise ValueError("Training set is smaller than the batch size")
         validation_loader = DataLoader(
-            validation_data, batch_size=cfg.batch_size, shuffle=False, num_workers=cfg.workers
+            validation_data,
+            batch_size=cfg.batch_size,
+            shuffle=False,
+            num_workers=cfg.workers,
+            generator=torch.Generator().manual_seed(cfg.seed + 10000),
         )
     # Identical initialization across DDP ranks, then independent training randomness.
     torch.manual_seed(cfg.seed)
@@ -261,11 +269,21 @@ def main(cfg: DictConfig):
     )
     torch.manual_seed(cfg.seed + rank)
     optimizer = torch.optim.AdamW(model.parameters(), lr=cfg.lr, weight_decay=cfg.weight_decay)
-    history, first_step = [], 0
+    history, first_step, resume_state = [], 0, None
     if cfg.resume:
         checkpoint = torch.load(
             to_absolute_path(cfg.resume), map_location=device, weights_only=False
         )
+        if checkpoint.get("resume_schema") != 1:
+            raise ValueError(
+                "Legacy checkpoint lacks exact state; use it for evaluation or explicit warm-start, not resume"
+            )
+        if (
+            checkpoint["config_signature"] != config_signature
+            or len(checkpoint["rank_states"]) != world
+        ):
+            raise ValueError("Resume requires the same training configuration and rank count")
+        resume_state = checkpoint["rank_states"][rank]
         network.load_state_dict(checkpoint["model"])
         ema.model.load_state_dict(checkpoint["ema"])
         optimizer.load_state_dict(checkpoint["optimizer"])
@@ -285,10 +303,18 @@ def main(cfg: DictConfig):
                 "validation_count": len(validation_data) if loader else cfg.validation_samples,
             },
         )
-    iterator, epoch = iter(loader) if loader else None, 0
+    epoch = resume_state["epoch"] if resume_state else 0
+    consumed = resume_state["consumed"] if resume_state else 0
+    if loader:
+        loader.sampler.epoch, loader.sampler.offset = epoch, consumed
+    iterator = iter(loader) if loader else None
+    if resume_state:
+        restore_rng(resume_state["rng"], device)
+    if first_step >= cfg.steps:
+        raise ValueError("Resume requires steps beyond the saved training step")
 
     def batch(validation=False, generator=None):
-        nonlocal iterator, epoch
+        nonlocal iterator, epoch, consumed
         if mixture is not None:
             return mixture.sample(cfg.batch_size, generator)
         if validation:
@@ -297,11 +323,16 @@ def main(cfg: DictConfig):
             x, y = next(iterator)
         except StopIteration:
             epoch += 1
-            if world > 1:
-                loader.sampler.set_epoch(epoch)
+            consumed = 0
+            loader.sampler.epoch, loader.sampler.offset = epoch, 0
             iterator = iter(loader)
             x, y = next(iterator)
-        return x.to(device), y.to(device)
+        consumed += len(x)
+        x = x.to(device)
+        if cfg.data.get("horizontal_flip", False):
+            flip = torch.rand(len(x), device=device) < 0.5
+            x[flip] = x[flip].flip(-1)
+        return x, y.to(device)
 
     @torch.no_grad()
     def validation():
@@ -328,7 +359,9 @@ def main(cfg: DictConfig):
                 break
         return total / count
 
-    started, accumulated, logged = time.perf_counter(), 0.0, 0
+    started = time.perf_counter()
+    accumulated = resume_state["accumulated"] if resume_state else 0.0
+    logged = resume_state["logged"] if resume_state else 0
     for step in range(first_step + 1, cfg.steps + 1):
         model.train()
         x0, labels = batch()
@@ -366,12 +399,27 @@ def main(cfg: DictConfig):
             accumulated, logged = 0.0, 0
         if step % cfg.validate_every == 0 or step == cfg.steps:
             value = validation()
+            local_state = {
+                "rng": capture_rng(device),
+                "epoch": epoch,
+                "consumed": consumed,
+                "accumulated": accumulated,
+                "logged": logged,
+            }
+            rank_states = [None] * world
+            if world > 1:
+                dist.all_gather_object(rank_states, local_state)
+            else:
+                rank_states[0] = local_state
             if rank == 0:
                 history.append({"step": step, "validation_loss": value})
                 print(f"validation step={step}: {value:.6f}", flush=True)
                 atomic_checkpoint(
                     directory / "checkpoint.pt",
                     {
+                        "resume_schema": 1,
+                        "config_signature": config_signature,
+                        "rank_states": rank_states,
                         "model": network.state_dict(),
                         "ema": ema.model.state_dict(),
                         "optimizer": optimizer.state_dict(),

@@ -93,3 +93,18 @@ new implementation has not been selected. Public checkpoint hosting and GitHub
 publication also remain release tasks. These choices do not prevent local
 review and training, but must be resolved before describing a public release
 as fully packaged and independently reproducible from downloaded weights.
+
+## Version 0.5 local release and optional static hosting
+
+The owned code now has an [MIT license](../LICENSE), and local Git history
+preserves the pre-extension fitting source. Small trained GAN generators are
+public; large historical diffusion/flow weights remain local and optional.
+No remote push or site deployment has been performed.
+
+To publish the static explorer yourself, push the reviewed repository, then
+choose GitHub Pages **Deploy from a branch → main → / (root)**. The supplied
+`.nojekyll` preserves the exact offline assets and relative evidence links.
+Your demo URL is `https://YOUR_ACCOUNT.github.io/YOUR_REPOSITORY/docs/explorer.html`.
+Keep both `docs/` and `assets/` in the published tree. The README screenshot is a
+preview; the linked HTML supplies the actual controls. Opening that same file
+locally or serving the root with `python -m http.server 8000` requires no account.

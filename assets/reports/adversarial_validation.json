@@ -1,0 +1,129 @@
+{
+  "status": "passed",
+  "fits": [
+    {
+      "method": "non_saturating_r1",
+      "seed": 42,
+      "selected_step": 6000,
+      "generator_sha256": "1872e423ceecc6e11ed0d565d5bb371905ae49c2096c4b37a970b45854c827d7",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "non_saturating_r1",
+      "seed": 43,
+      "selected_step": 6000,
+      "generator_sha256": "4045c5a54665ebb2aadac550acd18699024ae6d5aceb8ca2519b876fac3a7181",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "non_saturating_r1",
+      "seed": 44,
+      "selected_step": 6000,
+      "generator_sha256": "a04e4c7e20c30575153f5d0bd1f816e2e0409b9dd1fd2f0bc0f1455eaf2d6771",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "least_squares",
+      "seed": 42,
+      "selected_step": 6000,
+      "generator_sha256": "76f8a3423c8a26ea9622708f8e77bfe379756c663b6b5509b9603ff884ac5c20",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "least_squares",
+      "seed": 43,
+      "selected_step": 6000,
+      "generator_sha256": "09a72d5bcfd2adc0cbcd7971c8938c15fe13d8805df7a9686b2acf8c46ecc4c9",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "least_squares",
+      "seed": 44,
+      "selected_step": 6000,
+      "generator_sha256": "d5c1f5702f83c5180ec3b7cfaa0cdde16d18690b702b81604ea4985da4b7903c",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "hinge_spectral",
+      "seed": 42,
+      "selected_step": 6000,
+      "generator_sha256": "3f49668859572ffce34f380aba453975a3fd32ae8ba0827c34a16ddc6d144913",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "hinge_spectral",
+      "seed": 43,
+      "selected_step": 6000,
+      "generator_sha256": "80ef26e06f3bd3cce14e3df39ccded090e1e86fad0adcf6ce23b7260ec9feea3",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "hinge_spectral",
+      "seed": 44,
+      "selected_step": 6000,
+      "generator_sha256": "3b83500952af3a8487be2ac702e62636ba94619c37eb3025fb76367bcb499c75",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "wasserstein_gp",
+      "seed": 42,
+      "selected_step": 5500,
+      "generator_sha256": "fab6fa629115e612c8c27f6bd117387b19f6d27c902516704db7fee4f0e0a181",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "wasserstein_gp",
+      "seed": 43,
+      "selected_step": 6000,
+      "generator_sha256": "7788a39169d1444fecb399f34c915863ff17a3fc85faa5ffc6ae44e21cf43d8c",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "wasserstein_gp",
+      "seed": 44,
+      "selected_step": 6000,
+      "generator_sha256": "2e2971b927416f213755101e6a6c70c8a3d0b267bdf357fadfbd6ea8e44deb4f",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "wasserstein_clip",
+      "seed": 42,
+      "selected_step": 3500,
+      "generator_sha256": "120463bb9ef2ccae98d3926a89c8dc7a413ea7da64bf210fd9edeb7e2a88b547",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "wasserstein_clip",
+      "seed": 43,
+      "selected_step": 3500,
+      "generator_sha256": "5cea3615bcd2bfe9792b6a7000fff9def6e5c4d62ee84f8521a2493892ca1fd7",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    },
+    {
+      "method": "wasserstein_clip",
+      "seed": 44,
+      "selected_step": 3000,
+      "generator_sha256": "542cd86acefd908caca9d52d65e8dfe0dded04059b7ab19adf5c891ac87ef725",
+      "full_test_predictions_reproduced": 4096,
+      "metrics_recomputed": true
+    }
+  ],
+  "heldout_generation_count": 4096,
+  "reference_count": 4096,
+  "private_checkpoint_identity_checked": true,
+  "scope": "All fifteen fitted generators, validation selection values and independent recomputation of every public test metric. Private best-state identities are checked only without --public-only. Original diffusion/flow evidence remains historical and has a different source/seed/compute protocol."
+}

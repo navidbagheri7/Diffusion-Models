@@ -77,8 +77,9 @@ clone and which require the local experiment tensors/checkpoints. Read the
 
 ## Remaining release tasks and optional extensions
 
-A license has not been selected, evaluated checkpoints are not publicly hosted,
-and this checkout has no Git repository/remote. Author metadata is present in
+The version 0.5 update adds an MIT license, local Git history, portable small
+GAN generators and an offline explorer. Large diffusion/image checkpoints remain
+local and are not publicly hosted. Author metadata is present in
 [CITATION.cff](../CITATION.cff). No GitHub CI run or remote publication is claimed.
 
 Optional research additions include inverse problems/posterior sampling, UniPC,

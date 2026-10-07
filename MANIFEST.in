@@ -5,3 +5,21 @@ recursive-include configs *.yaml
 recursive-include configs *.txt
 prune configs/local
 global-exclude *.pt *.pth *.ckpt *.safetensors *.bin *.pyc *.tmp
+
+include LICENSE CONTRIBUTING.md .gitignore .gitattributes .nojekyll
+recursive-include docs *.md *.json *.csv *.html
+recursive-include notebooks *.md *.ipynb
+recursive-include assets *.md *.json *.png *.gif *.pdf *.yaml *.npz
+recursive-include scripts *.py *.html *.js *.md
+recursive-include tests *.py
+recursive-include .github *.yml
+recursive-include slurm *.sbatch *.md
+include train_diffusion.py
+include legacy/README.md
+prune legacy/src
+prune .local
+prune outputs
+prune multirun
+prune data
+exclude docs/release_artifacts.json
+recursive-exclude * __pycache__ *.py[cod]

@@ -1,10 +1,10 @@
 {
-  "candidate_public_files": 1655,
-  "candidate_source_assets_mib": 361.94592475891113,
+  "candidate_public_files": 1773,
+  "candidate_source_assets_mib": 368.00339794158936,
   "largest_candidate_asset": "assets/experiments/text/coco_text_cfg0/samples.png",
   "largest_candidate_asset_mib": 4.072701454162598,
-  "verified_images_and_gifs": 673,
-  "decoded_frames": 6461,
+  "verified_images_and_gifs": 691,
+  "decoded_frames": 6479,
   "exported_experiments": 150,
   "scope": "Decoding and publication footprint only; quality and scientific correctness have separate reports"
 }

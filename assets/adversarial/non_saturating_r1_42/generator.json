@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "width": 128,
+  "weights_sha256": "1872e423ceecc6e11ed0d565d5bb371905ae49c2096c4b37a970b45854c827d7",
+  "method": "non_saturating_r1",
+  "seed": 42,
+  "selected_step": 6000
+}

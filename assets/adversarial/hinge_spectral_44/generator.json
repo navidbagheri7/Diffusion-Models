@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "width": 128,
+  "weights_sha256": "3b83500952af3a8487be2ac702e62636ba94619c37eb3025fb76367bcb499c75",
+  "method": "hinge_spectral",
+  "seed": 44,
+  "selected_step": 6000
+}

@@ -1,3 +1,17 @@
+# Changelog
+
+## 0.5.0 — 2026-10-07
+
+Add controlled non-saturating/R1, least-squares, spectral hinge, Wasserstein/GP
+and historical clipped-Wasserstein GAN comparisons: three fitting seeds,
+6,000 generator updates, validation-selected EMA generators and 4,096 independent
+test draws. Include small safe generators and independent prediction/metric audits.
+Add eleven-concept offline explorer, all-view browser checks and previews.
+Correct latent reference offsets, unsupported codec normalization checks and
+general-trainer exact resume state/configuration/data-order handling. Preserve
+historical source in Git and document its distinct evidence scope. Add MIT
+licensing and complete notebook/evidence/source distributions.
+
 # Changes
 
 ## 0.4.0 — 2026-10-05

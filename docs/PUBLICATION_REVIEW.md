@@ -1,7 +1,12 @@
-# Publication review — updated 2026-10-06
+# Publication review — updated 2026-10-07
 
 The requested `/home/labcmap/navid.bagheri-shouraki/Diffusion` path resolves to
 the same checkout as `/home/navid.bagheri-shouraki/Diffusion`.
+
+The October 7 release is summarized in [the current review](30_portfolio_review.md).
+It adds fifteen audited GAN generators, an eleven-concept explorer, eleven
+freshly executed lessons and concrete trainer/latent corrections. The versioned
+0.3/0.4 sections below retain the historical experiments and audit scopes.
 
 ## Concept coverage
 
@@ -71,7 +76,7 @@ comparing numbers with paper benchmarks; face IS is not an object-diversity goal
 
 The current scientific suite and notebook checks are recorded in
 [validation](../assets/metadata/validation.json). Lint and formatting include notebook
-source cells. The ten lessons execute independently in fresh kernels, with
+source cells. The current eleven lessons execute independently in fresh matching-interpreter kernels, with
 static plots, animations, small training runs and mathematical checks; the
 [notebook report](../assets/reports/diagnostics/notebook_validation.json) records counts,
 timings and hashes. The posterior clean-endpoint lesson identified a float32
@@ -125,21 +130,12 @@ reports without clearing unrelated public baselines. The implemented core and
 its documented experiments are ready for portfolio review; the release tasks
 below still apply.
 
-The educational implementation is suitable for a GitHub portfolio. These release
-tasks remain:
-
-1. Choose and add a license for the new implementation. No license is currently
-   present; none was selected on the author's behalf.
-2. Publish downloadable checkpoints, with the existing
-   [hash manifest](../assets/metadata/checkpoints.json), so readers can sample immediately
-   as well as retrain from configurations. The weights currently remain local.
-3. Initialize a Git repository and publish the reviewed source/assets. Author
-   citation metadata is supplied in [CITATION.cff](../CITATION.cff). The
-   checkout currently has no Git repository or remote, and no push was performed.
-   Continue excluding the borrowed legacy source unless its provenance is resolved.
-
-The README now features final trained examples. Keep weak and interim runs
-clearly identified in the full results gallery; documenting failed experiments
-is useful evidence, while presenting all samples as uniformly good would be inaccurate.
-The [repository audit](22_repository_audit.md) prioritizes remaining release,
-quality and evaluation work and lists optional new research modules.
+The October 7 local release adds MIT licensing for the owned implementation,
+initializes local Git history, publishes fifteen compact owned GAN generators,
+and adds the reviewed explorer and distribution checks. Read the
+[current review](30_portfolio_review.md) for its actual validation scope.
+The 45 original diffusion/flow generator weights and four classifiers remain
+local, with their public hash manifest. The owner may publish those separately;
+analytic lessons, fresh training and the portable GAN examples run without them.
+No GitHub repository, remote push or live site was created by this work.
+Borrowed legacy source remains excluded.

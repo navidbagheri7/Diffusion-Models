@@ -98,7 +98,9 @@ def evaluate_latents(args, cfg, model, classes, training_step):
     pixel_config.horizontal_flip = False
     pixel_config.train_limit = pixel_config.validation_limit = 0
     data = ImageDataset(pixel_config, args.reference_split)
-    selected = balanced_image_indices(data, args.samples, args.class_label)
+    selected = balanced_image_indices(data, args.samples + args.reference_offset, args.class_label)[
+        args.reference_offset :
+    ]
     if not selected:
         raise ValueError("No reference images for this latent class")
     reference = torch.stack([data[index][0] for index in selected])
@@ -193,6 +195,7 @@ def evaluate_latents(args, cfg, model, classes, training_step):
             "seed": args.seed,
             "generated_count": len(images),
             "reference_split": args.reference_split,
+            "reference_offset": args.reference_offset,
             "nfe_per_image": sum(c * n for c, n in zip(calls, sizes, strict=True)) / len(images),
             "nfe_per_image_range": [min(calls), max(calls)],
             "decoder_calls_excluded_from_nfe": True,

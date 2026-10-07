@@ -9,7 +9,10 @@ Install the optional extras needed by the chosen tool as described in the
 | Purpose | Tools |
 |---|---|
 | Obtain and verify image data | `download_benchmarks`, `download_coco` |
-| Build and execute the ten-lesson course | `build_notebooks`, `execute_notebooks` (reviewable cells in `notebook_lessons.py`) |
+| Build and execute the eleven-lesson course | `build_notebooks`, `execute_notebooks` (reviewable cells in `notebook_lessons.py`) |
+| Compare/export portable GANs | `audit_adversarial` (`--public-only` on a fresh clone), `generate_adversarial` |
+| Interactive concept explorer | `create_explorer`, `check_explorer_browser` (optional Playwright), `validate_release` |
+| Review and test distribution contents | `review_components`, `check_distribution` |
 | Run teaching comparisons | `run_research_suite`, `run_comparisons`, `run_quality_comparisons`, `run_guidance_examples` |
 | Run advanced evidence studies | `run_evidence_studies`, `run_image_seed_study`, `run_progressive`, `run_extension_checks` |
 | Summarize measured evaluations | `summarize_repeats`, `summarize_likelihood_sensitivity`, `summarize_text_evaluation`, `evaluate_prompt_pairs` |

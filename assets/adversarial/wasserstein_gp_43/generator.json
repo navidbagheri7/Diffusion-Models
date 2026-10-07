@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "width": 128,
+  "weights_sha256": "7788a39169d1444fecb399f34c915863ff17a3fc85faa5ffc6ae44e21cf43d8c",
+  "method": "wasserstein_gp",
+  "seed": 43,
+  "selected_step": 6000
+}

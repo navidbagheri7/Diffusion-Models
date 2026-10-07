@@ -2209,3 +2209,36 @@ and report its benefit and limitation using the [evidence protocol](../docs/25_e
         ],
     },
 ]
+
+
+LESSONS.append(
+    {
+        "name": "10_adversarial_objectives.ipynb",
+        "title": "Adversarial objectives and stabilization",
+        "intro": "Compare five fully evaluated objective/stabilization recipes on the same known\nmixture. Three fitting seeds expose variation; different critic ratios and\noptimizers mean matched generator updates do not imply equal compute. Historical\ndiffusion/flow results are context, with distinct source and sampling protocols.",
+        "prerequisites": "Generative objectives, independent evaluation and basic PyTorch autograd",
+        "outcomes": "Compare five objective recipes, reproduce portable predictions and verify an independent gradient-penalty oracle",
+        "cells": [
+            (
+                "code",
+                'import pandas as pd\n\nfrom diffusion_lab.adversarial import gradient_penalty, load_generator  # noqa: E402\n\nrows = []\nfor p in (project / "assets/adversarial").glob("*/metrics.json"):\n    m = json.loads(p.read_text())\n    rows.append(\n        {\n            "method": m["config"]["method"],\n            "seed": m["config"]["seed"],\n            "selected": m["selected_step"],\n            "MMD2": m["mmd_squared_unbiased"],\n            "SW2": m["sliced_w2"],\n            "inlier_fraction": m["fraction_within_3sigma"],\n        }\n    )\ntable = pd.DataFrame(rows)\nassert len(table) == 15\ndisplay(table.groupby("method")[["MMD2", "SW2", "inlier_fraction"]].agg(["mean", "std"]))\n%matplotlib inline',
+            ),
+            (
+                "md",
+                "## Portable generator and independent test draws\n\nNo private checkpoint, dataset download or GPU is needed. The published small\nNPZ file is checked against its metadata digest. This is direct generation, not\na diffusion denoising trajectory.",
+            ),
+            (
+                "code",
+                'folder = project / "assets/adversarial/wasserstein_gp_42"\nmodel = load_generator(folder)\nsource = np.load(folder / "samples.npz", allow_pickle=False)\nwith torch.no_grad():\n    fresh = model(torch.from_numpy(source["latent"]))\nnp.testing.assert_array_equal(fresh.numpy(), source["generated"])\nfig, axes = plt.subplots(1, 2, figsize=(10, 4))\nfor ax, values, title in zip(\n    axes,\n    [source["reference"], fresh.numpy()],\n    ["Independent target", "Validation-selected WGAN-GP"],\n    strict=True,\n):\n    ax.scatter(*values.T, s=2, alpha=0.35)\n    ax.set(title=title, aspect="equal", xlim=(-5, 5), ylim=(-5, 5))\nplt.show()',
+            ),
+            (
+                "code",
+                'critic = torch.nn.Linear(2, 1, bias=False)\nwith torch.no_grad():\n    critic.weight.copy_(torch.tensor([[3.0, 4.0]]))\npenalty = gradient_penalty(\n    critic, torch.randn(16, 2), torch.randn(16, 2), torch.Generator().manual_seed(7)\n)\nassert abs(float(penalty) - 16) < 1e-5\nprint("Linear input-gradient norm 5 gives (5−1)² =", float(penalty))\nfig, ax = plt.subplots(figsize=(9, 4))\ntable.boxplot(column="SW2", by="method", ax=ax, rot=20)\nfig.suptitle("")\nax.set_ylabel("Sliced Wasserstein distance")\nplt.show()',
+            ),
+            (
+                "md",
+                "## What does the comparison establish?\n\nReport coverage together with inliers and mode mass. A generator that hits each\nmode once can still put most outputs between modes. Target cross-entropy is not\ngenerator likelihood. A critic's raw objective also cannot compare GAN recipes\nthat optimize different quantities. Read the complete [protocol](../docs/30_portfolio_review.md)\nand try the [offline explorer](../docs/explorer.html) before interpreting the figures.",
+            ),
+        ],
+    }
+)

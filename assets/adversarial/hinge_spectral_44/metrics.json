@@ -1,0 +1,48 @@
+{
+  "mmd_squared_unbiased": 0.0025828868460447407,
+  "sliced_w2": 0.1336580216884613,
+  "empirical_w2_subsample": 0.5168148294042806,
+  "wasserstein_sample_count": 512,
+  "mean_target_negative_log_density": 3.3510608673095703,
+  "mode_coverage_3sigma": 1.0,
+  "fraction_within_3sigma": 0.803466796875,
+  "mode_total_variation_with_outlier_bin": 0.196533203125,
+  "config": {
+    "method": "hinge_spectral",
+    "seed": 44,
+    "steps": 6000,
+    "batch_size": 256,
+    "width": 128,
+    "components": 8,
+    "radius": 3.0,
+    "std": 0.25,
+    "ema_decay": 0.995
+  },
+  "source_sha256": {
+    "adversarial.py": "0344e4d3ba718bd01131a0c8420a8edc98ac28bd7b5dc88f8e4a66606ea4ed59",
+    "data.py": "3183902cab4bbc7af8def255c177f79f631e6f57e4b8c2f8d599a70b69611ad9",
+    "metrics.py": "3cdcb1c74debb0bc4f181e4505bea56d369e4e2574dbfa8ce54fdaf9f81d65e5",
+    "resume.py": "643df35482d265fe293db9170e26c5b43d0cbecfc2d247e7d882a185c726420c",
+    "utils.py": "f4bab876fd80e7d78b33c8f68d52b38f577eae90b413d4d22a104cdaf0e7538e"
+  },
+  "selected_step": 6000,
+  "validation_mmd": 0.0038366563007286025,
+  "critic_updates": 6000,
+  "generator_updates": 6000,
+  "training_seconds": 35.2237740335986,
+  "reference_floor": {
+    "mmd_squared_unbiased": 6.403409014382744e-05,
+    "sliced_w2": 0.08911381661891937,
+    "empirical_w2_subsample": 0.5417121199756233,
+    "wasserstein_sample_count": 512,
+    "mean_target_negative_log_density": 2.1505751609802246,
+    "mode_coverage_3sigma": 1.0,
+    "fraction_within_3sigma": 0.987548828125,
+    "mode_total_variation_with_outlier_bin": 0.022216796875
+  },
+  "samples_sha256": "402181e8e779dd8e45c41e8c6b7e89f74116034bbb39c2e456ca1a77ef962b72",
+  "generator_sha256": "3b83500952af3a8487be2ac702e62636ba94619c37eb3025fb76367bcb499c75",
+  "nfe_per_sample": 1,
+  "selection": "First minimum EMA validation MMD, 1024 independent fixed draws, every 500 updates including initial/final; test 4096 fixed independent draws only after selection",
+  "scope": "Synthetic 8-component GMM. Critic ratios/optimizer and training budgets differ from historical diffusion/flow; target cross entropy is not generator NLL. No image benchmark or SOTA claim."
+}

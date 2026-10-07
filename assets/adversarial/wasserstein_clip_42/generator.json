@@ -1,0 +1,8 @@
+{
+  "schema": 1,
+  "width": 128,
+  "weights_sha256": "120463bb9ef2ccae98d3926a89c8dc7a413ea7da64bf210fd9edeb7e2a88b547",
+  "method": "wasserstein_clip",
+  "seed": 42,
+  "selected_step": 3500
+}

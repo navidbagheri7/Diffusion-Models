@@ -1,6 +1,6 @@
 # A guided, executable course
 
-These ten notebooks connect the library's Python implementation to equations,
+These eleven notebooks connect the library's Python implementation to equations,
 small experiments, plots, animations and worked exercises. They are teaching
 companions to the `.py` package; the training and sampling implementations
 remain in `diffusion_lab/`.
@@ -21,6 +21,7 @@ notebook are required. Prerequisites and learning outcomes appear at its start.
 | [07 · Interpolants, OT and bridges](07_interpolants_transport_and_bridges.ipynb) | Differentiate custom paths, compare matching ODE/SDE fields, solve empirical OT/Sinkhorn and simulate joint Brownian bridges |
 | [08 · EDM and few-step models](08_edm_and_few_step_models.ipynb) | Inspect preconditioning and Karras grids, verify consistency boundaries, train a small CD student and assess actual refinement results |
 | [09 · Latent diffusion and DiT](09_latent_diffusion_and_dit.ipynb) | Trace architecture shapes/gradients, sample latent caches, compose Hydra configs and optionally inspect a frozen codec |
+| [10 · Adversarial objectives](10_adversarial_objectives.ipynb) | Compare fifteen selected GAN generators, verify a gradient-penalty oracle and inspect objective/stabilization tradeoffs |
 
 ## Install, run and explore
 
@@ -89,6 +90,8 @@ python -m scripts.check_publication
 For a focused rerun add `--notebook 05_likelihood_and_evaluation.ipynb`.
 Each lesson gets a fresh kernel. The runner verifies execution, records static
 visual counts and hashes in [the validation report](../assets/reports/diagnostics/notebook_validation.json).
+The default `python3` execution kernel uses the interpreter running the command;
+an explicit custom `--kernel` uses that registered kernel's interpreter instead.
 Do not interpret CPU default validation as a test of optional GPU/model downloads.
 
 The [curriculum](../docs/00_start_here.md), [notation](../docs/23_notation_and_code.md)

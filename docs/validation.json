@@ -1,0 +1,72 @@
+{
+  "status": "passed",
+  "concepts": 11,
+  "presets": 200,
+  "media": 567,
+  "notebooks": 11,
+  "executed_code_cells": 73,
+  "fresh_generation_commands": [
+    {
+      "model": "non_saturating_r1_42",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "non_saturating_r1_43",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "non_saturating_r1_44",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "least_squares_42",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "least_squares_43",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "least_squares_44",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "hinge_spectral_42",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "hinge_spectral_43",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "hinge_spectral_44",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "wasserstein_gp_42",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "wasserstein_gp_43",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "wasserstein_gp_44",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "wasserstein_clip_42",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "wasserstein_clip_43",
+      "independent_predictions": 4096
+    },
+    {
+      "model": "wasserstein_clip_44",
+      "independent_predictions": 4096
+    }
+  ],
+  "browser_live_checks": 36,
+  "scope": "Source/media-bound explorer and current fresh-kernel outputs; fifteen separate CPU inference commands reproduce every public GAN prediction. audit_adversarial.py separately recomputes GAN metrics/selection. Historical image evidence, optional codec checks and full test/packaging results retain their separate documented scope."
+}

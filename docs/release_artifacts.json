@@ -1,0 +1,66 @@
+{
+  "status": "passed",
+  "release": "0.5.0",
+  "artifacts": {
+    "diffusion_flow_lab-0.5.0-py3-none-any.whl": "d736caa7419d0e71a00b7cddea127fc0fadcfbe3b640bbf7f34432623c911026",
+    "diffusion_flow_lab-0.5.0.tar.gz": "afa4ab018295355134059ca2a80c122bd662268147deb667165c9dd1bd354adc"
+  },
+  "checks": [
+    {
+      "check": "install",
+      "status": "passed"
+    },
+    {
+      "check": "import_identity",
+      "status": "passed"
+    },
+    {
+      "check": "wheel_tests",
+      "status": "passed"
+    },
+    {
+      "check": "bundled_ddpm",
+      "status": "passed"
+    },
+    {
+      "check": "bundled_flow",
+      "status": "passed"
+    },
+    {
+      "check": "initialize_checkout",
+      "status": "passed"
+    },
+    {
+      "check": "archive_notebooks",
+      "status": "passed"
+    },
+    {
+      "check": "archive_gan_metrics",
+      "status": "passed"
+    },
+    {
+      "check": "archive_validation",
+      "status": "passed"
+    },
+    {
+      "check": "archive_asset_decode",
+      "status": "passed"
+    },
+    {
+      "check": "archive_public_content",
+      "status": "passed"
+    },
+    {
+      "check": "archive_links",
+      "status": "passed"
+    },
+    {
+      "check": "archive_publication",
+      "status": "passed"
+    }
+  ],
+  "installed_wheel_tests": 132,
+  "source_archive_notebooks": 11,
+  "source_archive_executed_cells": 73,
+  "scope": "Wheel imports/all 132 tests and two bundled CPU training commands run outside the checkout. The source archive executes all eleven walkthroughs, rechecks all fifteen portable GANs and source-bound explorer/media evidence, and decodes every public PNG/GIF without private datasets/checkpoints. External checksum metadata is excluded from the source distribution to avoid recursive checksums. Hosted CI is not claimed."
+}

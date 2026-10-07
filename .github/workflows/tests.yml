@@ -29,3 +29,14 @@ jobs:
         run: python -m scripts.check_publication
       - name: Executable CPU lessons
         run: python scripts/execute_notebooks.py
+      - name: Portable generative evidence and source review
+        run: |
+          python scripts/audit_adversarial.py --public-only
+          python scripts/validate_release.py
+          python scripts/review_public_assets.py
+          python scripts/review_components.py
+      - name: Build and verify isolated distributions
+        run: |
+          python -m pip install build
+          python -m build --outdir .local/dist
+          python scripts/check_distribution.py --dist .local/dist

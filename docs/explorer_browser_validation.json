@@ -1,0 +1,3001 @@
+{
+  "status": "passed",
+  "html_sha256": "1c72fdf8a4a5be3548f8b37fbfd8364d9c98ccdf56bd0b371cc2418bd278c0e7",
+  "checked_views": [
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/analytic_ode.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/analytic_ode_samples.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/analytic_sde.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/analytic_sde_samples.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/bridge_matching_fields.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/brownian_bridge_0.2.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/brownian_bridge_0.7.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/brownian_bridge_2.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/density_equations.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/discrete_schedules.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/entropic_bridges.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/flow_linear_conditional.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/flow_marginal.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/flow_marginal_samples.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/flow_paths.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/flow_trigonometric_conditional.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/forward_corruption.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/ode_sde_trajectories.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/ot_couplings.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/schedules.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/score_tweedie.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / gaussian_diffusion",
+      "view": "../assets/teaching/gaussian_diffusion/solver_accuracy.png"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / notebooks",
+      "view": "../assets/teaching/notebooks/00_gaussian_corruption.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / notebooks",
+      "view": "../assets/teaching/notebooks/02_probability_flow.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / notebooks",
+      "view": "../assets/teaching/notebooks/02_reverse_sde.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / notebooks",
+      "view": "../assets/teaching/notebooks/03_learned_flow.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / notebooks",
+      "view": "../assets/teaching/notebooks/07_brownian_bridges.gif"
+    },
+    {
+      "group": "Scores and reverse dynamics",
+      "name": "Teaching / notebooks",
+      "view": "../assets/teaching/notebooks/07_stochastic_interpolant.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/cfg_scale_0",
+      "view": "../assets/experiments/toy/cfg_scale_0/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/cfg_scale_0",
+      "view": "../assets/experiments/toy/cfg_scale_0/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/cfg_scale_1",
+      "view": "../assets/experiments/toy/cfg_scale_1/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/cfg_scale_1",
+      "view": "../assets/experiments/toy/cfg_scale_1/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/cfg_scale_2",
+      "view": "../assets/experiments/toy/cfg_scale_2/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/cfg_scale_2",
+      "view": "../assets/experiments/toy/cfg_scale_2/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/cfg_scale_4",
+      "view": "../assets/experiments/toy/cfg_scale_4/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/cfg_scale_4",
+      "view": "../assets/experiments/toy/cfg_scale_4/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/classifier_analytic_scale_1",
+      "view": "../assets/experiments/toy/classifier_analytic_scale_1/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/classifier_analytic_scale_1",
+      "view": "../assets/experiments/toy/classifier_analytic_scale_1/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/classifier_scale_1",
+      "view": "../assets/experiments/toy/classifier_scale_1/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/classifier_scale_1",
+      "view": "../assets/experiments/toy/classifier_scale_1/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/classifier_scale_2",
+      "view": "../assets/experiments/toy/classifier_scale_2/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/classifier_scale_2",
+      "view": "../assets/experiments/toy/classifier_scale_2/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_cosine_v",
+      "view": "../assets/experiments/toy/gmm_cosine_v/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_cosine_v",
+      "view": "../assets/experiments/toy/gmm_cosine_v/loss.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_cosine_v",
+      "view": "../assets/experiments/toy/gmm_cosine_v/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_exponential",
+      "view": "../assets/experiments/toy/gmm_exponential/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_exponential",
+      "view": "../assets/experiments/toy/gmm_exponential/loss.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_exponential",
+      "view": "../assets/experiments/toy/gmm_exponential/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow",
+      "view": "../assets/experiments/toy/gmm_flow/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow",
+      "view": "../assets/experiments/toy/gmm_flow/loss.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow",
+      "view": "../assets/experiments/toy/gmm_flow/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_euler_10",
+      "view": "../assets/experiments/toy/gmm_flow_euler_10/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_euler_10",
+      "view": "../assets/experiments/toy/gmm_flow_euler_10/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_heun_10",
+      "view": "../assets/experiments/toy/gmm_flow_heun_10/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_heun_10",
+      "view": "../assets/experiments/toy/gmm_flow_heun_10/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_ot",
+      "view": "../assets/experiments/toy/gmm_flow_ot/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_ot",
+      "view": "../assets/experiments/toy/gmm_flow_ot/loss.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_ot",
+      "view": "../assets/experiments/toy/gmm_flow_ot/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_rk4_10",
+      "view": "../assets/experiments/toy/gmm_flow_rk4_10/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_rk4_10",
+      "view": "../assets/experiments/toy/gmm_flow_rk4_10/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_trigonometric",
+      "view": "../assets/experiments/toy/gmm_flow_trigonometric/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_trigonometric",
+      "view": "../assets/experiments/toy/gmm_flow_trigonometric/loss.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_trigonometric",
+      "view": "../assets/experiments/toy/gmm_flow_trigonometric/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_linear_epsilon",
+      "view": "../assets/experiments/toy/gmm_linear_epsilon/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_linear_epsilon",
+      "view": "../assets/experiments/toy/gmm_linear_epsilon/loss.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_linear_epsilon",
+      "view": "../assets/experiments/toy/gmm_linear_epsilon/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_logsnr",
+      "view": "../assets/experiments/toy/gmm_logsnr/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_logsnr",
+      "view": "../assets/experiments/toy/gmm_logsnr/loss.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_logsnr",
+      "view": "../assets/experiments/toy/gmm_logsnr/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_reflow",
+      "view": "../assets/experiments/toy/gmm_reflow/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_reflow",
+      "view": "../assets/experiments/toy/gmm_reflow/loss.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_reflow",
+      "view": "../assets/experiments/toy/gmm_reflow/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_reflow_euler_10",
+      "view": "../assets/experiments/toy/gmm_reflow_euler_10/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_reflow_euler_10",
+      "view": "../assets/experiments/toy/gmm_reflow_euler_10/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_stochastic_interpolant/strength_0.0",
+      "view": "../assets/experiments/toy/gmm_stochastic_interpolant/strength_0.0/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_stochastic_interpolant/strength_0.0",
+      "view": "../assets/experiments/toy/gmm_stochastic_interpolant/strength_0.0/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_stochastic_interpolant/strength_0.5",
+      "view": "../assets/experiments/toy/gmm_stochastic_interpolant/strength_0.5/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_stochastic_interpolant/strength_0.5",
+      "view": "../assets/experiments/toy/gmm_stochastic_interpolant/strength_0.5/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_stochastic_interpolant/strength_2.0",
+      "view": "../assets/experiments/toy/gmm_stochastic_interpolant/strength_2.0/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_stochastic_interpolant/strength_2.0",
+      "view": "../assets/experiments/toy/gmm_stochastic_interpolant/strength_2.0/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_subvp",
+      "view": "../assets/experiments/toy/gmm_subvp/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_subvp",
+      "view": "../assets/experiments/toy/gmm_subvp/loss.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_subvp",
+      "view": "../assets/experiments/toy/gmm_subvp/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_ve_score",
+      "view": "../assets/experiments/toy/gmm_ve_score/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_ve_score",
+      "view": "../assets/experiments/toy/gmm_ve_score/loss.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_ve_score",
+      "view": "../assets/experiments/toy/gmm_ve_score/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_vp_epsilon",
+      "view": "../assets/experiments/toy/gmm_vp_epsilon/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_vp_epsilon",
+      "view": "../assets/experiments/toy/gmm_vp_epsilon/loss.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_vp_epsilon",
+      "view": "../assets/experiments/toy/gmm_vp_epsilon/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle",
+      "view": "../assets/experiments/toy/interpolant_oracle/coefficients.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle",
+      "view": "../assets/experiments/toy/interpolant_oracle/density_evolution.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle/oracle_strength_0.0",
+      "view": "../assets/experiments/toy/interpolant_oracle/oracle_strength_0.0/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle/oracle_strength_0.0",
+      "view": "../assets/experiments/toy/interpolant_oracle/oracle_strength_0.0/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle/oracle_strength_0.5",
+      "view": "../assets/experiments/toy/interpolant_oracle/oracle_strength_0.5/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle/oracle_strength_0.5",
+      "view": "../assets/experiments/toy/interpolant_oracle/oracle_strength_0.5/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle/oracle_strength_2.0",
+      "view": "../assets/experiments/toy/interpolant_oracle/oracle_strength_2.0/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle/oracle_strength_2.0",
+      "view": "../assets/experiments/toy/interpolant_oracle/oracle_strength_2.0/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/two_spirals_stochastic_interpolant/strength_0.0",
+      "view": "../assets/experiments/toy/two_spirals_stochastic_interpolant/strength_0.0/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/two_spirals_stochastic_interpolant/strength_0.0",
+      "view": "../assets/experiments/toy/two_spirals_stochastic_interpolant/strength_0.0/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/two_spirals_stochastic_interpolant/strength_0.5",
+      "view": "../assets/experiments/toy/two_spirals_stochastic_interpolant/strength_0.5/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/two_spirals_stochastic_interpolant/strength_0.5",
+      "view": "../assets/experiments/toy/two_spirals_stochastic_interpolant/strength_0.5/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/two_spirals_stochastic_interpolant/strength_2.0",
+      "view": "../assets/experiments/toy/two_spirals_stochastic_interpolant/strength_2.0/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/two_spirals_stochastic_interpolant/strength_2.0",
+      "view": "../assets/experiments/toy/two_spirals_stochastic_interpolant/strength_2.0/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/wavy_rings_stochastic_interpolant/strength_0.0",
+      "view": "../assets/experiments/toy/wavy_rings_stochastic_interpolant/strength_0.0/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/wavy_rings_stochastic_interpolant/strength_0.0",
+      "view": "../assets/experiments/toy/wavy_rings_stochastic_interpolant/strength_0.0/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/wavy_rings_stochastic_interpolant/strength_0.5",
+      "view": "../assets/experiments/toy/wavy_rings_stochastic_interpolant/strength_0.5/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/wavy_rings_stochastic_interpolant/strength_0.5",
+      "view": "../assets/experiments/toy/wavy_rings_stochastic_interpolant/strength_0.5/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/wavy_rings_stochastic_interpolant/strength_2.0",
+      "view": "../assets/experiments/toy/wavy_rings_stochastic_interpolant/strength_2.0/generation.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/wavy_rings_stochastic_interpolant/strength_2.0",
+      "view": "../assets/experiments/toy/wavy_rings_stochastic_interpolant/strength_2.0/samples.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "Teaching / transport",
+      "view": "../assets/teaching/transport/extended_schedules.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "Teaching / transport",
+      "view": "../assets/teaching/transport/path_discretization.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "Teaching / transport",
+      "view": "../assets/teaching/transport/rectification_reflow.png"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "Teaching / transport",
+      "view": "../assets/teaching/transport/reflow_mass.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "Teaching / transport",
+      "view": "../assets/teaching/transport/subvp_probability_mass.gif"
+    },
+    {
+      "group": "Flows and transport",
+      "name": "Teaching / transport",
+      "view": "../assets/teaching/transport/toy_datasets.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_1_backward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_1_backward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_1_backward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_1_backward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_1_forward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_1_forward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_1_forward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_1_forward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_2_backward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_2_backward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_2_backward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_2_backward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_2_forward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_2_forward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_2_forward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_2_forward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_3_backward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_3_backward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_3_backward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_3_backward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_3_forward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_3_forward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_3_forward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_3_forward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_4_backward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_4_backward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_4_backward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_4_backward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_4_forward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_4_forward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_4_forward",
+      "view": "../assets/experiments/bridges/dsbm_imf/iteration_4_forward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_1_backward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_1_backward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_1_backward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_1_backward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_1_forward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_1_forward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_1_forward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_1_forward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_2_backward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_2_backward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_2_backward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_2_backward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_2_forward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_2_forward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_2_forward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_2_forward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_3_backward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_3_backward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_3_backward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_3_backward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_3_forward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_3_forward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_3_forward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_3_forward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_4_backward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_4_backward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_4_backward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_4_backward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_4_forward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_4_forward/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_4_forward",
+      "view": "../assets/experiments/bridges/dsbm_ipf/iteration_4_forward/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/gmm_bridge_ode",
+      "view": "../assets/experiments/bridges/gmm_bridge_ode/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/gmm_bridge_ode",
+      "view": "../assets/experiments/bridges/gmm_bridge_ode/loss.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/gmm_bridge_ode",
+      "view": "../assets/experiments/bridges/gmm_bridge_ode/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/gmm_bridge_sde",
+      "view": "../assets/experiments/bridges/gmm_bridge_sde/generation.gif"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/gmm_bridge_sde",
+      "view": "../assets/experiments/bridges/gmm_bridge_sde/loss.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/gmm_bridge_sde",
+      "view": "../assets/experiments/bridges/gmm_bridge_sde/samples.png"
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "Teaching / interpolants",
+      "view": "../assets/teaching/interpolants/nonlinear_paths.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd1",
+      "view": "../assets/experiments/cifar10/cifar10_cd1/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd1",
+      "view": "../assets/experiments/cifar10/cifar10_cd1/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd1",
+      "view": "../assets/experiments/cifar10/cifar10_cd1/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd1",
+      "view": "../assets/experiments/cifar10/cifar10_cd1/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd1",
+      "view": "../assets/experiments/cifar10/cifar10_cd1/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd2",
+      "view": "../assets/experiments/cifar10/cifar10_cd2/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd2",
+      "view": "../assets/experiments/cifar10/cifar10_cd2/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd2",
+      "view": "../assets/experiments/cifar10/cifar10_cd2/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd2",
+      "view": "../assets/experiments/cifar10/cifar10_cd2/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd2",
+      "view": "../assets/experiments/cifar10/cifar10_cd2/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd4",
+      "view": "../assets/experiments/cifar10/cifar10_cd4/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd4",
+      "view": "../assets/experiments/cifar10/cifar10_cd4/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd4",
+      "view": "../assets/experiments/cifar10/cifar10_cd4/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd4",
+      "view": "../assets/experiments/cifar10/cifar10_cd4/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd4",
+      "view": "../assets/experiments/cifar10/cifar10_cd4/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "faces/celeba_ddpm",
+      "view": "../assets/experiments/faces/celeba_ddpm/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "faces/celeba_ddpm",
+      "view": "../assets/experiments/faces/celeba_ddpm/loss.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "faces/celeba_ddpm",
+      "view": "../assets/experiments/faces/celeba_ddpm/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "faces/ffhq_ddpm",
+      "view": "../assets/experiments/faces/ffhq_ddpm/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "faces/ffhq_ddpm",
+      "view": "../assets/experiments/faces/ffhq_ddpm/loss.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "faces/ffhq_ddpm",
+      "view": "../assets/experiments/faces/ffhq_ddpm/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "likelihood/likelihood_gmm_ddpm",
+      "view": "../assets/experiments/likelihood/likelihood_gmm_ddpm/elbo_terms.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "likelihood/likelihood_gmm_ddpm_epsilon",
+      "view": "../assets/experiments/likelihood/likelihood_gmm_ddpm_epsilon/elbo_terms.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_cd1",
+      "view": "../assets/experiments/mnist/mnist_cd1/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_cd1",
+      "view": "../assets/experiments/mnist/mnist_cd1/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_cd1",
+      "view": "../assets/experiments/mnist/mnist_cd1/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_cd2",
+      "view": "../assets/experiments/mnist/mnist_cd2/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_cd2",
+      "view": "../assets/experiments/mnist/mnist_cd2/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_cd2",
+      "view": "../assets/experiments/mnist/mnist_cd2/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_cd4",
+      "view": "../assets/experiments/mnist/mnist_cd4/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_cd4",
+      "view": "../assets/experiments/mnist/mnist_cd4/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_cd4",
+      "view": "../assets/experiments/mnist/mnist_cd4/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_consistency_distilled_progress",
+      "view": "../assets/experiments/mnist/mnist_consistency_distilled_progress/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_consistency_distilled_progress",
+      "view": "../assets/experiments/mnist/mnist_consistency_distilled_progress/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_consistency_distilled_progress",
+      "view": "../assets/experiments/mnist/mnist_consistency_distilled_progress/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_consistency_training_progress",
+      "view": "../assets/experiments/mnist/mnist_consistency_training_progress/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_consistency_training_progress",
+      "view": "../assets/experiments/mnist/mnist_consistency_training_progress/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_consistency_training_progress",
+      "view": "../assets/experiments/mnist/mnist_consistency_training_progress/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ddim20",
+      "view": "../assets/experiments/mnist/mnist_ddim20/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ddim20",
+      "view": "../assets/experiments/mnist/mnist_ddim20/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ddim20",
+      "view": "../assets/experiments/mnist/mnist_ddim20/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ddim50",
+      "view": "../assets/experiments/mnist/mnist_ddim50/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ddim50",
+      "view": "../assets/experiments/mnist/mnist_ddim50/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ddim50",
+      "view": "../assets/experiments/mnist/mnist_ddim50/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ddpm1000",
+      "view": "../assets/experiments/mnist/mnist_ddpm1000/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ddpm1000",
+      "view": "../assets/experiments/mnist/mnist_ddpm1000/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ddpm1000",
+      "view": "../assets/experiments/mnist/mnist_ddpm1000/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_dpm20",
+      "view": "../assets/experiments/mnist/mnist_dpm20/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_dpm20",
+      "view": "../assets/experiments/mnist/mnist_dpm20/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_dpm20",
+      "view": "../assets/experiments/mnist/mnist_dpm20/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_dpm20_progress",
+      "view": "../assets/experiments/mnist/mnist_dpm20_progress/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_dpm20_progress",
+      "view": "../assets/experiments/mnist/mnist_dpm20_progress/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_dpm20_progress",
+      "view": "../assets/experiments/mnist/mnist_dpm20_progress/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_dpmpp20",
+      "view": "../assets/experiments/mnist/mnist_dpmpp20/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_dpmpp20",
+      "view": "../assets/experiments/mnist/mnist_dpmpp20/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_dpmpp20",
+      "view": "../assets/experiments/mnist/mnist_dpmpp20/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_edm_euler18",
+      "view": "../assets/experiments/mnist/mnist_edm_euler18/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_edm_euler18",
+      "view": "../assets/experiments/mnist/mnist_edm_euler18/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_edm_euler18",
+      "view": "../assets/experiments/mnist/mnist_edm_euler18/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict1",
+      "view": "../assets/experiments/mnist/mnist_ict1/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict1",
+      "view": "../assets/experiments/mnist/mnist_ict1/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict1",
+      "view": "../assets/experiments/mnist/mnist_ict1/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict1",
+      "view": "../assets/experiments/mnist/mnist_ict1/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict1",
+      "view": "../assets/experiments/mnist/mnist_ict1/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict2",
+      "view": "../assets/experiments/mnist/mnist_ict2/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict2",
+      "view": "../assets/experiments/mnist/mnist_ict2/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict2",
+      "view": "../assets/experiments/mnist/mnist_ict2/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict2",
+      "view": "../assets/experiments/mnist/mnist_ict2/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict2",
+      "view": "../assets/experiments/mnist/mnist_ict2/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict4",
+      "view": "../assets/experiments/mnist/mnist_ict4/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict4",
+      "view": "../assets/experiments/mnist/mnist_ict4/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict4",
+      "view": "../assets/experiments/mnist/mnist_ict4/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict4",
+      "view": "../assets/experiments/mnist/mnist_ict4/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict4",
+      "view": "../assets/experiments/mnist/mnist_ict4/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected1",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected1/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected1",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected1/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected1",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected1/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected1",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected1/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected1",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected1/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected2",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected2/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected2",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected2/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected2",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected2/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected2",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected2/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected2",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected2/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected4",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected4/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected4",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected4/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected4",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected4/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected4",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected4/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected4",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected4/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected_5k1",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected_5k1/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected_5k1",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected_5k1/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected_5k1",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected_5k1/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected_5k1",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected_5k1/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected_5k1",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected_5k1/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected_5k4",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected_5k4/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected_5k4",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected_5k4/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected_5k4",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected_5k4/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected_5k4",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected_5k4/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected_5k4",
+      "view": "../assets/experiments/mnist/mnist_ict_corrected_5k4/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth1",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth1/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth1",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth1/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth1",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth1/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth1",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth1/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth1",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth1/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth2",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth2/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth2",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth2/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth2",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth2/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth2",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth2/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth2",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth2/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth4",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth4/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth4",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth4/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth4",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth4/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth4",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth4/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth4",
+      "view": "../assets/experiments/mnist/mnist_ict_smooth4/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_16_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_16_eval/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_16_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_16_eval/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_16_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_16_eval/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_16_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_16_eval/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_16_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_16_eval/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_1_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_1_eval/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_1_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_1_eval/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_1_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_1_eval/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_1_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_1_eval/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_1_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_1_eval/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_2_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_2_eval/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_2_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_2_eval/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_2_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_2_eval/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_2_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_2_eval/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_2_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_2_eval/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_4_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_4_eval/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_4_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_4_eval/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_4_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_4_eval/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_4_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_4_eval/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_4_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_4_eval/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_8_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_8_eval/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_8_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_8_eval/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_8_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_8_eval/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_8_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_8_eval/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_8_eval",
+      "view": "../assets/experiments/mnist/mnist_progressive_8_eval/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_teacher32",
+      "view": "../assets/experiments/mnist/mnist_progressive_teacher32/classes.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_teacher32",
+      "view": "../assets/experiments/mnist/mnist_progressive_teacher32/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_teacher32",
+      "view": "../assets/experiments/mnist/mnist_progressive_teacher32/interpolation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_teacher32",
+      "view": "../assets/experiments/mnist/mnist_progressive_teacher32/interpolation.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_teacher32",
+      "view": "../assets/experiments/mnist/mnist_progressive_teacher32/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddim_20",
+      "view": "../assets/experiments/toy/gmm_ddim_20/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddim_20",
+      "view": "../assets/experiments/toy/gmm_ddim_20/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddim_5",
+      "view": "../assets/experiments/toy/gmm_ddim_5/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddim_5",
+      "view": "../assets/experiments/toy/gmm_ddim_5/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddpm_ancestral",
+      "view": "../assets/experiments/toy/gmm_ddpm_ancestral/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddpm_ancestral",
+      "view": "../assets/experiments/toy/gmm_ddpm_ancestral/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddpm_x0",
+      "view": "../assets/experiments/toy/gmm_ddpm_x0/generation.gif"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddpm_x0",
+      "view": "../assets/experiments/toy/gmm_ddpm_x0/loss.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddpm_x0",
+      "view": "../assets/experiments/toy/gmm_ddpm_x0/samples.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "Teaching / solvers",
+      "view": "../assets/teaching/solvers/edm_preconditioning.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "Teaching / solvers",
+      "view": "../assets/teaching/solvers/learned_variance.png"
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "Teaching / solvers",
+      "view": "../assets/teaching/solvers/quality_vs_nfe.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_clip_airplane",
+      "view": "../assets/experiments/cifar10/cifar10_clip_airplane/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_clip_airplane",
+      "view": "../assets/experiments/cifar10/cifar10_clip_airplane/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_clip_scale0.03",
+      "view": "../assets/experiments/cifar10/cifar10_clip_scale0.03/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_clip_scale0.03",
+      "view": "../assets/experiments/cifar10/cifar10_clip_scale0.03/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_clip_scale0.3",
+      "view": "../assets/experiments/cifar10/cifar10_clip_scale0.3/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_clip_scale0.3",
+      "view": "../assets/experiments/cifar10/cifar10_clip_scale0.3/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_clip_scale1.0",
+      "view": "../assets/experiments/cifar10/cifar10_clip_scale1.0/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_clip_scale1.0",
+      "view": "../assets/experiments/cifar10/cifar10_clip_scale1.0/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm15k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_edm15k_10k_eval/classes.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm15k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_edm15k_10k_eval/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm15k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_edm15k_10k_eval/interpolation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm15k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_edm15k_10k_eval/interpolation.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm15k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_edm15k_10k_eval/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_balanced_progress",
+      "view": "../assets/experiments/cifar10/cifar10_edm_balanced_progress/classes.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_balanced_progress",
+      "view": "../assets/experiments/cifar10/cifar10_edm_balanced_progress/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_balanced_progress",
+      "view": "../assets/experiments/cifar10/cifar10_edm_balanced_progress/interpolation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_balanced_progress",
+      "view": "../assets/experiments/cifar10/cifar10_edm_balanced_progress/interpolation.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_balanced_progress",
+      "view": "../assets/experiments/cifar10/cifar10_edm_balanced_progress/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_final",
+      "view": "../assets/experiments/cifar10/cifar10_edm_final/classes.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_final",
+      "view": "../assets/experiments/cifar10/cifar10_edm_final/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_final",
+      "view": "../assets/experiments/cifar10/cifar10_edm_final/interpolation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_final",
+      "view": "../assets/experiments/cifar10/cifar10_edm_final/interpolation.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_final",
+      "view": "../assets/experiments/cifar10/cifar10_edm_final/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_repeat_123",
+      "view": "../assets/experiments/cifar10/cifar10_edm_repeat_123/classes.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_repeat_123",
+      "view": "../assets/experiments/cifar10/cifar10_edm_repeat_123/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_repeat_123",
+      "view": "../assets/experiments/cifar10/cifar10_edm_repeat_123/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_repeat_124",
+      "view": "../assets/experiments/cifar10/cifar10_edm_repeat_124/classes.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_repeat_124",
+      "view": "../assets/experiments/cifar10/cifar10_edm_repeat_124/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_repeat_124",
+      "view": "../assets/experiments/cifar10/cifar10_edm_repeat_124/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_repeat_125",
+      "view": "../assets/experiments/cifar10/cifar10_edm_repeat_125/classes.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_repeat_125",
+      "view": "../assets/experiments/cifar10/cifar10_edm_repeat_125/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_repeat_125",
+      "view": "../assets/experiments/cifar10/cifar10_edm_repeat_125/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_flow20_final",
+      "view": "../assets/experiments/cifar10/cifar10_flow20_final/classes.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_flow20_final",
+      "view": "../assets/experiments/cifar10/cifar10_flow20_final/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_flow20_final",
+      "view": "../assets/experiments/cifar10/cifar10_flow20_final/interpolation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_flow20_final",
+      "view": "../assets/experiments/cifar10/cifar10_flow20_final/interpolation.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_flow20_final",
+      "view": "../assets/experiments/cifar10/cifar10_flow20_final/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_flow50_final",
+      "view": "../assets/experiments/cifar10/cifar10_flow50_final/classes.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_flow50_final",
+      "view": "../assets/experiments/cifar10/cifar10_flow50_final/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_flow50_final",
+      "view": "../assets/experiments/cifar10/cifar10_flow50_final/interpolation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_flow50_final",
+      "view": "../assets/experiments/cifar10/cifar10_flow50_final/interpolation.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_flow50_final",
+      "view": "../assets/experiments/cifar10/cifar10_flow50_final/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.2_scale1",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.2_scale1/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.2_scale1",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.2_scale1/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.2_scale10",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.2_scale10/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.2_scale10",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.2_scale10/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.2_scale20",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.2_scale20/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.2_scale20",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.2_scale20/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.2_scale5",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.2_scale5/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.2_scale5",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.2_scale5/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.5_scale1",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.5_scale1/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.5_scale1",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.5_scale1/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.5_scale10",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.5_scale10/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.5_scale10",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.5_scale10/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.5_scale20",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.5_scale20/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.5_scale20",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.5_scale20/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.5_scale5",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.5_scale5/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.5_scale5",
+      "view": "../assets/experiments/mnist/mnist_cg_gate0.5_scale5/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_ct1",
+      "view": "../assets/experiments/mnist/mnist_ct1/classes.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_ct1",
+      "view": "../assets/experiments/mnist/mnist_ct1/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_ct1",
+      "view": "../assets/experiments/mnist/mnist_ct1/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_ct4",
+      "view": "../assets/experiments/mnist/mnist_ct4/classes.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_ct4",
+      "view": "../assets/experiments/mnist/mnist_ct4/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_ct4",
+      "view": "../assets/experiments/mnist/mnist_ct4/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_edm18",
+      "view": "../assets/experiments/mnist/mnist_edm18/classes.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_edm18",
+      "view": "../assets/experiments/mnist/mnist_edm18/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_edm18",
+      "view": "../assets/experiments/mnist/mnist_edm18/samples.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_edm_balanced_progress",
+      "view": "../assets/experiments/mnist/mnist_edm_balanced_progress/classes.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_edm_balanced_progress",
+      "view": "../assets/experiments/mnist/mnist_edm_balanced_progress/generation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_edm_balanced_progress",
+      "view": "../assets/experiments/mnist/mnist_edm_balanced_progress/interpolation.gif"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_edm_balanced_progress",
+      "view": "../assets/experiments/mnist/mnist_edm_balanced_progress/interpolation.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_edm_balanced_progress",
+      "view": "../assets/experiments/mnist/mnist_edm_balanced_progress/interpolation_inputs.png"
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_edm_balanced_progress",
+      "view": "../assets/experiments/mnist/mnist_edm_balanced_progress/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_30k",
+      "view": "../assets/experiments/cifar10/cifar10_dit_30k/classes.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_30k",
+      "view": "../assets/experiments/cifar10/cifar10_dit_30k/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_30k",
+      "view": "../assets/experiments/cifar10/cifar10_dit_30k/interpolation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_30k",
+      "view": "../assets/experiments/cifar10/cifar10_dit_30k/interpolation.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_30k",
+      "view": "../assets/experiments/cifar10/cifar10_dit_30k/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_cfg_final",
+      "view": "../assets/experiments/cifar10/cifar10_dit_cfg_final/classes.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_cfg_final",
+      "view": "../assets/experiments/cifar10/cifar10_dit_cfg_final/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_cfg_final",
+      "view": "../assets/experiments/cifar10/cifar10_dit_cfg_final/interpolation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_cfg_final",
+      "view": "../assets/experiments/cifar10/cifar10_dit_cfg_final/interpolation.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_cfg_final",
+      "view": "../assets/experiments/cifar10/cifar10_dit_cfg_final/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_final",
+      "view": "../assets/experiments/cifar10/cifar10_dit_final/classes.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_final",
+      "view": "../assets/experiments/cifar10/cifar10_dit_final/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_final",
+      "view": "../assets/experiments/cifar10/cifar10_dit_final/interpolation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_final",
+      "view": "../assets/experiments/cifar10/cifar10_dit_final/interpolation.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_final",
+      "view": "../assets/experiments/cifar10/cifar10_dit_final/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_guidance_conditional",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_conditional/classes.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_guidance_conditional",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_conditional/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_guidance_conditional",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_conditional/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_guidance_unconditional",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_unconditional/classes.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_guidance_unconditional",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_unconditional/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_guidance_unconditional",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_unconditional/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_dit_30k",
+      "view": "../assets/experiments/faces/celeba128_latent_dit_30k/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_dit_30k",
+      "view": "../assets/experiments/faces/celeba128_latent_dit_30k/interpolation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_dit_30k",
+      "view": "../assets/experiments/faces/celeba128_latent_dit_30k/interpolation.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_dit_30k",
+      "view": "../assets/experiments/faces/celeba128_latent_dit_30k/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_dit_final",
+      "view": "../assets/experiments/faces/celeba128_latent_dit_final/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_dit_final",
+      "view": "../assets/experiments/faces/celeba128_latent_dit_final/interpolation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_dit_final",
+      "view": "../assets/experiments/faces/celeba128_latent_dit_final/interpolation.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_dit_final",
+      "view": "../assets/experiments/faces/celeba128_latent_dit_final/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_unet_20k",
+      "view": "../assets/experiments/faces/celeba128_latent_unet_20k/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_unet_20k",
+      "view": "../assets/experiments/faces/celeba128_latent_unet_20k/interpolation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_unet_20k",
+      "view": "../assets/experiments/faces/celeba128_latent_unet_20k/interpolation.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_unet_20k",
+      "view": "../assets/experiments/faces/celeba128_latent_unet_20k/reconstructions.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_unet_20k",
+      "view": "../assets/experiments/faces/celeba128_latent_unet_20k/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_unet_final",
+      "view": "../assets/experiments/faces/celeba128_latent_unet_final/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_unet_final",
+      "view": "../assets/experiments/faces/celeba128_latent_unet_final/interpolation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_unet_final",
+      "view": "../assets/experiments/faces/celeba128_latent_unet_final/interpolation.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_unet_final",
+      "view": "../assets/experiments/faces/celeba128_latent_unet_final/reconstructions.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_unet_final",
+      "view": "../assets/experiments/faces/celeba128_latent_unet_final/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow",
+      "view": "../assets/experiments/faces/celeba_flow/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow",
+      "view": "../assets/experiments/faces/celeba_flow/loss.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow",
+      "view": "../assets/experiments/faces/celeba_flow/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_balanced_progress",
+      "view": "../assets/experiments/faces/celeba_flow_balanced_progress/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_balanced_progress",
+      "view": "../assets/experiments/faces/celeba_flow_balanced_progress/interpolation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_balanced_progress",
+      "view": "../assets/experiments/faces/celeba_flow_balanced_progress/interpolation.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_balanced_progress",
+      "view": "../assets/experiments/faces/celeba_flow_balanced_progress/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_final",
+      "view": "../assets/experiments/faces/celeba_flow_final/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_final",
+      "view": "../assets/experiments/faces/celeba_flow_final/interpolation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_final",
+      "view": "../assets/experiments/faces/celeba_flow_final/interpolation.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_final",
+      "view": "../assets/experiments/faces/celeba_flow_final/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_quality_progress",
+      "view": "../assets/experiments/faces/celeba_flow_quality_progress/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_quality_progress",
+      "view": "../assets/experiments/faces/celeba_flow_quality_progress/interpolation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_quality_progress",
+      "view": "../assets/experiments/faces/celeba_flow_quality_progress/interpolation.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_quality_progress",
+      "view": "../assets/experiments/faces/celeba_flow_quality_progress/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "imagenet/imagenet_conditional",
+      "view": "../assets/experiments/imagenet/imagenet_conditional/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "imagenet/imagenet_conditional",
+      "view": "../assets/experiments/imagenet/imagenet_conditional/loss.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "imagenet/imagenet_conditional",
+      "view": "../assets/experiments/imagenet/imagenet_conditional/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "mnist/mnist_guidance_conditional",
+      "view": "../assets/experiments/mnist/mnist_guidance_conditional/classes.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "mnist/mnist_guidance_conditional",
+      "view": "../assets/experiments/mnist/mnist_guidance_conditional/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "mnist/mnist_guidance_conditional",
+      "view": "../assets/experiments/mnist/mnist_guidance_conditional/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "mnist/mnist_guidance_unconditional",
+      "view": "../assets/experiments/mnist/mnist_guidance_unconditional/classes.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "mnist/mnist_guidance_unconditional",
+      "view": "../assets/experiments/mnist/mnist_guidance_unconditional/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "mnist/mnist_guidance_unconditional",
+      "view": "../assets/experiments/mnist/mnist_guidance_unconditional/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/checkerboard_conditional",
+      "view": "../assets/experiments/toy/checkerboard_conditional/cfg_class_0.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/checkerboard_conditional",
+      "view": "../assets/experiments/toy/checkerboard_conditional/cfg_class_1.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/checkerboard_conditional",
+      "view": "../assets/experiments/toy/checkerboard_conditional/classifier_class_0.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/checkerboard_conditional",
+      "view": "../assets/experiments/toy/checkerboard_conditional/classifier_class_1.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/checkerboard_conditional",
+      "view": "../assets/experiments/toy/checkerboard_conditional/conditional_gallery.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/gmm_flow_conditional",
+      "view": "../assets/experiments/toy/gmm_flow_conditional/generation.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/gmm_flow_conditional",
+      "view": "../assets/experiments/toy/gmm_flow_conditional/loss.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/gmm_flow_conditional",
+      "view": "../assets/experiments/toy/gmm_flow_conditional/samples.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "view": "../assets/experiments/toy/olympic_rings_conditional/cfg_class_0.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "view": "../assets/experiments/toy/olympic_rings_conditional/cfg_class_1.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "view": "../assets/experiments/toy/olympic_rings_conditional/cfg_class_2.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "view": "../assets/experiments/toy/olympic_rings_conditional/cfg_class_3.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "view": "../assets/experiments/toy/olympic_rings_conditional/cfg_class_4.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "view": "../assets/experiments/toy/olympic_rings_conditional/classifier_class_0.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "view": "../assets/experiments/toy/olympic_rings_conditional/classifier_class_1.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "view": "../assets/experiments/toy/olympic_rings_conditional/classifier_class_2.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "view": "../assets/experiments/toy/olympic_rings_conditional/classifier_class_3.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "view": "../assets/experiments/toy/olympic_rings_conditional/classifier_class_4.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "view": "../assets/experiments/toy/olympic_rings_conditional/conditional_gallery.png"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/wavy_rings_conditional",
+      "view": "../assets/experiments/toy/wavy_rings_conditional/cfg_class_0.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/wavy_rings_conditional",
+      "view": "../assets/experiments/toy/wavy_rings_conditional/cfg_class_1.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/wavy_rings_conditional",
+      "view": "../assets/experiments/toy/wavy_rings_conditional/cfg_class_2.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/wavy_rings_conditional",
+      "view": "../assets/experiments/toy/wavy_rings_conditional/cfg_class_3.gif"
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/wavy_rings_conditional",
+      "view": "../assets/experiments/toy/wavy_rings_conditional/conditional_gallery.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_cfg15k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_cfg15k_10k_eval/classes.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_cfg15k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_cfg15k_10k_eval/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_cfg15k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_cfg15k_10k_eval/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_cfg27k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_cfg27k_10k_eval/classes.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_cfg27k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_cfg27k_10k_eval/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_cfg27k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_cfg27k_10k_eval/interpolation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_cfg27k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_cfg27k_10k_eval/interpolation.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_cfg27k_10k_eval",
+      "view": "../assets/experiments/cifar10/cifar10_cfg27k_10k_eval/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_edm_cfg_final",
+      "view": "../assets/experiments/cifar10/cifar10_edm_cfg_final/classes.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_edm_cfg_final",
+      "view": "../assets/experiments/cifar10/cifar10_edm_cfg_final/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_edm_cfg_final",
+      "view": "../assets/experiments/cifar10/cifar10_edm_cfg_final/interpolation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_edm_cfg_final",
+      "view": "../assets/experiments/cifar10/cifar10_edm_cfg_final/interpolation.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_edm_cfg_final",
+      "view": "../assets/experiments/cifar10/cifar10_edm_cfg_final/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_guidance_cfg",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_cfg/classes.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_guidance_cfg",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_cfg/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_guidance_cfg",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_cfg/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_guidance_cg_high",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_cg_high/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_guidance_cg_high",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_cg_high/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_guidance_cg_low",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_cg_low/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_guidance_cg_low",
+      "view": "../assets/experiments/cifar10/cifar10_guidance_cg_low/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "imagenet/imagenet_cfg_class0",
+      "view": "../assets/experiments/imagenet/imagenet_cfg_class0/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "imagenet/imagenet_cfg_class0",
+      "view": "../assets/experiments/imagenet/imagenet_cfg_class0/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "imagenet/imagenet_classifier_class0",
+      "view": "../assets/experiments/imagenet/imagenet_classifier_class0/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "imagenet/imagenet_classifier_class0",
+      "view": "../assets/experiments/imagenet/imagenet_classifier_class0/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_digit3",
+      "view": "../assets/experiments/mnist/mnist_classifier_digit3/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_digit3",
+      "view": "../assets/experiments/mnist/mnist_classifier_digit3/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_digit3_gated",
+      "view": "../assets/experiments/mnist/mnist_classifier_digit3_gated/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_digit3_gated",
+      "view": "../assets/experiments/mnist/mnist_classifier_digit3_gated/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_digit3_scale20",
+      "view": "../assets/experiments/mnist/mnist_classifier_digit3_scale20/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_digit3_scale20",
+      "view": "../assets/experiments/mnist/mnist_classifier_digit3_scale20/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_digit3_scale5",
+      "view": "../assets/experiments/mnist/mnist_classifier_digit3_scale5/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_digit3_scale5",
+      "view": "../assets/experiments/mnist/mnist_classifier_digit3_scale5/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_final_digit3",
+      "view": "../assets/experiments/mnist/mnist_classifier_final_digit3/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_final_digit3",
+      "view": "../assets/experiments/mnist/mnist_classifier_final_digit3/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_guidance_cfg",
+      "view": "../assets/experiments/mnist/mnist_guidance_cfg/classes.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_guidance_cfg",
+      "view": "../assets/experiments/mnist/mnist_guidance_cfg/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_guidance_cfg",
+      "view": "../assets/experiments/mnist/mnist_guidance_cfg/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_guidance_cg_high",
+      "view": "../assets/experiments/mnist/mnist_guidance_cg_high/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_guidance_cg_high",
+      "view": "../assets/experiments/mnist/mnist_guidance_cg_high/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_guidance_cg_low",
+      "view": "../assets/experiments/mnist/mnist_guidance_cg_low/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_guidance_cg_low",
+      "view": "../assets/experiments/mnist/mnist_guidance_cg_low/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_base",
+      "view": "../assets/experiments/text/coco_text_base/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_base_pairs",
+      "view": "../assets/experiments/text/coco_text_base_pairs/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_cfg0",
+      "view": "../assets/experiments/text/coco_text_cfg0/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_cfg1",
+      "view": "../assets/experiments/text/coco_text_cfg1/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_cfg3",
+      "view": "../assets/experiments/text/coco_text_cfg3/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_cfg75",
+      "view": "../assets/experiments/text/coco_text_cfg75/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_lora",
+      "view": "../assets/experiments/text/coco_text_lora/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_lora_pairs",
+      "view": "../assets/experiments/text/coco_text_lora_pairs/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/gmm_flow_cfg_class0",
+      "view": "../assets/experiments/toy/gmm_flow_cfg_class0/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/gmm_flow_cfg_class0",
+      "view": "../assets/experiments/toy/gmm_flow_cfg_class0/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/gmm_guidance",
+      "view": "../assets/experiments/toy/gmm_guidance/generation.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/gmm_guidance",
+      "view": "../assets/experiments/toy/gmm_guidance/loss.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/gmm_guidance",
+      "view": "../assets/experiments/toy/gmm_guidance/samples.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "view": "../assets/experiments/toy/olympic_rings_analytic_guidance/analytic_classifier_0.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "view": "../assets/experiments/toy/olympic_rings_analytic_guidance/analytic_classifier_1.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "view": "../assets/experiments/toy/olympic_rings_analytic_guidance/analytic_classifier_2.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "view": "../assets/experiments/toy/olympic_rings_analytic_guidance/analytic_classifier_3.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "view": "../assets/experiments/toy/olympic_rings_analytic_guidance/analytic_classifier_4.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "view": "../assets/experiments/toy/olympic_rings_analytic_guidance/cfg_0.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "view": "../assets/experiments/toy/olympic_rings_analytic_guidance/cfg_1.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "view": "../assets/experiments/toy/olympic_rings_analytic_guidance/cfg_2.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "view": "../assets/experiments/toy/olympic_rings_analytic_guidance/cfg_3.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "view": "../assets/experiments/toy/olympic_rings_analytic_guidance/cfg_4.gif"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "view": "../assets/experiments/toy/olympic_rings_analytic_guidance/conditional_gallery.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "Teaching / guidance",
+      "view": "../assets/teaching/guidance/cifar10_comparison.png"
+    },
+    {
+      "group": "Guidance and text",
+      "name": "Teaching / guidance",
+      "view": "../assets/teaching/guidance/mnist_comparison.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "hinge_spectral_42",
+      "view": "../assets/adversarial/hinge_spectral_42/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "hinge_spectral_43",
+      "view": "../assets/adversarial/hinge_spectral_43/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "hinge_spectral_44",
+      "view": "../assets/adversarial/hinge_spectral_44/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "least_squares_42",
+      "view": "../assets/adversarial/least_squares_42/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "least_squares_43",
+      "view": "../assets/adversarial/least_squares_43/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "least_squares_44",
+      "view": "../assets/adversarial/least_squares_44/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "non_saturating_r1_42",
+      "view": "../assets/adversarial/non_saturating_r1_42/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "non_saturating_r1_43",
+      "view": "../assets/adversarial/non_saturating_r1_43/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "non_saturating_r1_44",
+      "view": "../assets/adversarial/non_saturating_r1_44/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "wasserstein_clip_42",
+      "view": "../assets/adversarial/wasserstein_clip_42/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "wasserstein_clip_43",
+      "view": "../assets/adversarial/wasserstein_clip_43/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "wasserstein_clip_44",
+      "view": "../assets/adversarial/wasserstein_clip_44/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "wasserstein_gp_42",
+      "view": "../assets/adversarial/wasserstein_gp_42/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "wasserstein_gp_43",
+      "view": "../assets/adversarial/wasserstein_gp_43/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "wasserstein_gp_44",
+      "view": "../assets/adversarial/wasserstein_gp_44/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "Historical / gmm_ddpm_seed42",
+      "view": "../assets/studies/training_seed_study/gmm_ddpm_seed42/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "Historical / gmm_ddpm_seed43",
+      "view": "../assets/studies/training_seed_study/gmm_ddpm_seed43/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "Historical / gmm_ddpm_seed44",
+      "view": "../assets/studies/training_seed_study/gmm_ddpm_seed44/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "Historical / gmm_flow_seed42",
+      "view": "../assets/studies/training_seed_study/gmm_flow_seed42/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "Historical / gmm_flow_seed43",
+      "view": "../assets/studies/training_seed_study/gmm_flow_seed43/samples.png"
+    },
+    {
+      "group": "GAN objectives",
+      "name": "Historical / gmm_flow_seed44",
+      "view": "../assets/studies/training_seed_study/gmm_flow_seed44/samples.png"
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_analytic_gmm",
+      "view": "../assets/experiments/likelihood/likelihood_analytic_gmm/likelihood.png"
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_cifar10_edm",
+      "view": "../assets/experiments/likelihood/likelihood_cifar10_edm/likelihood.png"
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_cifar10_edm_200steps",
+      "view": "../assets/experiments/likelihood/likelihood_cifar10_edm_200steps/likelihood.png"
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_cifar10_flow",
+      "view": "../assets/experiments/likelihood/likelihood_cifar10_flow/likelihood.png"
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_gmm_flow",
+      "view": "../assets/experiments/likelihood/likelihood_gmm_flow/likelihood.png"
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_mnist_edm",
+      "view": "../assets/experiments/likelihood/likelihood_mnist_edm/likelihood.png"
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_mnist_full_elbo",
+      "view": "../assets/experiments/likelihood/likelihood_mnist_full_elbo/elbo_terms.png"
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_mnist_full_elbo_unclipped",
+      "view": "../assets/experiments/likelihood/likelihood_mnist_full_elbo_unclipped/elbo_terms.png"
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_mnist_sampled_elbo",
+      "view": "../assets/experiments/likelihood/likelihood_mnist_sampled_elbo/elbo_terms.png"
+    }
+  ],
+  "live_analytic_checks": [
+    {
+      "path": "vp_linear",
+      "time": 0.001
+    },
+    {
+      "path": "vp_linear",
+      "time": 0.1
+    },
+    {
+      "path": "vp_linear",
+      "time": 0.25
+    },
+    {
+      "path": "vp_linear",
+      "time": 0.5
+    },
+    {
+      "path": "vp_linear",
+      "time": 0.9
+    },
+    {
+      "path": "vp_linear",
+      "time": 0.999
+    },
+    {
+      "path": "vp_cosine",
+      "time": 0.001
+    },
+    {
+      "path": "vp_cosine",
+      "time": 0.1
+    },
+    {
+      "path": "vp_cosine",
+      "time": 0.25
+    },
+    {
+      "path": "vp_cosine",
+      "time": 0.5
+    },
+    {
+      "path": "vp_cosine",
+      "time": 0.9
+    },
+    {
+      "path": "vp_cosine",
+      "time": 0.999
+    },
+    {
+      "path": "sub_vp",
+      "time": 0.001
+    },
+    {
+      "path": "sub_vp",
+      "time": 0.1
+    },
+    {
+      "path": "sub_vp",
+      "time": 0.25
+    },
+    {
+      "path": "sub_vp",
+      "time": 0.5
+    },
+    {
+      "path": "sub_vp",
+      "time": 0.9
+    },
+    {
+      "path": "sub_vp",
+      "time": 0.999
+    },
+    {
+      "path": "ve",
+      "time": 0.001
+    },
+    {
+      "path": "ve",
+      "time": 0.1
+    },
+    {
+      "path": "ve",
+      "time": 0.25
+    },
+    {
+      "path": "ve",
+      "time": 0.5
+    },
+    {
+      "path": "ve",
+      "time": 0.9
+    },
+    {
+      "path": "ve",
+      "time": 0.999
+    },
+    {
+      "path": "vp_logsnr",
+      "time": 0.001
+    },
+    {
+      "path": "vp_logsnr",
+      "time": 0.1
+    },
+    {
+      "path": "vp_logsnr",
+      "time": 0.25
+    },
+    {
+      "path": "vp_logsnr",
+      "time": 0.5
+    },
+    {
+      "path": "vp_logsnr",
+      "time": 0.9
+    },
+    {
+      "path": "vp_logsnr",
+      "time": 0.999
+    },
+    {
+      "path": "vp_exponential",
+      "time": 0.001
+    },
+    {
+      "path": "vp_exponential",
+      "time": 0.1
+    },
+    {
+      "path": "vp_exponential",
+      "time": 0.25
+    },
+    {
+      "path": "vp_exponential",
+      "time": 0.5
+    },
+    {
+      "path": "vp_exponential",
+      "time": 0.9
+    },
+    {
+      "path": "vp_exponential",
+      "time": 0.999
+    }
+  ],
+  "mobile_concepts": [
+    "Forward noising",
+    "Prediction targets",
+    "Scores and reverse dynamics",
+    "Flows and transport",
+    "Bridges and interpolants",
+    "Solvers and few-step models",
+    "Image generators",
+    "Representations and DiT",
+    "Guidance and text",
+    "GAN objectives",
+    "Likelihood and evaluation"
+  ],
+  "javascript_errors": []
+}

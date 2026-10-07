@@ -4,6 +4,7 @@ import argparse
 import hashlib
 import os
 import platform
+import sys
 import time
 from pathlib import Path
 
@@ -11,6 +12,15 @@ import nbformat
 from nbclient import NotebookClient
 
 from diffusion_lab.utils import save_json
+
+
+class CurrentInterpreterClient(NotebookClient):
+    """The default Python kernel uses the interpreter running this command."""
+
+    def create_kernel_manager(self):
+        manager = super().create_kernel_manager()
+        manager.kernel_spec.argv[0] = sys.executable
+        return manager
 
 
 def main():
@@ -33,7 +43,8 @@ def main():
     for path in paths:
         started = time.perf_counter()
         notebook = nbformat.read(path, as_version=4)
-        client = NotebookClient(
+        client_class = CurrentInterpreterClient if args.kernel == "python3" else NotebookClient
+        client = client_class(
             notebook,
             timeout=args.timeout,
             kernel_name=args.kernel,
@@ -74,6 +85,7 @@ def main():
             "scope": "Fresh-kernel CPU lessons, small training runs, equations/shape assertions and static visuals; optional local-codec execution is recorded separately. No image-scale training is launched.",
             "course_revision": "2026-10-06",
             "python": platform.python_version(),
+            "default_kernel_matches_interpreter": args.kernel == "python3",
             "selected_subset": bool(args.notebook) or args.folder != Path("notebooks"),
             "optional_codec_enabled": bool(
                 os.environ.get("DIFFUSION_NOTEBOOK_VAE")

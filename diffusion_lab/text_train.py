@@ -62,7 +62,7 @@ def codec_geometry(vae, resolution):
     shift = float(getattr(vae.config, "shift_factor", None) or 0)
     if scale <= 0 or not all(torch.isfinite(torch.tensor([scale, shift]))):
         raise ValueError("Invalid codec scale or shift")
-    if getattr(vae.config, "latents_mean", None) is not None:
+    if any(getattr(vae.config, key, None) is not None for key in ("latents_mean", "latents_std")):
         raise ValueError("Per-channel latent normalization needs an explicit codec adapter")
     return factor, scale, shift
 

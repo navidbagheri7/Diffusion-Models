@@ -3,98 +3,108 @@
     {
       "notebook": "notebooks/00_probability_and_noising.ipynb",
       "code_cells": 7,
-      "seconds": 10.871029733680189,
+      "seconds": 9.571218226104975,
       "status": "passed",
-      "sha256": "c272c75785f58edc57d04bc7cc6f7359ff6755925b6c1943aabcebf8b16fdf40",
+      "sha256": "7ce07e24d3625792d8852c581975af6736060f69a6289342a66a95fc1f15e8e3",
       "markdown_cells": 7,
       "visual_outputs": 4
     },
     {
       "notebook": "notebooks/01_prediction_targets_and_ddim.ipynb",
       "code_cells": 8,
-      "seconds": 10.304251369088888,
+      "seconds": 12.353938401676714,
       "status": "passed",
-      "sha256": "4b571552f14b01cc00c59cb3a7c7f81afac0b3501405a5a98da0b69aa4510d99",
+      "sha256": "24071ffbf679a5d8f90ed808ac03dbcf25f7700eaf34494229b6d3ff950038ba",
       "markdown_cells": 6,
       "visual_outputs": 4
     },
     {
       "notebook": "notebooks/02_scores_sdes_and_odes.ipynb",
       "code_cells": 6,
-      "seconds": 11.660933308303356,
+      "seconds": 12.01666993740946,
       "status": "passed",
-      "sha256": "ac8b676fbeb45341609d07347f5a118d868a0c9e23431496d8911a5091eb4091",
+      "sha256": "d3990b48849ce2682daef98492889056fcd972efa1f2a5410f1941c07a1c34fe",
       "markdown_cells": 6,
       "visual_outputs": 4
     },
     {
       "notebook": "notebooks/03_flow_matching_and_solvers.ipynb",
       "code_cells": 7,
-      "seconds": 14.347079866565764,
+      "seconds": 14.118473265320063,
       "status": "passed",
-      "sha256": "5ec21dd09703a51d8dbca5b6bc2937dba3020edd4316d6fe894b9ca4aaaba778",
+      "sha256": "4d945cd70b2213ee2e64d1a1428b21409cf77c2ed924286c13e505243b2b5e7d",
       "markdown_cells": 7,
       "visual_outputs": 6
     },
     {
       "notebook": "notebooks/04_guidance.ipynb",
       "code_cells": 7,
-      "seconds": 5.85331776086241,
+      "seconds": 5.998263504356146,
       "status": "passed",
-      "sha256": "119daa4cb085d2931dbdb6855960df558e68d1119e081b55ad268f0ac5748890",
+      "sha256": "41001be2cf8265e92f98e473cec4584a1d2e8ea3bc1951dbcb24cabfc8b1b025",
       "markdown_cells": 6,
       "visual_outputs": 1
     },
     {
       "notebook": "notebooks/05_likelihood_and_evaluation.ipynb",
       "code_cells": 7,
-      "seconds": 7.5659004198387265,
+      "seconds": 7.223687835969031,
       "status": "passed",
-      "sha256": "f371b031e55c89675ee0e4aef06effa2ff346f0f9518c409c0403a79fc27c752",
+      "sha256": "4730c743b5281dd3d34f0327ca5e342a77372db05b1a014802e0b965ff6f6286",
       "markdown_cells": 7,
       "visual_outputs": 6
     },
     {
       "notebook": "notebooks/06_text_cross_attention.ipynb",
       "code_cells": 7,
-      "seconds": 6.92093594558537,
+      "seconds": 8.069074143655598,
       "status": "passed",
-      "sha256": "ba9e7cf5d768243e8019217752b50592751eca6d858cf988f440777a8de88802",
+      "sha256": "cf8165baaf086d31ba11591ae1704bce32a036dca36c84898b390ed0d2179a4d",
       "markdown_cells": 8,
       "visual_outputs": 2
     },
     {
       "notebook": "notebooks/07_interpolants_transport_and_bridges.ipynb",
       "code_cells": 7,
-      "seconds": 10.494051503948867,
+      "seconds": 11.402940931729972,
       "status": "passed",
-      "sha256": "5787f2171861dead1072a5cc682c359e533c955494d7ec92b03d654c04b99f3e",
+      "sha256": "72a919826a9d414e849fe0a1f1cbc24720ee96894a4c3d3cce73f12e3a5bf0e9",
       "markdown_cells": 7,
       "visual_outputs": 7
     },
     {
       "notebook": "notebooks/08_edm_and_few_step_models.ipynb",
       "code_cells": 6,
-      "seconds": 10.285564393736422,
+      "seconds": 9.684908917173743,
       "status": "passed",
-      "sha256": "d9b64ab9c7a219db02092ed6c533703b5a1a83228154d025419077c19eced811",
+      "sha256": "db53fc5bc3fc7c26d2fb3cb50fc875a8d18abdccda62f085e08a20e48a0c7483",
       "markdown_cells": 7,
       "visual_outputs": 6
     },
     {
       "notebook": "notebooks/09_latent_diffusion_and_dit.ipynb",
       "code_cells": 7,
-      "seconds": 6.0969798834994435,
+      "seconds": 5.855872103013098,
       "status": "passed",
-      "sha256": "3141c3391b43dd611b83f21d7cfbf0fa6c9c9d6b3b931199205b1ad793509b48",
+      "sha256": "405b8de275f869bbe1999e0fd2ec9af2612669774614600118afbc9c3cd31bbc",
       "markdown_cells": 8,
       "visual_outputs": 3
+    },
+    {
+      "notebook": "notebooks/10_adversarial_objectives.ipynb",
+      "code_cells": 4,
+      "seconds": 6.431597590446472,
+      "status": "passed",
+      "sha256": "d9e7cd453d6769d1f0692b4518386342088c7bf4f0de017c3b4e09da6daec10c",
+      "markdown_cells": 3,
+      "visual_outputs": 2
     }
   ],
   "all_executed": true,
   "scope": "Fresh-kernel CPU lessons, small training runs, equations/shape assertions and static visuals; optional local-codec execution is recorded separately. No image-scale training is launched.",
   "course_revision": "2026-10-06",
   "python": "3.10.20",
+  "default_kernel_matches_interpreter": true,
   "selected_subset": false,
   "optional_codec_enabled": false,
   "optional_codec_device": "cpu"

@@ -1,0 +1,13 @@
+{
+  "status": "passed",
+  "reference_offset": 4,
+  "samples": 4,
+  "indices": [
+    4,
+    5,
+    6,
+    7
+  ],
+  "checkpoint_sha256": "30492554e1df232cbbf3a82a790ca9c774241a55ea056ed02c0857e61864b773",
+  "scope": "Actual trained 128px latent DiT + local frozen VAE path, GPU generation/decoding, reconstruction baseline, exact CPU reference pixels compared with independent balanced subset. Metrics disabled; this is an integration check, not a new quality benchmark."
+}

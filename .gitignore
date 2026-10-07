@@ -68,3 +68,6 @@ venv/
 # Borrowed reference source stays local until its provenance is resolved.
 /legacy/*
 !/legacy/README.md
+
+# Small owned generators and reproducible synthetic evidence.
+!/assets/adversarial/**/*.npz

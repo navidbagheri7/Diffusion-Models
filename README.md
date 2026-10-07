@@ -35,6 +35,21 @@ implementation of published methods, rather than a claim of algorithmic novelty.
 Probability-flow ODE and reverse SDE have matching time marginals in the exact
 limit, but different trajectories. Numerical and Monte Carlo errors remain.*
 
+Version 0.5 adds an [offline concept explorer](docs/explorer.html),
+[five evaluated GAN objective/stabilization variants](docs/30_portfolio_review.md),
+portable generators, and tested resume/reference-subset corrections. Eleven
+concept areas connect live equations to 200 recorded presets. This release
+keeps historical source and negative results traceable.
+
+![Interactive noising explorer](assets/previews/noising_desktop.png)
+
+Open `docs/explorer.html` directly, or serve the repository with
+`python -m http.server 8000` and visit `http://localhost:8000/docs/explorer.html`.
+The browser calculates analytic mixture quantities and displays saved model
+results; it needs no GPU, account, external API or JavaScript framework.
+[Publication and hosting instructions](docs/27_publication.md) explain how to
+share the same demo after uploading the repository.
+
 ## Final trained examples
 
 The CIFAR diffusion, CIFAR flow, and face flow runs each completed 100,000
