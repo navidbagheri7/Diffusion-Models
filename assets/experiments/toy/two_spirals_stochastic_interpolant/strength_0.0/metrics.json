@@ -1,0 +1,23 @@
+{
+  "mmd_squared_unbiased": -4.130812623459601e-05,
+  "sliced_w2": 0.05059029906988144,
+  "empirical_w2_subsample": 0.25801029113561014,
+  "sample_count": 2048,
+  "exact_density_available": false,
+  "training_steps": 15000,
+  "dataset": "two_spirals",
+  "strength": 0.0,
+  "conditional": true,
+  "cfg_scale": 1.0,
+  "integrator": "heun",
+  "steps": 400,
+  "seed": 42,
+  "noise_amplitude": 0.5,
+  "path": "linear",
+  "conditional_noise_pairs": "Independent Gaussian source/noise, labels attached to target",
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/two_spirals_stochastic_interpolant/checkpoint.pt",
+  "checkpoint_sha256": "2432bf772371bd12b38cf8cb7a630d3137e2aa0289cff0b75c3dacd24c0ac128",
+  "generated_count": 2048,
+  "reference_count": 2048,
+  "nfe_per_image": 800
+}

@@ -1,0 +1,168 @@
+{
+  "algorithm": "edm",
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "steps_per_model": 20000,
+  "results": [
+    {
+      "inception_metrics": "not reported for MNIST/grayscale; use digit classifier features",
+      "reference_count": 2048,
+      "frechet_digit_features_128": 36.124065359057056,
+      "feature_dimension": 128,
+      "feature_model": "locally trained digit classifier; not Inception FID",
+      "feature_classifier_sha256": "4466f5260714a2728c259090ec2cc1c10b28f182eb6b04557393d9c4265265fb",
+      "feature_sigma": 0.001,
+      "feature_preprocessing": "Clipped and rounded uint8 images, then normalized to [-1,1]",
+      "real_count": 2048,
+      "generated_count": 2048,
+      "requested_class_accuracy": 0.95703125,
+      "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/edm_seed42/checkpoint.pt",
+      "checkpoint_sha256": "fdaea51150e33eab73092618e8588812578f634dd9fd0e0a2471b8a5319522db",
+      "training_steps": 20000,
+      "seed": 123,
+      "algorithm": "edm",
+      "sampler": "heun",
+      "steps": 16,
+      "consistency_sigmas": null,
+      "nfe_per_image": 31,
+      "nfe_per_image_range": [
+        31,
+        31
+      ],
+      "network_calls_include_cfg": true,
+      "classifier_calls_per_image": 0,
+      "guidance_kind": "cfg",
+      "cfg_scale": 1.0,
+      "classifier_scale": null,
+      "class_label": null,
+      "reference_split": "validation",
+      "reference_offset": 0,
+      "sampling_seconds": 16.999188740737736,
+      "precision": "bfloat16",
+      "batch_size": 64,
+      "training_seed": 42
+    },
+    {
+      "inception_metrics": "not reported for MNIST/grayscale; use digit classifier features",
+      "reference_count": 2048,
+      "frechet_digit_features_128": 36.4847944457417,
+      "feature_dimension": 128,
+      "feature_model": "locally trained digit classifier; not Inception FID",
+      "feature_classifier_sha256": "4466f5260714a2728c259090ec2cc1c10b28f182eb6b04557393d9c4265265fb",
+      "feature_sigma": 0.001,
+      "feature_preprocessing": "Clipped and rounded uint8 images, then normalized to [-1,1]",
+      "real_count": 2048,
+      "generated_count": 2048,
+      "requested_class_accuracy": 0.9560546875,
+      "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/edm_seed43/checkpoint.pt",
+      "checkpoint_sha256": "38491f95780e141a74107e9ba5c3d9843e3d1a200958c31160324561d15d6afe",
+      "training_steps": 20000,
+      "seed": 123,
+      "algorithm": "edm",
+      "sampler": "heun",
+      "steps": 16,
+      "consistency_sigmas": null,
+      "nfe_per_image": 31,
+      "nfe_per_image_range": [
+        31,
+        31
+      ],
+      "network_calls_include_cfg": true,
+      "classifier_calls_per_image": 0,
+      "guidance_kind": "cfg",
+      "cfg_scale": 1.0,
+      "classifier_scale": null,
+      "class_label": null,
+      "reference_split": "validation",
+      "reference_offset": 0,
+      "sampling_seconds": 17.02710250299424,
+      "precision": "bfloat16",
+      "batch_size": 64,
+      "training_seed": 43
+    },
+    {
+      "inception_metrics": "not reported for MNIST/grayscale; use digit classifier features",
+      "reference_count": 2048,
+      "frechet_digit_features_128": 37.47338698292555,
+      "feature_dimension": 128,
+      "feature_model": "locally trained digit classifier; not Inception FID",
+      "feature_classifier_sha256": "4466f5260714a2728c259090ec2cc1c10b28f182eb6b04557393d9c4265265fb",
+      "feature_sigma": 0.001,
+      "feature_preprocessing": "Clipped and rounded uint8 images, then normalized to [-1,1]",
+      "real_count": 2048,
+      "generated_count": 2048,
+      "requested_class_accuracy": 0.95703125,
+      "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/edm_seed44/checkpoint.pt",
+      "checkpoint_sha256": "8099b17f028bd10b753eaeee9870297aa13c2aaac042ce68357702810faa1f08",
+      "training_steps": 20000,
+      "seed": 123,
+      "algorithm": "edm",
+      "sampler": "heun",
+      "steps": 16,
+      "consistency_sigmas": null,
+      "nfe_per_image": 31,
+      "nfe_per_image_range": [
+        31,
+        31
+      ],
+      "network_calls_include_cfg": true,
+      "classifier_calls_per_image": 0,
+      "guidance_kind": "cfg",
+      "cfg_scale": 1.0,
+      "classifier_scale": null,
+      "class_label": null,
+      "reference_split": "validation",
+      "reference_offset": 0,
+      "sampling_seconds": 14.491817471571267,
+      "precision": "bfloat16",
+      "batch_size": 64,
+      "training_seed": 44
+    }
+  ],
+  "summary": {
+    "frechet_digit_features_128": {
+      "mean": 36.69408226257477,
+      "std": 0.6985830329072124,
+      "repetitions": 3,
+      "confidence": 0.95,
+      "confidence_interval": [
+        34.95870580576254,
+        38.42945871938699
+      ]
+    },
+    "feature_dimension": {
+      "mean": 128.0,
+      "std": 0.0,
+      "repetitions": 3,
+      "confidence": 0.95,
+      "confidence_interval": [
+        128.0,
+        128.0
+      ]
+    },
+    "feature_sigma": {
+      "mean": 0.001,
+      "std": 0.0,
+      "repetitions": 3,
+      "confidence": 0.95,
+      "confidence_interval": [
+        0.001,
+        0.001
+      ]
+    },
+    "requested_class_accuracy": {
+      "mean": 0.9567057291666666,
+      "std": 0.0005638186222554939,
+      "repetitions": 3,
+      "confidence": 0.95,
+      "confidence_interval": [
+        0.955305126064552,
+        0.9581063322687813
+      ]
+    }
+  },
+  "scope": "Independent training seeds; same image U-Net/data/update budget. Fixed evaluation seed 123, 2048 digit references, ordinary class conditioning. EDM 31 versus flow 32 model calls at 16 Heun steps. Digit feature distance is not Inception FID; historical MNIST test use disclosed."
+}

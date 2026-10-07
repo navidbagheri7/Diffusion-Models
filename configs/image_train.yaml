@@ -1,0 +1,59 @@
+defaults:
+  - data: cifar10
+  - model: image_unet
+  - _self_
+algorithm: edm
+seed: 42
+device: cuda:0
+cpu_threads: 4
+workers: 4
+run_dir: outputs/${data.name}_${algorithm}_quality
+conditional: true
+label_dropout: 0.1
+steps: 100000
+batch_size: 64
+accumulation: 2
+lr: 0.0002
+lr_schedule: constant
+warmup_steps: 1000
+weight_decay: 0.0
+grad_clip: 1.0
+ema_decay: 0.9999
+amp: true
+log_every: 100
+save_every: 1000
+preview_every: 2000
+preview_scale: 1.5
+sampling_steps: 18
+resume: null
+teacher: null
+student_steps: 16
+# Noise/preconditioning parameters for EDM and consistency.
+sigma_data: 0.5
+sigma_min: 0.002
+sigma_max: 80.0
+rho: 7.0
+p_mean: -1.2
+p_std: 1.2
+consistency_scales_min: 2
+consistency_scales_max: 150
+# CT/CD loss controls; iCT uses its own online-target objective.
+consistency_weighting: uniform
+consistency_loss_norm: mse
+# null shares inference EMA as in the original educational preset.
+target_ema_decay: null
+# Used only by the flow objective; it predicts path velocity.
+flow_path: linear
+# The remaining fields configure the discrete Improved DDPM objective.
+diffusion_steps: 1000
+schedule: cosine
+prediction: epsilon
+learned_variance: false
+objective: hybrid
+hybrid_weight: 0.001
+timestep_sampling: uniform
+hydra:
+  job:
+    chdir: false
+  run:
+    dir: ${run_dir}/hydra

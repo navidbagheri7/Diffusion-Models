@@ -1,0 +1,38 @@
+[
+  {
+    "guidance": "cfg",
+    "class": 0,
+    "mmd_squared_unbiased": 0.0035459784516416737,
+    "sliced_w2": 0.12321513891220093,
+    "empirical_w2_subsample": 0.27478539663070073,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "cfg",
+    "class": 1,
+    "mmd_squared_unbiased": 0.005517324789520661,
+    "sliced_w2": 0.14606156945228577,
+    "empirical_w2_subsample": 0.3841936633269409,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "classifier",
+    "class": 0,
+    "mmd_squared_unbiased": 0.12643815753936344,
+    "sliced_w2": 0.7485261559486389,
+    "empirical_w2_subsample": 1.2107884093751198,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "classifier",
+    "class": 1,
+    "mmd_squared_unbiased": 0.24186737833599536,
+    "sliced_w2": 1.1334165334701538,
+    "empirical_w2_subsample": 1.6947789625894087,
+    "sample_count": 1024,
+    "exact_density_available": false
+  }
+]

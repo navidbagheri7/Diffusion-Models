@@ -1,0 +1,21 @@
+{
+  "model": {
+    "channels": 3,
+    "classes": 10,
+    "width": 64
+  },
+  "data": {
+    "root": "/data/tii/Image_data/cifar10",
+    "channels": 3,
+    "image_size": 32,
+    "holdout_fraction": 0,
+    "split_seed": 123,
+    "train_limit": 0,
+    "validation_limit": 0,
+    "horizontal_flip": true
+  },
+  "seed": 99,
+  "clean_only": true,
+  "steps": 20000,
+  "batch_size": 128
+}

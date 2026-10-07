@@ -1,0 +1,14 @@
+{
+  "mmd_squared_unbiased": -0.0001433385807489973,
+  "sliced_w2": 0.12641878426074982,
+  "empirical_w2_subsample": 0.5181516060229544,
+  "wasserstein_sample_count": 512,
+  "mean_target_negative_log_density": 2.1454663276672363,
+  "mode_coverage_3sigma": 1.0,
+  "fraction_within_3sigma": 0.98486328125,
+  "mode_total_variation_with_outlier_bin": 0.02734375,
+  "diffusion_strength": 0.5,
+  "field": "Exact Gaussian-mixture stochastic-interpolant marginal fields",
+  "integrator": "euler_maruyama",
+  "steps": 400
+}

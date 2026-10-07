@@ -1,0 +1,155 @@
+{
+  "image_evaluations": [
+    {
+      "run": "outputs/coco_text_base",
+      "checkpoint_sha256": "1302b983832ac686463bd7aeea080a4143b631fe6d50ec16d24896400f748ebe",
+      "samples_finite": true,
+      "generated_count": 256,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/coco_text_lora",
+      "checkpoint_sha256": "1302b983832ac686463bd7aeea080a4143b631fe6d50ec16d24896400f748ebe",
+      "samples_finite": true,
+      "generated_count": 256,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/coco_text_cfg0",
+      "checkpoint_sha256": "1302b983832ac686463bd7aeea080a4143b631fe6d50ec16d24896400f748ebe",
+      "samples_finite": true,
+      "generated_count": 256,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/coco_text_cfg1",
+      "checkpoint_sha256": "1302b983832ac686463bd7aeea080a4143b631fe6d50ec16d24896400f748ebe",
+      "samples_finite": true,
+      "generated_count": 256,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/coco_text_cfg3",
+      "checkpoint_sha256": "1302b983832ac686463bd7aeea080a4143b631fe6d50ec16d24896400f748ebe",
+      "samples_finite": true,
+      "generated_count": 256,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/coco_text_cfg75",
+      "checkpoint_sha256": "1302b983832ac686463bd7aeea080a4143b631fe6d50ec16d24896400f748ebe",
+      "samples_finite": true,
+      "generated_count": 256,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/coco_text_base_pairs",
+      "checkpoint_sha256": "1302b983832ac686463bd7aeea080a4143b631fe6d50ec16d24896400f748ebe",
+      "samples_finite": true,
+      "generated_count": 8,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/coco_text_lora_pairs",
+      "checkpoint_sha256": "1302b983832ac686463bd7aeea080a4143b631fe6d50ec16d24896400f748ebe",
+      "samples_finite": true,
+      "generated_count": 8,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/mnist_training_seed_study/edm_seed42/evaluation",
+      "checkpoint_sha256": "fdaea51150e33eab73092618e8588812578f634dd9fd0e0a2471b8a5319522db",
+      "samples_finite": true,
+      "generated_count": 2048,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/mnist_training_seed_study/edm_seed43/evaluation",
+      "checkpoint_sha256": "38491f95780e141a74107e9ba5c3d9843e3d1a200958c31160324561d15d6afe",
+      "samples_finite": true,
+      "generated_count": 2048,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/mnist_training_seed_study/edm_seed44/evaluation",
+      "checkpoint_sha256": "8099b17f028bd10b753eaeee9870297aa13c2aaac042ce68357702810faa1f08",
+      "samples_finite": true,
+      "generated_count": 2048,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/mnist_training_seed_study/flow_seed42/evaluation",
+      "checkpoint_sha256": "3a2ec23ec4fdb7add10a625fadb84c8e2f1d2edd26be5a25c9d37ab355fa42b2",
+      "samples_finite": true,
+      "generated_count": 2048,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/mnist_training_seed_study/flow_seed43/evaluation",
+      "checkpoint_sha256": "f134ef8410a172c5eda939bf6495bf623092007dcdf229e826068dc263826a7e",
+      "samples_finite": true,
+      "generated_count": 2048,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/mnist_training_seed_study/flow_seed44/evaluation",
+      "checkpoint_sha256": "8fa1ab4eda8bbbf5c132e13143de68fcac00e294c26c54a183f1b1df3ef05948",
+      "samples_finite": true,
+      "generated_count": 2048,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/consistency_refinement_study/final_1",
+      "checkpoint_sha256": "a70a8c027fbab39f8f36c5908d5a2a8e0b4a91f4858017e4e958292e1a05930f",
+      "samples_finite": true,
+      "generated_count": 5000,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/consistency_refinement_study/final_2",
+      "checkpoint_sha256": "a70a8c027fbab39f8f36c5908d5a2a8e0b4a91f4858017e4e958292e1a05930f",
+      "samples_finite": true,
+      "generated_count": 5000,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    },
+    {
+      "run": "outputs/consistency_refinement_study/final_4",
+      "checkpoint_sha256": "a70a8c027fbab39f8f36c5908d5a2a8e0b4a91f4858017e4e958292e1a05930f",
+      "samples_finite": true,
+      "generated_count": 5000,
+      "public_png_matches_metric_pixels": true,
+      "public_report_matches": true
+    }
+  ],
+  "gmm_training_models": 6,
+  "likelihood_cases": 6,
+  "full_base_identity_verified": true,
+  "coco_train_val_image_ids_disjoint": true,
+  "text_training_pairs_presented": 24000,
+  "text_optimizer_steps": 3000,
+  "base_identity_provenance": {
+    "initial_identity_complete": false,
+    "initial_partial_identity": {
+      "model_index.json": "54f3b2c76c945406e77f6f4af2d976193a9612a3747fcf4d77a94e56bb190688"
+    },
+    "full_hashes_captured_at_step": 1750,
+    "reason": "Audit corrected traversal of symlinked component directories; full hashes enforced for continuation and evaluation."
+  },
+  "scope": "Actual hashes, finite tensors, counts, matched-caption/noise protocol and exact exported pixels. These checks do not establish subjective quality or eliminate external pretraining overlap."
+}

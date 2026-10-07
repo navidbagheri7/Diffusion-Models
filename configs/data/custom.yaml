@@ -1,0 +1,10 @@
+kind: images
+name: custom
+root: ./my_data
+image_size: 64
+channels: 3
+horizontal_flip: false
+holdout_fraction: 0.1
+split_seed: 123
+train_limit: 0
+validation_limit: 0

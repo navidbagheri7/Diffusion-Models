@@ -1,0 +1,41 @@
+{
+  "inception_metrics": "not reported for MNIST/grayscale; use digit classifier features",
+  "reference_count": 256,
+  "frechet_digit_features_128": 345.39759741349445,
+  "feature_dimension": 128,
+  "feature_model": "locally trained digit classifier; not Inception FID",
+  "feature_classifier_sha256": "4466f5260714a2728c259090ec2cc1c10b28f182eb6b04557393d9c4265265fb",
+  "feature_sigma": 0.001,
+  "real_count": 256,
+  "generated_count": 256,
+  "requested_class_accuracy": 0.62890625,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_edm_quality/checkpoint.pt",
+  "checkpoint_sha256": "2055d6ca2860cb8f3be57b4969aa4e18f963967cb2c2a1f49e27aa8d10640f2d",
+  "training_steps": 20000,
+  "seed": 123,
+  "algorithm": "edm",
+  "sampler": "heun",
+  "steps": 50,
+  "nfe_per_image": 99,
+  "nfe_per_image_range": [
+    99,
+    99
+  ],
+  "network_calls_include_cfg": true,
+  "classifier_calls_per_image": 24,
+  "guidance_kind": "noisy_classifier",
+  "cfg_scale": 0,
+  "classifier_scale": 20.0,
+  "class_label": 3,
+  "reference_split": "validation",
+  "sampling_seconds": 10.172468557953835,
+  "precision": "bfloat16",
+  "batch_size": 64,
+  "guidance_classifier_sha256": "7a54d9faca9819106ed5990476895e6ab8b404eca8d8f65e1b7ef9469427f649",
+  "guidance_sigma_range": [
+    0.5,
+    5.0
+  ],
+  "feature_preprocessing": "Clipped and rounded uint8 images, then normalized to [-1,1]",
+  "feature_metric_audit": "Recomputed from the original saved image tensors; see metrics_before_feature_audit.json for the previous feature protocol. Generation and Inception scores were not changed."
+}

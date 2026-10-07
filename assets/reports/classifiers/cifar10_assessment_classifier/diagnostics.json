@@ -1,0 +1,7 @@
+[
+  {
+    "sigma": 0.001,
+    "heldout_accuracy": 0.7626,
+    "count": 10000
+  }
+]

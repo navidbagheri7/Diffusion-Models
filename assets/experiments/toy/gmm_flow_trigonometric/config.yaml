@@ -1,0 +1,44 @@
+data:
+  kind: gmm
+  name: ring_gmm
+  components: 8
+  radius: 3.0
+  std: 0.25
+model:
+  kind: mlp
+  width: 128
+  depth: 3
+process:
+  kind: flow
+  prediction: velocity
+  flow_path: trigonometric
+  coupling: independent
+  reflow_particles: 4096
+sampler:
+  method: ode
+  steps: 200
+  ode_solver: heun
+  sde_solver: euler_maruyama
+seed: 42
+device: cuda:0
+cpu_threads: 4
+workers: 2
+run_dir: outputs/gmm_flow_trigonometric
+steps: 6000
+batch_size: 256
+lr: 0.0003
+weight_decay: 1.0e-05
+grad_clip: 1.0
+ema_decay: 0.995
+amp: false
+conditional: false
+label_dropout: 0.15
+classifier_steps: 0
+log_every: 200
+validate_every: 1000
+validation_samples: 1024
+evaluation_samples: 1024
+image_metrics: true
+metric_batch_size: 32
+resume: null
+reflow_checkpoint: null

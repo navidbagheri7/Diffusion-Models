@@ -1,0 +1,22 @@
+[
+  "-m",
+  "diffusion_lab.text_evaluate",
+  "--checkpoint",
+  "/home/navid.bagheri-shouraki/Diffusion/outputs/coco2017_sd2_lora/checkpoint.pt",
+  "--output",
+  "/home/navid.bagheri-shouraki/Diffusion/outputs/coco_text_cfg1",
+  "--device",
+  "cuda:1",
+  "--steps",
+  "30",
+  "--scale",
+  "1.0",
+  "--samples",
+  "256",
+  "--clip",
+  "/data/tii/clip-checkpoints/openai--clip-vit-large-patch14",
+  "--batch-size",
+  "4",
+  "--seed",
+  "123"
+]

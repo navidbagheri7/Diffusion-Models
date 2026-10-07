@@ -1,0 +1,5 @@
+kind: flow
+prediction: velocity
+flow_path: linear
+coupling: independent
+reflow_particles: 4096

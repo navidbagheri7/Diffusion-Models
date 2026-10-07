@@ -1,0 +1,18 @@
+{
+  "name": "cifar_edm_noise124",
+  "samples": 128,
+  "integration_steps": 100,
+  "probes": 1,
+  "bpd": {
+    "mean": 3.3402708812494852,
+    "std": 0.6260820710108511,
+    "repetitions": 128,
+    "confidence": 0.95,
+    "confidence_interval": [
+      3.2307662539612108,
+      3.4497755085377597
+    ]
+  },
+  "is_exact_nll": false,
+  "quantity": "Truncated dequantized numerical ODE density estimate"
+}

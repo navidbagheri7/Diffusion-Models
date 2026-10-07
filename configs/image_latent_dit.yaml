@@ -1,0 +1,12 @@
+defaults:
+  - image_train
+  - override data: latents
+  - override model: dit
+  - _self_
+algorithm: edm
+conditional: false
+sigma_data: 1.0
+p_mean: -0.5
+model:
+  depth: 12
+run_dir: outputs/${data.name}_latent_dit_quality

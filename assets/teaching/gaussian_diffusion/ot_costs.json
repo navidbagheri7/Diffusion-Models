@@ -1,0 +1,5 @@
+{
+  "independent_mean_squared_cost": 11.80123519897461,
+  "empirical_ot_mean_squared_cost": 3.8944506645202637,
+  "note": "Batch-level OT is not a guarantee of population OT"
+}

@@ -1,0 +1,9 @@
+{
+  "iteration": 2,
+  "direction": "backward",
+  "mmd_squared_unbiased": 0.0033188429038368827,
+  "sliced_w2": 0.12036477774381638,
+  "empirical_w2_subsample": 0.26819778332686994,
+  "sample_count": 1024,
+  "exact_density_available": false
+}

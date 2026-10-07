@@ -1,0 +1,23 @@
+{
+  "inception_metrics": "not reported for MNIST/grayscale; use digit classifier features",
+  "reference_count": 2048,
+  "frechet_digit_features_128": 23.349177262054575,
+  "feature_model": "locally trained digit classifier; not Inception FID",
+  "real_count": 2048,
+  "generated_count": 2048,
+  "requested_class_accuracy": 0.96826171875,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_improved_ddpm/checkpoint.pt",
+  "checkpoint_sha256": "615334d526a8397f64b0ef529136b49e3f567cf36397cc8452e865e6c5b7e7d2",
+  "training_steps": 20000,
+  "seed": 123,
+  "sampler": "dpm_2m",
+  "steps": 20,
+  "nfe_per_image": 21,
+  "network_calls_include_cfg": true,
+  "classifier_calls_per_image": 0,
+  "guidance_kind": "cfg",
+  "cfg_scale": 1.0,
+  "class_label": null,
+  "reference_split": "validation",
+  "sampling_seconds": 14.381199420429766
+}

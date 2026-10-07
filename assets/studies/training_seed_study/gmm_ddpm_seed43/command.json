@@ -1,0 +1,18 @@
+[
+  "-m",
+  "diffusion_lab.evaluate",
+  "--checkpoint",
+  "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_ddpm_seed43/checkpoint.pt",
+  "--output",
+  "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_ddpm_seed43/matched_nfe_evaluation",
+  "--device",
+  "cpu",
+  "--samples",
+  "4096",
+  "--seed",
+  "123",
+  "--reference-seed",
+  "999",
+  "--steps",
+  "100"
+]

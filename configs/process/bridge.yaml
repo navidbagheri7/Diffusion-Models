@@ -1,0 +1,5 @@
+kind: bridge
+prediction: bridge_drift
+bridge_epsilon: 0.5
+bridge_particles: 256
+time_eps: 0.02

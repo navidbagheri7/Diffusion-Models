@@ -1,0 +1,23 @@
+{
+  "mmd_squared_unbiased": 0.018254876136779785,
+  "sliced_w2": 0.3239465653896332,
+  "empirical_w2_subsample": 0.6700755104536071,
+  "wasserstein_sample_count": 512,
+  "mean_target_negative_log_density": 7.932408332824707,
+  "mode_coverage_3sigma": 1.0,
+  "fraction_within_3sigma": 0.4228515625,
+  "mode_total_variation_with_outlier_bin": 0.5771484375,
+  "seed": 42,
+  "training_steps": 6000,
+  "sample_count": 1024,
+  "sampling_seconds": 2.549132250249386,
+  "sampler": {
+    "method": "sde",
+    "steps": 1000,
+    "ode_solver": "heun",
+    "sde_solver": "euler_maruyama"
+  },
+  "prediction": "score",
+  "process": "ve",
+  "conditional_evaluation": false
+}

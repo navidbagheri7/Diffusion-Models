@@ -1,0 +1,32 @@
+[
+  {
+    "sigma": 0.001,
+    "heldout_accuracy": 0.7619,
+    "count": 10000
+  },
+  {
+    "sigma": 0.1,
+    "heldout_accuracy": 0.7457,
+    "count": 10000
+  },
+  {
+    "sigma": 0.5,
+    "heldout_accuracy": 0.6372,
+    "count": 10000
+  },
+  {
+    "sigma": 1.0,
+    "heldout_accuracy": 0.5201,
+    "count": 10000
+  },
+  {
+    "sigma": 2.0,
+    "heldout_accuracy": 0.3723,
+    "count": 10000
+  },
+  {
+    "sigma": 5.0,
+    "heldout_accuracy": 0.2553,
+    "count": 10000
+  }
+]

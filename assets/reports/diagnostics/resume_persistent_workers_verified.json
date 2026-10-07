@@ -1,0 +1,12 @@
+{
+  "cpu_weights_and_ema_bitwise_equal": true,
+  "uninterrupted_steps": 12,
+  "split_steps": [
+    8,
+    4
+  ],
+  "workers": 2,
+  "train_limit": 8,
+  "augmentation": "device horizontal flips with restored RNG",
+  "scope": "EDM constant-LR continuation; CUDA nondeterminism and worker timing are separate"
+}

@@ -1,0 +1,5 @@
+# @package _global_
+defaults:
+  - override /process: bridge
+  - override /sampler: bridge
+steps: 8000

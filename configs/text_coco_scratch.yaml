@@ -1,0 +1,19 @@
+defaults:
+  - text_compact
+  - _self_
+# Random denoiser; the VAE and CLIP text encoder remain pretrained and frozen.
+resolution: 256
+width: 128
+channel_mult: [1, 2, 4]
+time_embedding: positional
+# native_prediction maps discrete indices to (index+1)/1000.
+time_scale: 1000.0
+batch_size: 8
+accumulation: 2
+steps: 100000
+ema_decay: 0.9999
+ema_warmup: true
+log_every: 100
+save_every: 1000
+milestone_every: 10000
+run_dir: outputs/coco2017_scratch_denoiser

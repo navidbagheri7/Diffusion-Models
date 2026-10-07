@@ -1,0 +1,8 @@
+defaults:
+  - image_ict
+  - _self_
+steps: 40000
+ema_decay: 0.999
+model:
+  time_embedding: positional
+run_dir: outputs/${data.name}_ict_smooth_quality

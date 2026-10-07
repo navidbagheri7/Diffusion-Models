@@ -1,0 +1,23 @@
+{
+  "mmd_squared_unbiased": 0.0013623535633087158,
+  "sliced_w2": 0.17267411947250366,
+  "empirical_w2_subsample": 0.5175460671888472,
+  "wasserstein_sample_count": 512,
+  "mean_target_negative_log_density": 2.63751220703125,
+  "mode_coverage_3sigma": 1.0,
+  "fraction_within_3sigma": 0.9287109375,
+  "mode_total_variation_with_outlier_bin": 0.0791015625,
+  "seed": 42,
+  "training_steps": 8000,
+  "sample_count": 1024,
+  "sampling_seconds": 0.45589222107082605,
+  "sampler": {
+    "method": "ode",
+    "steps": 200,
+    "ode_solver": "heun",
+    "sde_solver": "euler_maruyama"
+  },
+  "prediction": "velocity",
+  "process": "bridge",
+  "conditional_evaluation": false
+}

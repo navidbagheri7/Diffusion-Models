@@ -1,0 +1,66 @@
+data:
+  kind: images
+  name: celeba_hq
+  root: /data/tii/Image_data/celeba_hq_256
+  image_size: 64
+  holdout_fraction: 0.0
+  split_seed: 123
+  train_limit: 0
+  validation_limit: 0
+  channels: 3
+model:
+  kind: image_unet
+  width: 64
+  channels: 3
+  out_channels: 3
+  channel_mult:
+  - 1
+  - 2
+  - 2
+  - 2
+  blocks_per_level: 2
+  attention_levels:
+  - 2
+  - 3
+  dropout: 0.1
+algorithm: flow
+seed: 42
+device: cuda:2
+cpu_threads: 4
+workers: 4
+run_dir: /home/navid.bagheri-shouraki/Diffusion/outputs/celeba_flow_quality
+conditional: false
+label_dropout: 0.1
+steps: 100000
+batch_size: 32
+accumulation: 4
+lr: 0.0002
+lr_schedule: constant
+warmup_steps: 1000
+weight_decay: 0.0
+grad_clip: 1.0
+ema_decay: 0.9999
+amp: true
+log_every: 100
+save_every: 1000
+preview_every: 2000
+preview_scale: 1.5
+sampling_steps: 50
+resume: /home/navid.bagheri-shouraki/Diffusion/outputs/celeba_flow_quality/checkpoint.pt
+teacher: null
+sigma_data: 0.5
+sigma_min: 0.002
+sigma_max: 80.0
+rho: 7.0
+p_mean: -1.2
+p_std: 1.2
+consistency_scales_min: 2
+consistency_scales_max: 150
+flow_path: linear
+diffusion_steps: 1000
+schedule: cosine
+prediction: epsilon
+learned_variance: false
+objective: hybrid
+hybrid_weight: 0.001
+timestep_sampling: uniform

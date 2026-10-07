@@ -1,0 +1,8 @@
+{
+  "source_package_origin": "/home/navid.bagheri-shouraki/Diffusion/.local/publication_preview/diffusion_lab/__init__.py",
+  "tests": "........................................................................ [ 62%]\n............................................                             [100%]\n116 passed in 7.75s",
+  "documentation_and_publication_checks": "passed",
+  "export_without_training_state_preserved_index_manifest_and_results_chapter": true,
+  "seconds": 17.72796664200723,
+  "scope": "Clean publication-file preview, with no original outputs, ignored helpers or checkpoints. CPU suite and public-file checks; no GPU training or remote CI execution."
+}

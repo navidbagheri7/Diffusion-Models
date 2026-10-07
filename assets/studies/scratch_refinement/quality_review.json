@@ -1,0 +1,47 @@
+{
+  "date": "2026-10-06",
+  "status": "completed_training_and_final_visual_review",
+  "quality_goal_met": false,
+  "text": {
+    "updates": 100000,
+    "denoiser_initialization": "random",
+    "frozen_pretrained_components": [
+      "VAE",
+      "text encoder"
+    ],
+    "reference_count": 2048,
+    "generated_count": 2048,
+    "cfg_scale": 7.5,
+    "ddim_steps": 30,
+    "fid": 53.63753890991211,
+    "inception_score_mean": 19.9285831451416,
+    "clip_cosine_mean": 0.22182586789131165,
+    "checkpoint_sha256": "e0d0deac1c636a76d747a3c9495f30dbfb54c7efcad70ec76833535b7cd5fb46",
+    "visual_review": "Prompt examples respond to bus color and fruit category, but buses and cars have duplicated or malformed geometry, dogs have severely distorted anatomy, and cyclist prompts fail to show the requested cyclist. The first eight held-out examples include recognizable fruit, baseball and cat subjects, alongside distorted people, animal anatomy and skateboard geometry.",
+    "galleries": [
+      "text_step0100000_prompts/samples.png",
+      "text_final_heldout/samples.png"
+    ],
+    "gallery_selection": "First examples in saved order; not selected for visual quality."
+  },
+  "cifar": {
+    "updates": 40000,
+    "reference_count": 5000,
+    "generated_count": 5000,
+    "one_call_cd_fid": 24.271270751953125,
+    "four_call_ict_fid": 43.09539031982422,
+    "visual_review": "Class-conditioned samples contain recognizable subjects but remain blurry, with malformed object detail. One-call CD improves matched FID modestly; multi-call CD refinement is weak and four-call iCT trails one-call CD.",
+    "galleries": [
+      "cd_vs_old/candidate_final_1/classes.png",
+      "ict_vs_cd/candidate_final_4/classes.png"
+    ]
+  },
+  "checks": {
+    "tests_passed": 120,
+    "test_seconds": 10.29,
+    "documentation_audit": "passed",
+    "publication_file_audit": "passed",
+    "log": "outputs/completion_studies/final_checks/execution.log"
+  },
+  "interpretation": "Configured budgets and final evaluations finished. Passing implementation checks and improved scores do not establish the requested showcase quality. Results use one training seed."
+}

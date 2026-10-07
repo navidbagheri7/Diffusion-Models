@@ -1,0 +1,8 @@
+kind: images
+name: imagenet_1k
+root: ${oc.env:IMAGE_DATA_ROOT,/data/tii/Image_data}/imagenet_1k_256
+image_size: 32
+holdout_fraction: 0.0
+split_seed: 123
+train_limit: 10000
+validation_limit: 1000

@@ -1,0 +1,18 @@
+{
+  "name": "mnist_edm",
+  "samples": 1024,
+  "integration_steps": 100,
+  "probes": 1,
+  "bpd": {
+    "mean": 1.1685711630000288,
+    "std": 0.22554480005793723,
+    "repetitions": 1024,
+    "confidence": 0.95,
+    "confidence_interval": [
+      1.1547404343206567,
+      1.182401891679401
+    ]
+  },
+  "is_exact_nll": false,
+  "quantity": "Truncated dequantized numerical ODE density estimate"
+}

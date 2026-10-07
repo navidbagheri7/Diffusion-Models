@@ -1,0 +1,46 @@
+{
+  "dataset": "mnist",
+  "source": "torchvision official dataset with archive checksums",
+  "classes": [
+    "0 - zero",
+    "1 - one",
+    "2 - two",
+    "3 - three",
+    "4 - four",
+    "5 - five",
+    "6 - six",
+    "7 - seven",
+    "8 - eight",
+    "9 - nine"
+  ],
+  "counts": {
+    "train": [
+      5923,
+      6742,
+      5958,
+      6131,
+      5842,
+      5421,
+      5918,
+      6265,
+      5851,
+      5949
+    ],
+    "train_sha256_in_index_order": "8bc2ffa7bb3088a67e2ab19d74611db0833dbe68c47ce615ca735a9f6133aa9f",
+    "validation": [
+      980,
+      1135,
+      1032,
+      1010,
+      982,
+      892,
+      958,
+      1028,
+      974,
+      1009
+    ],
+    "validation_sha256_in_index_order": "ccff2403cada4e9c9589027949bf44cfd2f3063f5e75653ad5710e8df8cedba0"
+  },
+  "all_pixels_verified": true,
+  "official_test_used_as_validation": true
+}

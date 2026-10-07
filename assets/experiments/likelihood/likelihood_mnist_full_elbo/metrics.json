@@ -1,0 +1,20 @@
+{
+  "network_calls": 1000,
+  "clean_prediction_clipped": true,
+  "decoder_numerics": "Float64 tail-stable log CDF difference; no probability floor",
+  "decoder": "8-bit discretized Gaussian",
+  "estimator": "All T terms; one Monte Carlo noise draw per term",
+  "is_exact_nll": false,
+  "negative_elbo_bpd_mean": 1.1015411488732358,
+  "terminal_prior_kl_bpd_mean": 1.53676342854834e-09,
+  "decoder_bpd_mean": 0.44904187491465597,
+  "transition_kl_bpd_mean": 0.6524992724218166,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_improved_ddpm/checkpoint_0020000.pt",
+  "samples": 32,
+  "seed": 123,
+  "dataset": "mnist",
+  "conditional": true,
+  "conditioning_scope": "p(x|held-out class label), no CFG; not marginalized over classes",
+  "checkpoint_sha256": "615334d526a8397f64b0ef529136b49e3f567cf36397cc8452e865e6c5b7e7d2",
+  "training_steps": 20000
+}

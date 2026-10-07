@@ -1,0 +1,77 @@
+[
+  {
+    "step": 1000,
+    "velocity_loss": 3.354430675506592,
+    "noise_regression_loss": 0.7767037153244019
+  },
+  {
+    "step": 2000,
+    "velocity_loss": 2.9841341972351074,
+    "noise_regression_loss": 0.8309875726699829
+  },
+  {
+    "step": 3000,
+    "velocity_loss": 3.2125041484832764,
+    "noise_regression_loss": 0.7781168222427368
+  },
+  {
+    "step": 4000,
+    "velocity_loss": 3.2111663818359375,
+    "noise_regression_loss": 0.7722023725509644
+  },
+  {
+    "step": 5000,
+    "velocity_loss": 3.117130756378174,
+    "noise_regression_loss": 0.8347610235214233
+  },
+  {
+    "step": 6000,
+    "velocity_loss": 2.9823665618896484,
+    "noise_regression_loss": 0.7779167890548706
+  },
+  {
+    "step": 7000,
+    "velocity_loss": 3.0635104179382324,
+    "noise_regression_loss": 0.82142573595047
+  },
+  {
+    "step": 8000,
+    "velocity_loss": 2.927290439605713,
+    "noise_regression_loss": 0.738623857498169
+  },
+  {
+    "step": 9000,
+    "velocity_loss": 2.9496421813964844,
+    "noise_regression_loss": 0.7666763067245483
+  },
+  {
+    "step": 10000,
+    "velocity_loss": 3.0477421283721924,
+    "noise_regression_loss": 0.7512162923812866
+  },
+  {
+    "step": 11000,
+    "velocity_loss": 2.387083053588867,
+    "noise_regression_loss": 0.6479368805885315
+  },
+  {
+    "step": 12000,
+    "velocity_loss": 3.259744644165039,
+    "noise_regression_loss": 0.8108352422714233
+  },
+  {
+    "step": 13000,
+    "velocity_loss": 2.952627658843994,
+    "noise_regression_loss": 0.7067794799804688
+  },
+  {
+    "step": 14000,
+    "velocity_loss": 3.3177928924560547,
+    "noise_regression_loss": 0.7878875732421875
+  },
+  {
+    "step": 15000,
+    "velocity_loss": 3.4870500564575195,
+    "noise_regression_loss": 0.8917151689529419
+  }
+]

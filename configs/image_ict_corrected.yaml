@@ -1,0 +1,5 @@
+defaults:
+  - image_ict_smooth
+  - _self_
+# Same recipe as the smooth run, with the corrected autocast online-target order.
+run_dir: outputs/${data.name}_ict_corrected_quality

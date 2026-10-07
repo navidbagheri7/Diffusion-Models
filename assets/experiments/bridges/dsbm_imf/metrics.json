@@ -1,0 +1,74 @@
+[
+  {
+    "iteration": 1,
+    "direction": "backward",
+    "mmd_squared_unbiased": 0.0028940634113890917,
+    "sliced_w2": 0.11378680914640427,
+    "empirical_w2_subsample": 0.2867457777878607,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "iteration": 1,
+    "direction": "forward",
+    "mmd_squared_unbiased": 0.002502975494963089,
+    "sliced_w2": 0.18460190296173096,
+    "empirical_w2_subsample": 0.38314162971224913,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "iteration": 2,
+    "direction": "backward",
+    "mmd_squared_unbiased": -1.3524475875881237e-05,
+    "sliced_w2": 0.06612841784954071,
+    "empirical_w2_subsample": 0.25055543389825163,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "iteration": 2,
+    "direction": "forward",
+    "mmd_squared_unbiased": 0.0015861648958605534,
+    "sliced_w2": 0.2031702697277069,
+    "empirical_w2_subsample": 0.5756521588623378,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "iteration": 3,
+    "direction": "backward",
+    "mmd_squared_unbiased": 0.0009223535885654055,
+    "sliced_w2": 0.08151675760746002,
+    "empirical_w2_subsample": 0.2572081857935264,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "iteration": 3,
+    "direction": "forward",
+    "mmd_squared_unbiased": 0.0011546011290917146,
+    "sliced_w2": 0.2021581083536148,
+    "empirical_w2_subsample": 0.3945713279959315,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "iteration": 4,
+    "direction": "backward",
+    "mmd_squared_unbiased": 0.0003591083143013041,
+    "sliced_w2": 0.07541447132825851,
+    "empirical_w2_subsample": 0.2955554540083048,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "iteration": 4,
+    "direction": "forward",
+    "mmd_squared_unbiased": 0.0014516335152974236,
+    "sliced_w2": 0.1719273179769516,
+    "empirical_w2_subsample": 0.555650610102047,
+    "sample_count": 1024,
+    "exact_density_available": false
+  }
+]

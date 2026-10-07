@@ -1,0 +1,10 @@
+{
+  "installed_outside_source_tree": true,
+  "source_modules_equal": 32,
+  "bundled_hydra_configurations": 39,
+  "configuration_composition": "passed",
+  "cpu_training_smoke_steps": 2,
+  "unconditional_generator_classifier_guidance": "passed",
+  "sampling_and_interpolation_animation": "passed",
+  "sha256": "50af181fdd8560056b2ba2e25ba68c2fee66d09f02f4c92aadb2024312fe89d0"
+}

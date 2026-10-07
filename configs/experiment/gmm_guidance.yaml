@@ -1,0 +1,4 @@
+# @package _global_
+conditional: true
+classifier_steps: 2000
+steps: 8000

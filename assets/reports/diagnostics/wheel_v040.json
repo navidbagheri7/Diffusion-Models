@@ -1,0 +1,38 @@
+{
+  "version": "0.4.0",
+  "installed_package": "/tmp/diffusion_installed_release_review/diffusion_lab",
+  "sha256": "0174d1d8bf295b710bebf75d265ff98cb25b222b70ef6d198fed218b00fcff9c",
+  "source_distribution_sha256": "d0a9c9381be33162c8179d3b24212e8d1ec8593601cfe7130a029cdbe383db36",
+  "source_modules_equal": 45,
+  "bundled_hydra_configurations": 50,
+  "configurations_composed": [
+    "train",
+    "image_train",
+    "text_train",
+    "text_compact",
+    "image_dit",
+    "image_latent_dit"
+  ],
+  "legacy_files_bundled": 0,
+  "synthetic_local_config_weights_and_env_excluded_from_wheel_and_sdist": true,
+  "installed_text_attention_forward_backward": "passed",
+  "previous_wheel_audit": {
+    "version": "0.4.0",
+    "installed_package": "/tmp/diffusion_installed_v040_final/diffusion_lab/__init__.py",
+    "sha256": "0ce9f1225d53158cefcf5185a79afbe7908e671a642fd8e942ae453ad188abff",
+    "source_modules_equal": 45,
+    "bundled_hydra_configurations": 50,
+    "configurations_composed": [
+      "train",
+      "image_train",
+      "text_train",
+      "text_compact"
+    ],
+    "legacy_files_bundled": 0,
+    "integration_python_source_identical_to_interim_installed_wheel": true,
+    "interim_text_generation_evidence": "/tmp/diffusion_installed_v040_text_smoke/metrics.json",
+    "scope": "Final package metadata/configuration/source audit; single-caption generation and independent CLIP executed from byte-identical Python code in the interim installed wheel."
+  },
+  "scope": "Current wheel and source-distribution boundary audit using a source-identical isolated fixture with synthetic ignored inputs; installed module/config byte equality, six configuration compositions and CPU attention gradients outside the checkout. Full pretrained text sampling retained in the previous audit.",
+  "source_scope": "Historical publication build before the scratch-denoiser/refinement extension. Rebuild required for current source."
+}

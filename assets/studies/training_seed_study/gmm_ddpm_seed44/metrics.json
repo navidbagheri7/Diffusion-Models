@@ -1,0 +1,29 @@
+{
+  "mmd_squared_unbiased": 0.003617543410354418,
+  "sliced_w2": 0.17343582212924957,
+  "empirical_w2_subsample": 0.4101072032067315,
+  "wasserstein_sample_count": 512,
+  "mean_target_negative_log_density": 1.9759005308151245,
+  "mode_coverage_3sigma": 1.0,
+  "fraction_within_3sigma": 0.9462890625,
+  "mode_total_variation_with_outlier_bin": 0.0537109375,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_ddpm_seed44/checkpoint.pt",
+  "seed": 123,
+  "reference_seed": 999,
+  "network_calls_during_sampling": 100,
+  "nfe_per_image": 100,
+  "sample_count": 4096,
+  "sampling_seconds": 0.9865829069167376,
+  "guidance": "cfg",
+  "guidance_scale": 1.0,
+  "class_label": null,
+  "classifier_kind": null,
+  "sampler": {
+    "method": "ddim",
+    "steps": 100,
+    "eta": 0.0,
+    "clip_x0": false
+  },
+  "process": "ddpm",
+  "prediction": "x0"
+}

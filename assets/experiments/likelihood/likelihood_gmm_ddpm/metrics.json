@@ -1,0 +1,17 @@
+{
+  "network_calls": 1000,
+  "decoder": "Continuous Gaussian density (bits/dimension)",
+  "estimator": "All T terms; one Monte Carlo noise draw per term",
+  "is_exact_nll": false,
+  "negative_elbo_bpd_mean": 332.8397629421296,
+  "terminal_prior_kl_bpd_mean": 8.01046193864817e-09,
+  "decoder_bpd_mean": 219.1797032165632,
+  "transition_kl_bpd_mean": 113.66005971755597,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_ddpm_x0/checkpoint.pt",
+  "samples": 512,
+  "seed": 123,
+  "dataset": "ring_gmm",
+  "conditional": false,
+  "checkpoint_sha256": "ff0f020a98186e8bdbe8a781eae50a11f8207bba76a3b5057f8067942e81e234",
+  "training_steps": 6000
+}

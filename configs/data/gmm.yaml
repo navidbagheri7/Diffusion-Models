@@ -1,0 +1,5 @@
+kind: gmm
+name: ring_gmm
+components: 8
+radius: 3.0
+std: 0.25

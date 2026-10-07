@@ -1,0 +1,275 @@
+{
+  "scope": "File hashes, finite tensors and exact rendered metric pixels; not a subjective image-quality guarantee",
+  "experiments": [
+    {
+      "experiment": "cifar10_dit_30k",
+      "checkpoint_sha256": "a36ce9e908dcfb15c34019443a17625086d6dbb48dd70b4ef78655da9d650bd6",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 30000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "celeba128_latent_unet_20k",
+      "checkpoint_sha256": "774b417968e317da5c2766c04de7eb6f1de06661c716567f43a4370b8a1d9cfa",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 20000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "celeba128_latent_dit_30k",
+      "checkpoint_sha256": "21a0d5505d5de2dea3bbcb6554a125e38290de083f694a1e1a27326fc00b4403",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 30000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "cifar10_dit_final",
+      "checkpoint_sha256": "cf113f507d81bc904234982686c34fbd744bef4fb5d848c9776180824867940b",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 100000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "cifar10_dit_cfg_final",
+      "checkpoint_sha256": "cf113f507d81bc904234982686c34fbd744bef4fb5d848c9776180824867940b",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 100000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "celeba128_latent_unet_final",
+      "checkpoint_sha256": "01ff0fae651504173c67f7e3a2319051253c8f0665e91ef2a7b1027ec45b4a08",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 100000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "celeba128_latent_dit_final",
+      "checkpoint_sha256": "30492554e1df232cbbf3a82a790ca9c774241a55ea056ed02c0857e61864b773",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 100000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "cifar10_cd1",
+      "checkpoint_sha256": "a70a8c027fbab39f8f36c5908d5a2a8e0b4a91f4858017e4e958292e1a05930f",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 30000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "cifar10_cd2",
+      "checkpoint_sha256": "a70a8c027fbab39f8f36c5908d5a2a8e0b4a91f4858017e4e958292e1a05930f",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 30000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "cifar10_cd4",
+      "checkpoint_sha256": "a70a8c027fbab39f8f36c5908d5a2a8e0b4a91f4858017e4e958292e1a05930f",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 30000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "mnist_ict_smooth1",
+      "checkpoint_sha256": "af06df47938c1dbf72dbe59a9a87e8e717caa883cc2e8de2f41f9b7abbb0c155",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 40000,
+      "experiment_validity": "Invalidated: autocast cached detached online-target Conv/Linear weights; these did not train. Diagnostic only, not an iCT benchmark."
+    },
+    {
+      "experiment": "mnist_ict_smooth2",
+      "checkpoint_sha256": "af06df47938c1dbf72dbe59a9a87e8e717caa883cc2e8de2f41f9b7abbb0c155",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 40000,
+      "experiment_validity": "Invalidated: autocast cached detached online-target Conv/Linear weights; these did not train. Diagnostic only, not an iCT benchmark."
+    },
+    {
+      "experiment": "mnist_ict_smooth4",
+      "checkpoint_sha256": "af06df47938c1dbf72dbe59a9a87e8e717caa883cc2e8de2f41f9b7abbb0c155",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 40000,
+      "experiment_validity": "Invalidated: autocast cached detached online-target Conv/Linear weights; these did not train. Diagnostic only, not an iCT benchmark."
+    },
+    {
+      "experiment": "mnist_ict_corrected1",
+      "checkpoint_sha256": "34c6ad2bba04baa1aab34837243bb20b222532fbe278518b95d6373652115050",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 40000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "mnist_ict_corrected2",
+      "checkpoint_sha256": "34c6ad2bba04baa1aab34837243bb20b222532fbe278518b95d6373652115050",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 40000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "mnist_ict_corrected4",
+      "checkpoint_sha256": "34c6ad2bba04baa1aab34837243bb20b222532fbe278518b95d6373652115050",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 40000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "mnist_ict_corrected_5k1",
+      "checkpoint_sha256": "d9db931408ac2424f354792766fe4f5be43edb0e3497c3f40e077aaf8af7d764",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 5000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "mnist_ict_corrected_5k4",
+      "checkpoint_sha256": "d9db931408ac2424f354792766fe4f5be43edb0e3497c3f40e077aaf8af7d764",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 5000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "mnist_ict1",
+      "checkpoint_sha256": "6fd50deb7f6bae6b5c1780e20217cfbe3910cc546493981ef92e464ae56e262f",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 20000,
+      "experiment_validity": "Invalidated: autocast cached detached online-target Conv/Linear weights; these did not train. Diagnostic only, not an iCT benchmark."
+    },
+    {
+      "experiment": "mnist_ict2",
+      "checkpoint_sha256": "6fd50deb7f6bae6b5c1780e20217cfbe3910cc546493981ef92e464ae56e262f",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 20000,
+      "experiment_validity": "Invalidated: autocast cached detached online-target Conv/Linear weights; these did not train. Diagnostic only, not an iCT benchmark."
+    },
+    {
+      "experiment": "mnist_ict4",
+      "checkpoint_sha256": "6fd50deb7f6bae6b5c1780e20217cfbe3910cc546493981ef92e464ae56e262f",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 20000,
+      "experiment_validity": "Invalidated: autocast cached detached online-target Conv/Linear weights; these did not train. Diagnostic only, not an iCT benchmark."
+    },
+    {
+      "experiment": "mnist_progressive_teacher32",
+      "checkpoint_sha256": "615334d526a8397f64b0ef529136b49e3f567cf36397cc8452e865e6c5b7e7d2",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 20000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "mnist_progressive_16_eval",
+      "checkpoint_sha256": "b18a906990574bda1d3aed2b6918392c11fea7d635c7707fa45fbb43dfb2c572",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 5000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "mnist_progressive_8_eval",
+      "checkpoint_sha256": "8c7788af18ca8c173e17dc16771fa3eeaefdc9f4d9c0b79a4f80362bf89dc262",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 5000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "mnist_progressive_4_eval",
+      "checkpoint_sha256": "65171b4815da626c0bcaeb365de10e51b90a09444f24fb715481c42358bb6ef8",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 5000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "mnist_progressive_2_eval",
+      "checkpoint_sha256": "80a25e3301d4baabff37321fe7615da4a348a52d5769c67e12208b0be29ae8ca",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 5000,
+      "experiment_validity": "Measured evaluation"
+    },
+    {
+      "experiment": "mnist_progressive_1_eval",
+      "checkpoint_sha256": "e00236749d8f4ef7040fac814efba44549f7298e8399424cd1b2b42aca5e6a1f",
+      "checkpoint_matches_report": true,
+      "sample_png_matches_metric_pixels": true,
+      "samples_finite": true,
+      "generated_count_matches": true,
+      "training_steps": 5000,
+      "experiment_validity": "Measured evaluation"
+    }
+  ]
+}

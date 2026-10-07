@@ -1,0 +1,9 @@
+{
+  "torch": "2.7.1+cu128",
+  "device": "cuda:1",
+  "gpu": "NVIDIA L40S",
+  "world_size": 1,
+  "parameters": 936899,
+  "train_count": 4096,
+  "validation_count": 512
+}

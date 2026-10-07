@@ -1,0 +1,10 @@
+# First build a frozen-autoencoder posterior cache. Its manifest defines the
+# decoder, image resolution, latent normalization, source data and class names.
+kind: latents
+name: celeba128_latents
+root: ${oc.env:LATENT_CACHE_ROOT,outputs/celeba128_latent_cache}
+image_size: 16
+channels: 16
+train_limit: 0
+validation_limit: 0
+horizontal_flip: false

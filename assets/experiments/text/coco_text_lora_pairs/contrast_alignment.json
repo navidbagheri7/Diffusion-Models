@@ -1,0 +1,92 @@
+{
+  "clip_cosine_mean": 0.25729796290397644,
+  "clip_cosine_std": 0.019932027906179428,
+  "mismatched_caption_cosine_mean": 0.15063796937465668,
+  "paired_minus_mismatched_mean": 0.10666002333164215,
+  "assessor": "/data/tii/clip-checkpoints/openai--clip-vit-large-patch14",
+  "assessor_identity": {
+    "config.json": "8a09b467700c58138c29d53c605b34ebc69beaadd13274a8a2af8ad2c2f4032a",
+    "merges.txt": "9fd691f7c8039210e0fced15865466c65820d09b63988b0174bfe25de299051a",
+    "model.safetensors": "a2bf730a0c7debf160f7a6b50b3aaf3703e7e88ac73de7a314903141db026dcb",
+    "preprocessor_config.json": "910e70b3956ac9879ebc90b22fb3bc8a75b6a0677814500101a4c072bd7857bd",
+    "pytorch_model.bin": "f1a17cdbe0f36fec524f5cafb1c261ea3bbbc13e346e0f74fc9eb0460dedd0d3",
+    "special_tokens_map.json": "f8c0d6c39aee3f8431078ef6646567b0aba7f2246e9c54b8b99d55c22b707cbf",
+    "tokenizer.json": "a83e0809aa4c3af7208b2df632a7a69668c6d48775b3c3fe4e1b1199d1f8b8f4",
+    "tokenizer_config.json": "deef455e52fa5e8151e339add0582e4235f066009601360999d3a9cda83b1129",
+    "vocab.json": "3f0c4f7d2086b61b38487075278ea9ed04edb53a03cbb045b86c27190fa8fb69"
+  },
+  "per_example_clip_cosine": [
+    0.24242977797985077,
+    0.26246947050094604,
+    0.26575222611427307,
+    0.22655120491981506,
+    0.25130778551101685,
+    0.27522388100624084,
+    0.24543803930282593,
+    0.28921154141426086
+  ],
+  "scope": "Independent CLIP assessor; broad semantic alignment, not an exact compositional-adherence metric",
+  "contrast_pairs": [
+    {
+      "prompt_indices": [
+        0,
+        1
+      ],
+      "captions": [
+        "a red bus on a city street",
+        "a blue bus on a city street"
+      ],
+      "correct_minus_alternative_cosine": [
+        0.03301091492176056,
+        0.042300090193748474
+      ],
+      "preferred_correct_caption": [
+        true,
+        true
+      ]
+    },
+    {
+      "prompt_indices": [
+        2,
+        3
+      ],
+      "captions": [
+        "two dogs on grass",
+        "a single dog on grass"
+      ],
+      "correct_minus_alternative_cosine": [
+        0.06105455011129379,
+        0.03512066602706909
+      ],
+      "preferred_correct_caption": [
+        true,
+        true
+      ]
+    },
+    {
+      "prompt_indices": [
+        4,
+        5
+      ],
+      "captions": [
+        "a bowl of apples on a wooden table",
+        "a bowl of oranges on a wooden table"
+      ],
+      "correct_minus_alternative_cosine": [
+        0.08245637267827988,
+        0.07932431250810623
+      ],
+      "preferred_correct_caption": [
+        true,
+        true
+      ]
+    }
+  ],
+  "contrast_caption_preference_fraction": 1.0,
+  "contrast_scope": "Small controlled CLIP preference diagnostic; not a validated counting, color-binding or spatial benchmark. Ties count as failures.",
+  "generation_checkpoint_sha256": "1302b983832ac686463bd7aeea080a4143b631fe6d50ec16d24896400f748ebe",
+  "generation_weights": "ema",
+  "generation_seed": 123,
+  "source_run": "outputs/coco_text_lora_pairs",
+  "generated_count": 8
+}

@@ -1,0 +1,2005 @@
+{
+  "scope": "Browsing inventory; inclusion does not establish image quality or scientific validity",
+  "groups": {
+    "bridges": 4,
+    "cifar10": 26,
+    "faces": 10,
+    "imagenet": 3,
+    "likelihood": 11,
+    "mnist": 51,
+    "text": 8,
+    "toy": 37
+  },
+  "experiments": [
+    {
+      "experiment": "dsbm_imf",
+      "group": "bridges",
+      "directory": "assets/experiments/bridges/dsbm_imf",
+      "files": [
+        "config.json",
+        "iteration_1_backward/generation.gif",
+        "iteration_1_backward/history.json",
+        "iteration_1_backward/metrics.json",
+        "iteration_1_backward/samples.png",
+        "iteration_1_forward/generation.gif",
+        "iteration_1_forward/history.json",
+        "iteration_1_forward/metrics.json",
+        "iteration_1_forward/samples.png",
+        "iteration_2_backward/generation.gif",
+        "iteration_2_backward/history.json",
+        "iteration_2_backward/metrics.json",
+        "iteration_2_backward/samples.png",
+        "iteration_2_forward/generation.gif",
+        "iteration_2_forward/history.json",
+        "iteration_2_forward/metrics.json",
+        "iteration_2_forward/samples.png",
+        "iteration_3_backward/generation.gif",
+        "iteration_3_backward/history.json",
+        "iteration_3_backward/metrics.json",
+        "iteration_3_backward/samples.png",
+        "iteration_3_forward/generation.gif",
+        "iteration_3_forward/history.json",
+        "iteration_3_forward/metrics.json",
+        "iteration_3_forward/samples.png",
+        "iteration_4_backward/generation.gif",
+        "iteration_4_backward/history.json",
+        "iteration_4_backward/metrics.json",
+        "iteration_4_backward/samples.png",
+        "iteration_4_forward/generation.gif",
+        "iteration_4_forward/history.json",
+        "iteration_4_forward/metrics.json",
+        "iteration_4_forward/samples.png",
+        "metrics.json"
+      ]
+    },
+    {
+      "experiment": "dsbm_ipf",
+      "group": "bridges",
+      "directory": "assets/experiments/bridges/dsbm_ipf",
+      "files": [
+        "config.json",
+        "iteration_1_backward/generation.gif",
+        "iteration_1_backward/history.json",
+        "iteration_1_backward/metrics.json",
+        "iteration_1_backward/samples.png",
+        "iteration_1_forward/generation.gif",
+        "iteration_1_forward/history.json",
+        "iteration_1_forward/metrics.json",
+        "iteration_1_forward/samples.png",
+        "iteration_2_backward/generation.gif",
+        "iteration_2_backward/history.json",
+        "iteration_2_backward/metrics.json",
+        "iteration_2_backward/samples.png",
+        "iteration_2_forward/generation.gif",
+        "iteration_2_forward/history.json",
+        "iteration_2_forward/metrics.json",
+        "iteration_2_forward/samples.png",
+        "iteration_3_backward/generation.gif",
+        "iteration_3_backward/history.json",
+        "iteration_3_backward/metrics.json",
+        "iteration_3_backward/samples.png",
+        "iteration_3_forward/generation.gif",
+        "iteration_3_forward/history.json",
+        "iteration_3_forward/metrics.json",
+        "iteration_3_forward/samples.png",
+        "iteration_4_backward/generation.gif",
+        "iteration_4_backward/history.json",
+        "iteration_4_backward/metrics.json",
+        "iteration_4_backward/samples.png",
+        "iteration_4_forward/generation.gif",
+        "iteration_4_forward/history.json",
+        "iteration_4_forward/metrics.json",
+        "iteration_4_forward/samples.png",
+        "metrics.json"
+      ]
+    },
+    {
+      "experiment": "gmm_bridge_ode",
+      "group": "bridges",
+      "directory": "assets/experiments/bridges/gmm_bridge_ode",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_bridge_sde",
+      "group": "bridges",
+      "directory": "assets/experiments/bridges/gmm_bridge_sde",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_cd1",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_cd1",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_cd2",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_cd2",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_cd4",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_cd4",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_cfg15k_10k_eval",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_cfg15k_10k_eval",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_cfg27k_10k_eval",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_cfg27k_10k_eval",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_clip_airplane",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_clip_airplane",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_clip_scale0.03",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_clip_scale0.03",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_clip_scale0.3",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_clip_scale0.3",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_clip_scale1.0",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_clip_scale1.0",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_dit_30k",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_dit_30k",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_dit_cfg_final",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_dit_cfg_final",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_dit_final",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_dit_final",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_edm15k_10k_eval",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_edm15k_10k_eval",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_edm_balanced_progress",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_edm_balanced_progress",
+      "files": [
+        "classes.png",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_edm_cfg_final",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_edm_cfg_final",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_edm_final",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_edm_final",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_edm_repeat_123",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_edm_repeat_123",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_edm_repeat_124",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_edm_repeat_124",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_edm_repeat_125",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_edm_repeat_125",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_flow20_final",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_flow20_final",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_flow50_final",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_flow50_final",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_guidance_cfg",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_guidance_cfg",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_guidance_cg_high",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_guidance_cg_high",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_guidance_cg_low",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_guidance_cg_low",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_guidance_conditional",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_guidance_conditional",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cifar10_guidance_unconditional",
+      "group": "cifar10",
+      "directory": "assets/experiments/cifar10/cifar10_guidance_unconditional",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "celeba128_latent_dit_30k",
+      "group": "faces",
+      "directory": "assets/experiments/faces/celeba128_latent_dit_30k",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "celeba128_latent_dit_final",
+      "group": "faces",
+      "directory": "assets/experiments/faces/celeba128_latent_dit_final",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "celeba128_latent_unet_20k",
+      "group": "faces",
+      "directory": "assets/experiments/faces/celeba128_latent_unet_20k",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "reconstruction_metrics.json",
+        "reconstructions.png",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "celeba128_latent_unet_final",
+      "group": "faces",
+      "directory": "assets/experiments/faces/celeba128_latent_unet_final",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "reconstruction_metrics.json",
+        "reconstructions.png",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "celeba_ddpm",
+      "group": "faces",
+      "directory": "assets/experiments/faces/celeba_ddpm",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "celeba_flow",
+      "group": "faces",
+      "directory": "assets/experiments/faces/celeba_flow",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "celeba_flow_balanced_progress",
+      "group": "faces",
+      "directory": "assets/experiments/faces/celeba_flow_balanced_progress",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "celeba_flow_final",
+      "group": "faces",
+      "directory": "assets/experiments/faces/celeba_flow_final",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "celeba_flow_quality_progress",
+      "group": "faces",
+      "directory": "assets/experiments/faces/celeba_flow_quality_progress",
+      "files": [
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "ffhq_ddpm",
+      "group": "faces",
+      "directory": "assets/experiments/faces/ffhq_ddpm",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "imagenet_cfg_class0",
+      "group": "imagenet",
+      "directory": "assets/experiments/imagenet/imagenet_cfg_class0",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "imagenet_classifier_class0",
+      "group": "imagenet",
+      "directory": "assets/experiments/imagenet/imagenet_classifier_class0",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "imagenet_conditional",
+      "group": "imagenet",
+      "directory": "assets/experiments/imagenet/imagenet_conditional",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "likelihood_analytic_gmm",
+      "group": "likelihood",
+      "directory": "assets/experiments/likelihood/likelihood_analytic_gmm",
+      "files": [
+        "likelihood.png",
+        "metrics.json"
+      ]
+    },
+    {
+      "experiment": "likelihood_cifar10_edm",
+      "group": "likelihood",
+      "directory": "assets/experiments/likelihood/likelihood_cifar10_edm",
+      "files": [
+        "config.yaml",
+        "likelihood.png",
+        "metrics.json",
+        "per_example.json"
+      ]
+    },
+    {
+      "experiment": "likelihood_cifar10_edm_200steps",
+      "group": "likelihood",
+      "directory": "assets/experiments/likelihood/likelihood_cifar10_edm_200steps",
+      "files": [
+        "config.yaml",
+        "likelihood.png",
+        "metrics.json",
+        "per_example.json"
+      ]
+    },
+    {
+      "experiment": "likelihood_cifar10_flow",
+      "group": "likelihood",
+      "directory": "assets/experiments/likelihood/likelihood_cifar10_flow",
+      "files": [
+        "config.yaml",
+        "likelihood.png",
+        "metrics.json",
+        "per_example.json"
+      ]
+    },
+    {
+      "experiment": "likelihood_gmm_ddpm",
+      "group": "likelihood",
+      "directory": "assets/experiments/likelihood/likelihood_gmm_ddpm",
+      "files": [
+        "config.yaml",
+        "elbo_terms.png",
+        "metrics.json",
+        "per_example.json"
+      ]
+    },
+    {
+      "experiment": "likelihood_gmm_ddpm_epsilon",
+      "group": "likelihood",
+      "directory": "assets/experiments/likelihood/likelihood_gmm_ddpm_epsilon",
+      "files": [
+        "config.yaml",
+        "elbo_terms.png",
+        "metrics.json",
+        "per_example.json"
+      ]
+    },
+    {
+      "experiment": "likelihood_gmm_flow",
+      "group": "likelihood",
+      "directory": "assets/experiments/likelihood/likelihood_gmm_flow",
+      "files": [
+        "config.yaml",
+        "likelihood.png",
+        "metrics.json",
+        "per_example.json"
+      ]
+    },
+    {
+      "experiment": "likelihood_mnist_edm",
+      "group": "likelihood",
+      "directory": "assets/experiments/likelihood/likelihood_mnist_edm",
+      "files": [
+        "config.yaml",
+        "likelihood.png",
+        "metrics.json",
+        "per_example.json"
+      ]
+    },
+    {
+      "experiment": "likelihood_mnist_full_elbo",
+      "group": "likelihood",
+      "directory": "assets/experiments/likelihood/likelihood_mnist_full_elbo",
+      "files": [
+        "config.yaml",
+        "elbo_terms.png",
+        "metrics.json",
+        "per_example.json"
+      ]
+    },
+    {
+      "experiment": "likelihood_mnist_full_elbo_unclipped",
+      "group": "likelihood",
+      "directory": "assets/experiments/likelihood/likelihood_mnist_full_elbo_unclipped",
+      "files": [
+        "config.yaml",
+        "elbo_terms.png",
+        "metrics.json",
+        "per_example.json"
+      ]
+    },
+    {
+      "experiment": "likelihood_mnist_sampled_elbo",
+      "group": "likelihood",
+      "directory": "assets/experiments/likelihood/likelihood_mnist_sampled_elbo",
+      "files": [
+        "config.yaml",
+        "elbo_terms.png",
+        "metrics.json",
+        "per_example.json"
+      ]
+    },
+    {
+      "experiment": "mnist_cd1",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_cd1",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_cd2",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_cd2",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_cd4",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_cd4",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_cg_gate0.2_scale1",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_cg_gate0.2_scale1",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_cg_gate0.2_scale10",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_cg_gate0.2_scale10",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_cg_gate0.2_scale20",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_cg_gate0.2_scale20",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_cg_gate0.2_scale5",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_cg_gate0.2_scale5",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_cg_gate0.5_scale1",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_cg_gate0.5_scale1",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_cg_gate0.5_scale10",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_cg_gate0.5_scale10",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_cg_gate0.5_scale20",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_cg_gate0.5_scale20",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_cg_gate0.5_scale5",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_cg_gate0.5_scale5",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_classifier_digit3",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_classifier_digit3",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_classifier_digit3_gated",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_classifier_digit3_gated",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_classifier_digit3_scale20",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_classifier_digit3_scale20",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "metrics_before_metadata_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_classifier_digit3_scale5",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_classifier_digit3_scale5",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "metrics_before_metadata_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_classifier_final_digit3",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_classifier_final_digit3",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_consistency_distilled_progress",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_consistency_distilled_progress",
+      "files": [
+        "classes.png",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_consistency_training_progress",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_consistency_training_progress",
+      "files": [
+        "classes.png",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ct1",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ct1",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ct4",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ct4",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ddim20",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ddim20",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ddim50",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ddim50",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ddpm1000",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ddpm1000",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_dpm20",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_dpm20",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_dpm20_progress",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_dpm20_progress",
+      "files": [
+        "classes.png",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_dpmpp20",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_dpmpp20",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_edm18",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_edm18",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_edm_balanced_progress",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_edm_balanced_progress",
+      "files": [
+        "classes.png",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "interpolation_inputs.png",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_edm_euler18",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_edm_euler18",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_guidance_cfg",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_guidance_cfg",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_guidance_cg_high",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_guidance_cg_high",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_guidance_cg_low",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_guidance_cg_low",
+      "files": [
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_guidance_conditional",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_guidance_conditional",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_guidance_unconditional",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_guidance_unconditional",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "metrics.json",
+        "metrics_before_feature_audit.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ict1",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ict1",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ict2",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ict2",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ict4",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ict4",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ict_corrected1",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ict_corrected1",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ict_corrected2",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ict_corrected2",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ict_corrected4",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ict_corrected4",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ict_corrected_5k1",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ict_corrected_5k1",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ict_corrected_5k4",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ict_corrected_5k4",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ict_smooth1",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ict_smooth1",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ict_smooth2",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ict_smooth2",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_ict_smooth4",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_ict_smooth4",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_progressive_16_eval",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_progressive_16_eval",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_progressive_1_eval",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_progressive_1_eval",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_progressive_2_eval",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_progressive_2_eval",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_progressive_4_eval",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_progressive_4_eval",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_progressive_8_eval",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_progressive_8_eval",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "mnist_progressive_teacher32",
+      "group": "mnist",
+      "directory": "assets/experiments/mnist/mnist_progressive_teacher32",
+      "files": [
+        "classes.png",
+        "config.yaml",
+        "generation.gif",
+        "interpolation.gif",
+        "interpolation.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "coco_text_base",
+      "group": "text",
+      "directory": "assets/experiments/text/coco_text_base",
+      "files": [
+        "command.json",
+        "config.yaml",
+        "metrics.json",
+        "prompts.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "coco_text_base_pairs",
+      "group": "text",
+      "directory": "assets/experiments/text/coco_text_base_pairs",
+      "files": [
+        "command.json",
+        "config.yaml",
+        "contrast_alignment.json",
+        "metrics.json",
+        "prompts.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "coco_text_cfg0",
+      "group": "text",
+      "directory": "assets/experiments/text/coco_text_cfg0",
+      "files": [
+        "command.json",
+        "config.yaml",
+        "metrics.json",
+        "prompts.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "coco_text_cfg1",
+      "group": "text",
+      "directory": "assets/experiments/text/coco_text_cfg1",
+      "files": [
+        "command.json",
+        "config.yaml",
+        "metrics.json",
+        "prompts.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "coco_text_cfg3",
+      "group": "text",
+      "directory": "assets/experiments/text/coco_text_cfg3",
+      "files": [
+        "command.json",
+        "config.yaml",
+        "metrics.json",
+        "prompts.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "coco_text_cfg75",
+      "group": "text",
+      "directory": "assets/experiments/text/coco_text_cfg75",
+      "files": [
+        "command.json",
+        "config.yaml",
+        "metrics.json",
+        "prompts.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "coco_text_lora",
+      "group": "text",
+      "directory": "assets/experiments/text/coco_text_lora",
+      "files": [
+        "command.json",
+        "config.yaml",
+        "metrics.json",
+        "prompts.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "coco_text_lora_pairs",
+      "group": "text",
+      "directory": "assets/experiments/text/coco_text_lora_pairs",
+      "files": [
+        "command.json",
+        "config.yaml",
+        "contrast_alignment.json",
+        "metrics.json",
+        "prompts.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cfg_scale_0",
+      "group": "toy",
+      "directory": "assets/experiments/toy/cfg_scale_0",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cfg_scale_1",
+      "group": "toy",
+      "directory": "assets/experiments/toy/cfg_scale_1",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cfg_scale_2",
+      "group": "toy",
+      "directory": "assets/experiments/toy/cfg_scale_2",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "cfg_scale_4",
+      "group": "toy",
+      "directory": "assets/experiments/toy/cfg_scale_4",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "checkerboard_conditional",
+      "group": "toy",
+      "directory": "assets/experiments/toy/checkerboard_conditional",
+      "files": [
+        "cfg_class_0.gif",
+        "cfg_class_1.gif",
+        "classifier_class_0.gif",
+        "classifier_class_1.gif",
+        "conditional_gallery.png",
+        "history.json",
+        "metrics.json"
+      ]
+    },
+    {
+      "experiment": "classifier_analytic_scale_1",
+      "group": "toy",
+      "directory": "assets/experiments/toy/classifier_analytic_scale_1",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "classifier_scale_1",
+      "group": "toy",
+      "directory": "assets/experiments/toy/classifier_scale_1",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "classifier_scale_2",
+      "group": "toy",
+      "directory": "assets/experiments/toy/classifier_scale_2",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_cosine_v",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_cosine_v",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_ddim_20",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_ddim_20",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_ddim_5",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_ddim_5",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_ddpm_ancestral",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_ddpm_ancestral",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_ddpm_x0",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_ddpm_x0",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_exponential",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_exponential",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_flow",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_flow",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_flow_cfg_class0",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_flow_cfg_class0",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_flow_conditional",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_flow_conditional",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_flow_euler_10",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_flow_euler_10",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_flow_heun_10",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_flow_heun_10",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_flow_ot",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_flow_ot",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_flow_rk4_10",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_flow_rk4_10",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_flow_trigonometric",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_flow_trigonometric",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_guidance",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_guidance",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_linear_epsilon",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_linear_epsilon",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_logsnr",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_logsnr",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_reflow",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_reflow",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_reflow_euler_10",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_reflow_euler_10",
+      "files": [
+        "generation.gif",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_stochastic_interpolant",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_stochastic_interpolant",
+      "files": [
+        "config.yaml",
+        "history.json",
+        "metrics.json",
+        "strength_0.0/generation.gif",
+        "strength_0.0/metrics.json",
+        "strength_0.0/samples.png",
+        "strength_0.5/generation.gif",
+        "strength_0.5/metrics.json",
+        "strength_0.5/samples.png",
+        "strength_2.0/generation.gif",
+        "strength_2.0/metrics.json",
+        "strength_2.0/samples.png",
+        "training_complete.json"
+      ]
+    },
+    {
+      "experiment": "gmm_subvp",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_subvp",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_ve_score",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_ve_score",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "gmm_vp_epsilon",
+      "group": "toy",
+      "directory": "assets/experiments/toy/gmm_vp_epsilon",
+      "files": [
+        "config.yaml",
+        "environment.json",
+        "generation.gif",
+        "history.json",
+        "loss.png",
+        "metrics.json",
+        "samples.png"
+      ]
+    },
+    {
+      "experiment": "interpolant_oracle",
+      "group": "toy",
+      "directory": "assets/experiments/toy/interpolant_oracle",
+      "files": [
+        "coefficients.png",
+        "density_evolution.png",
+        "metrics.json",
+        "oracle_marginals.json",
+        "oracle_strength_0.0/generation.gif",
+        "oracle_strength_0.0/metrics.json",
+        "oracle_strength_0.0/samples.png",
+        "oracle_strength_0.5/generation.gif",
+        "oracle_strength_0.5/metrics.json",
+        "oracle_strength_0.5/samples.png",
+        "oracle_strength_2.0/generation.gif",
+        "oracle_strength_2.0/metrics.json",
+        "oracle_strength_2.0/samples.png"
+      ]
+    },
+    {
+      "experiment": "olympic_rings_analytic_guidance",
+      "group": "toy",
+      "directory": "assets/experiments/toy/olympic_rings_analytic_guidance",
+      "files": [
+        "analytic_classifier_0.gif",
+        "analytic_classifier_1.gif",
+        "analytic_classifier_2.gif",
+        "analytic_classifier_3.gif",
+        "analytic_classifier_4.gif",
+        "cfg_0.gif",
+        "cfg_1.gif",
+        "cfg_2.gif",
+        "cfg_3.gif",
+        "cfg_4.gif",
+        "conditional_gallery.png",
+        "metrics.json"
+      ]
+    },
+    {
+      "experiment": "olympic_rings_conditional",
+      "group": "toy",
+      "directory": "assets/experiments/toy/olympic_rings_conditional",
+      "files": [
+        "cfg_class_0.gif",
+        "cfg_class_1.gif",
+        "cfg_class_2.gif",
+        "cfg_class_3.gif",
+        "cfg_class_4.gif",
+        "classifier_class_0.gif",
+        "classifier_class_1.gif",
+        "classifier_class_2.gif",
+        "classifier_class_3.gif",
+        "classifier_class_4.gif",
+        "conditional_gallery.png",
+        "history.json",
+        "metrics.json"
+      ]
+    },
+    {
+      "experiment": "two_spirals_stochastic_interpolant",
+      "group": "toy",
+      "directory": "assets/experiments/toy/two_spirals_stochastic_interpolant",
+      "files": [
+        "config.yaml",
+        "history.json",
+        "metrics.json",
+        "strength_0.0/generation.gif",
+        "strength_0.0/metrics.json",
+        "strength_0.0/samples.png",
+        "strength_0.5/generation.gif",
+        "strength_0.5/metrics.json",
+        "strength_0.5/samples.png",
+        "strength_2.0/generation.gif",
+        "strength_2.0/metrics.json",
+        "strength_2.0/samples.png",
+        "training_complete.json"
+      ]
+    },
+    {
+      "experiment": "wavy_rings_conditional",
+      "group": "toy",
+      "directory": "assets/experiments/toy/wavy_rings_conditional",
+      "files": [
+        "cfg_class_0.gif",
+        "cfg_class_1.gif",
+        "cfg_class_2.gif",
+        "cfg_class_3.gif",
+        "conditional_gallery.png",
+        "history.json",
+        "metrics.json"
+      ]
+    },
+    {
+      "experiment": "wavy_rings_stochastic_interpolant",
+      "group": "toy",
+      "directory": "assets/experiments/toy/wavy_rings_stochastic_interpolant",
+      "files": [
+        "config.yaml",
+        "history.json",
+        "metrics.json",
+        "strength_0.0/generation.gif",
+        "strength_0.0/metrics.json",
+        "strength_0.0/samples.png",
+        "strength_0.5/generation.gif",
+        "strength_0.5/metrics.json",
+        "strength_0.5/samples.png",
+        "strength_2.0/generation.gif",
+        "strength_2.0/metrics.json",
+        "strength_2.0/samples.png",
+        "training_complete.json"
+      ]
+    }
+  ]
+}

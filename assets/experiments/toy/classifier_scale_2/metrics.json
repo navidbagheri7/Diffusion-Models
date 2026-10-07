@@ -1,0 +1,25 @@
+{
+  "mmd_squared_unbiased": 0.7453311085700989,
+  "sliced_w2": 1.2577555179595947,
+  "empirical_w2_subsample": 1.7733630248613927,
+  "wasserstein_sample_count": 512,
+  "mean_target_negative_log_density": 29.168319702148438,
+  "mode_coverage_3sigma": 0.0,
+  "fraction_within_3sigma": 0.0,
+  "mode_total_variation_with_outlier_bin": 1.0,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_guidance/checkpoint.pt",
+  "seed": 123,
+  "sample_count": 1024,
+  "sampling_seconds": 0.6319516692310572,
+  "guidance": "classifier",
+  "guidance_scale": 2.0,
+  "class_label": 0,
+  "sampler": {
+    "method": "ddim",
+    "steps": 100,
+    "eta": 0.0,
+    "clip_x0": false
+  },
+  "process": "ddpm",
+  "prediction": "x0"
+}

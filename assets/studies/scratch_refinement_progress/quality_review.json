@@ -1,0 +1,41 @@
+{
+  "date": "2026-10-06",
+  "status": "partial_training_quality_review",
+  "text": {
+    "evaluated_updates": [
+      20000,
+      60000
+    ],
+    "validation_examples": 64,
+    "cfg_scale": 5,
+    "ddim_steps": 30,
+    "clip_mean_20k": 0.20724272727966309,
+    "clip_mean_60k": 0.21741433441638947,
+    "paired_clip_difference": {
+      "mean": 0.01017160015180707,
+      "std": 0.02990040873103925,
+      "repetitions": 64,
+      "confidence": 0.95,
+      "confidence_interval": [
+        0.00270270027615996,
+        0.01764050002745418
+      ]
+    },
+    "interpretation": "Matched captions and sampling settings. Caption-wise intervals are not training-seed uncertainty. Better CLIP alignment does not establish counting, anatomy or perceptual quality.",
+    "visual_review": "Buses and fruit are clearer; dog anatomy and cyclist/car geometry remain badly distorted.",
+    "final_100k_evaluation": "pending"
+  },
+  "cifar": {
+    "updates_completed": {
+      "distillation": 40000,
+      "ict": 40000
+    },
+    "reference_and_generated_counts": 5000,
+    "generation_seed": 124,
+    "selection_counts": 1000,
+    "class_cfg_scale": 1,
+    "scope": "Schedules/clipping selected independently on a different reference subset; historical CIFAR test use during development is disclosed.",
+    "interpretation": "One-call CD improves modestly; two-call CD worsens and four-call CD remains weak. iCT benefits from refinement but trails the best one-call CD model."
+  },
+  "quality_goal_met": false
+}

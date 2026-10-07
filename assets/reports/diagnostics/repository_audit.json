@@ -1,0 +1,120 @@
+{
+  "date": "2026-10-05",
+  "version": "0.4.0",
+  "documented_core_implemented": true,
+  "all_supplied_presets_fully_trained": false,
+  "checks": {
+    "scientific_tests_passed": 116,
+    "ruff_check": "passed",
+    "ruff_format_check": "passed",
+    "local_documentation_targets": 635,
+    "generator_checkpoint_files_verified_by_sha256": 45,
+    "classifier_checkpoint_files_verified_by_sha256": 4,
+    "public_png_gif_artifacts_decoded": 616,
+    "exported_experiment_reports": 150,
+    "installed_package_configurations_composed": 6,
+    "source_and_wheel_exclusion_fixture": "passed",
+    "clean_public_source_tests_passed": 116
+  },
+  "corrections": [
+    "Updated stale text-conditioning and Min-SNR coverage statements",
+    "Preserved four historical completion/watch helpers in ignored .local/session_scripts",
+    "Expanded ignore rules to outputs, datasets, caches, all declared weight formats, raw tensors, credentials and actual Slurm log paths",
+    "Public-file and documentation checks use actual Git ignore semantics",
+    "Wheel/source builds omit configs/local and non-config payloads",
+    "Asset exporters preserve published evidence without local outputs and merge new runs into existing indices"
+  ],
+  "remaining_training_and_quality_work": [
+    "Compact text U-Net has not been trained from scratch on COCO",
+    "COCO LoRA is pretrained SD2 fine-tuning for 3,000 updates, less than one epoch",
+    "CIFAR consistency refinement remains weak in the disjoint 5k/5k sweep",
+    "Likelihood is bounded or numerical; finite-grid sensitivity remains material",
+    "RGB headline models need independent training-seed repetitions",
+    "Official image test splits were used during development"
+  ],
+  "release_gaps": [
+    "License selection",
+    "Public checkpoint download locations",
+    "Git initialization and GitHub publication"
+  ],
+  "additional_research_modules": [
+    "Inverse problems/posterior sampling",
+    "UniPC",
+    "Image-scale bridges",
+    "Full pixel likelihood with encoder/decoder/prior"
+  ],
+  "additional_experiments_for_existing_code": [
+    "Latent DiT with flow matching",
+    "Learned nonlinear stochastic-interpolant transport"
+  ],
+  "report": "docs/22_repository_audit.md",
+  "previous_release_audit": {
+    "date": "2026-10-05",
+    "requested_core_implemented": true,
+    "configured_training_budgets_complete": true,
+    "checks": {
+      "scientific_tests_passed": 106,
+      "ruff_check": "passed",
+      "ruff_format_check": "passed",
+      "local_documentation_targets": 447,
+      "checkpoint_files_verified_by_sha256": 32,
+      "checkpoint_training_step_metadata_complete": 32,
+      "public_png_gif_artifacts_decoded": 578,
+      "animation_frames_decoded": 6180,
+      "exported_experiment_reports": 142,
+      "installed_wheel_smoke": "CPU likelihood and five Hydra configurations passed"
+    },
+    "corrections": [
+      "Updated stale training-completion notes and final-results summaries",
+      "Likelihood reports and checkpoint manifest now include missing actual training steps",
+      "Rebuilt and verified installable wheel; scientific scores and weights unchanged"
+    ],
+    "quality_gaps": [
+      {
+        "experiment": "CIFAR consistency distillation",
+        "FID_by_model_calls": {
+          "1": 22.22,
+          "2": 69.57,
+          "4": 83.41
+        },
+        "next_work": "Investigate intermediate noise levels and training coverage; cause not established"
+      },
+      "Image likelihood diagnostics use small batches; need larger samples and numerical convergence checks",
+      "Headline generation results need repeats across training seeds and matched protocols",
+      "Official test splits were used during development"
+    ],
+    "release_gaps": [
+      "LICENSE and author/citation metadata",
+      "Git initialization and remote",
+      "Public checkpoint download links",
+      "Landing-page and asset-gallery curation"
+    ],
+    "additional_concepts": [
+      "Inverse problems and diffusion posterior sampling",
+      "Text conditioning and cross-attention",
+      "Explicit Min-SNR loss weighting",
+      "UniPC sampling"
+    ],
+    "additional_experiments_for_existing_code": [
+      "Latent DiT with flow matching",
+      "Learned nonlinear stochastic interpolants"
+    ],
+    "scope_limits": [
+      "Image-scale bridge training is absent; current bridge examples are 2D",
+      "Codec is frozen and external; latent density is not a full image likelihood"
+    ],
+    "visual_inspection": {
+      "cifar_dit_cfg": "Recognizable diverse low-resolution samples with residual artifacts",
+      "latent_face_dit": "Plausible faces with residual distortions",
+      "cifar_consistency_four_calls": "Severe saturation"
+    },
+    "wheel": {
+      "wheel_sha256": "2af36ee512fc0638df132acacb64c8553edba4fada9d62a7e33a754e7ada8c4c",
+      "source_modules_equal": 41,
+      "bundled_hydra_configurations": 48,
+      "legacy_files_bundled": 0,
+      "checkpoint_training_steps_complete": 32
+    },
+    "report": "docs/22_repository_audit.md"
+  }
+}

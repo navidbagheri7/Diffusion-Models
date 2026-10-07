@@ -1,0 +1,4 @@
+method: bridge_sde
+steps: 200
+ode_solver: heun
+sde_solver: euler_maruyama

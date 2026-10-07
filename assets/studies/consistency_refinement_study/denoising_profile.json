@@ -1,0 +1,76 @@
+{
+  "checkpoint_sha256": "a70a8c027fbab39f8f36c5908d5a2a8e0b4a91f4858017e4e958292e1a05930f",
+  "samples": 256,
+  "results": [
+    {
+      "sigma": 0.003,
+      "student_mse": 8.746432285988703e-06,
+      "teacher_mse": 7.478870884369826e-06,
+      "student_out_of_range_fraction": 0.00754547119140625,
+      "student_absolute_max": 1.0096089839935303
+    },
+    {
+      "sigma": 0.01,
+      "student_mse": 8.204185724025592e-05,
+      "teacher_mse": 5.846126441610977e-05,
+      "student_out_of_range_fraction": 0.01053365133702755,
+      "student_absolute_max": 1.0312236547470093
+    },
+    {
+      "sigma": 0.03,
+      "student_mse": 0.0004687048203777522,
+      "teacher_mse": 0.00033481032005511224,
+      "student_out_of_range_fraction": 0.0141512556001544,
+      "student_absolute_max": 1.0803253650665283
+    },
+    {
+      "sigma": 0.1,
+      "student_mse": 0.003431826364248991,
+      "teacher_mse": 0.0018797082593664527,
+      "student_out_of_range_fraction": 0.0335439071059227,
+      "student_absolute_max": 1.2160323858261108
+    },
+    {
+      "sigma": 0.3,
+      "student_mse": 0.04720930755138397,
+      "teacher_mse": 0.007732725702226162,
+      "student_out_of_range_fraction": 0.1595611572265625,
+      "student_absolute_max": 1.7104082107543945
+    },
+    {
+      "sigma": 1,
+      "student_mse": 0.16494964063167572,
+      "teacher_mse": 0.029818572103977203,
+      "student_out_of_range_fraction": 0.29602307081222534,
+      "student_absolute_max": 1.7767691612243652
+    },
+    {
+      "sigma": 3,
+      "student_mse": 0.20403854548931122,
+      "teacher_mse": 0.08027320355176926,
+      "student_out_of_range_fraction": 0.2041880339384079,
+      "student_absolute_max": 1.4988943338394165
+    },
+    {
+      "sigma": 10,
+      "student_mse": 0.2608906924724579,
+      "teacher_mse": 0.16474191844463348,
+      "student_out_of_range_fraction": 0.0280736293643713,
+      "student_absolute_max": 1.219851016998291
+    },
+    {
+      "sigma": 30,
+      "student_mse": 0.35507261753082275,
+      "teacher_mse": 0.2260223925113678,
+      "student_out_of_range_fraction": 0.00597381591796875,
+      "student_absolute_max": 1.280945062637329
+    },
+    {
+      "sigma": 80,
+      "student_mse": 0.4263339042663574,
+      "teacher_mse": 0.2677438259124756,
+      "student_out_of_range_fraction": 0.009600321762263775,
+      "student_absolute_max": 1.3182941675186157
+    }
+  ]
+}

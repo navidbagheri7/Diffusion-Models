@@ -1,0 +1,16 @@
+{
+  "inception_metrics": "disabled by argument",
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_edm_quality/checkpoint.pt",
+  "training_steps": 7000,
+  "seed": 123,
+  "sampler": "edm",
+  "steps": 18,
+  "nfe_per_image": 49,
+  "network_calls_include_cfg": true,
+  "classifier_calls_per_image": 49,
+  "cfg_scale": 1.5,
+  "class_label": 0,
+  "generated_count": 32,
+  "reference_split": "validation",
+  "sampling_seconds": 24.02717068605125
+}

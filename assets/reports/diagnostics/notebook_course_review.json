@@ -1,0 +1,219 @@
+{
+  "date": "2026-10-06",
+  "status": "passed",
+  "course_notebooks": 10,
+  "code_cells": 69,
+  "markdown_cells": 69,
+  "visual_outputs": 43,
+  "standalone_gifs": [
+    "assets/teaching/notebooks/00_gaussian_corruption.gif",
+    "assets/teaching/notebooks/02_probability_flow.gif",
+    "assets/teaching/notebooks/02_reverse_sde.gif",
+    "assets/teaching/notebooks/03_learned_flow.gif",
+    "assets/teaching/notebooks/07_brownian_bridges.gif",
+    "assets/teaching/notebooks/07_stochastic_interpolant.gif"
+  ],
+  "default_cpu_seconds": 94.40004418510944,
+  "default_execution_report": "assets/reports/diagnostics/notebook_validation.json",
+  "clean_public_copy": {
+    "status": "passed",
+    "excluded": [
+      "outputs/",
+      "checkpoints/",
+      ".local/"
+    ],
+    "same_notebook_sources": true,
+    "same_library_sources": true,
+    "execution": {
+      "notebooks": [
+        {
+          "notebook": "notebooks/00_probability_and_noising.ipynb",
+          "code_cells": 7,
+          "seconds": 9.580563571304083,
+          "status": "passed",
+          "sha256": "f97ceded2c8227e1c2325c2fa4266479691b7a8aa4bbbc924e24abc898983e6a",
+          "markdown_cells": 7,
+          "visual_outputs": 4
+        },
+        {
+          "notebook": "notebooks/01_prediction_targets_and_ddim.ipynb",
+          "code_cells": 8,
+          "seconds": 8.423227595165372,
+          "status": "passed",
+          "sha256": "96449a354a2daed22be925b02bd584a632e67c93a901c77efac782b15c675d2d",
+          "markdown_cells": 6,
+          "visual_outputs": 4
+        },
+        {
+          "notebook": "notebooks/02_scores_sdes_and_odes.ipynb",
+          "code_cells": 6,
+          "seconds": 9.44849667698145,
+          "status": "passed",
+          "sha256": "e478f826b2edce77629fe08ece10329ac7079b9a2927383d762cdce99e689de1",
+          "markdown_cells": 6,
+          "visual_outputs": 4
+        },
+        {
+          "notebook": "notebooks/03_flow_matching_and_solvers.ipynb",
+          "code_cells": 7,
+          "seconds": 14.18977405037731,
+          "status": "passed",
+          "sha256": "09890c8f0e3a620a25e3432f7f431d1175ed716211a17f23f48f15060119ea9a",
+          "markdown_cells": 7,
+          "visual_outputs": 6
+        },
+        {
+          "notebook": "notebooks/04_guidance.ipynb",
+          "code_cells": 7,
+          "seconds": 6.037421572953463,
+          "status": "passed",
+          "sha256": "0e35edd7a93f013664c7e7fa2788c6fdbae09d226def4f608abb7ca6e5df0523",
+          "markdown_cells": 6,
+          "visual_outputs": 1
+        },
+        {
+          "notebook": "notebooks/05_likelihood_and_evaluation.ipynb",
+          "code_cells": 7,
+          "seconds": 7.025059160776436,
+          "status": "passed",
+          "sha256": "7d859aedd5ce23b108faf2252117f1959427e427b41705b48df409b69d701fe4",
+          "markdown_cells": 7,
+          "visual_outputs": 6
+        },
+        {
+          "notebook": "notebooks/06_text_cross_attention.ipynb",
+          "code_cells": 7,
+          "seconds": 6.2144670793786645,
+          "status": "passed",
+          "sha256": "d46ef9665dc7e33de1cf5997b676c608aa9f79d6ce3de5ff78ae963a438c401f",
+          "markdown_cells": 8,
+          "visual_outputs": 2
+        },
+        {
+          "notebook": "notebooks/07_interpolants_transport_and_bridges.ipynb",
+          "code_cells": 7,
+          "seconds": 12.168266569264233,
+          "status": "passed",
+          "sha256": "c3f42a442621fbff62feee06a04a0f819387f974c87c82681a6706183c2aa2b1",
+          "markdown_cells": 7,
+          "visual_outputs": 7
+        },
+        {
+          "notebook": "notebooks/08_edm_and_few_step_models.ipynb",
+          "code_cells": 6,
+          "seconds": 11.085997990332544,
+          "status": "passed",
+          "sha256": "facf9f631912f45cafbf28a59998dca854442a8436d9295981efc1912b2067cb",
+          "markdown_cells": 7,
+          "visual_outputs": 6
+        },
+        {
+          "notebook": "notebooks/09_latent_diffusion_and_dit.ipynb",
+          "code_cells": 7,
+          "seconds": 6.111911106854677,
+          "status": "passed",
+          "sha256": "a7358c89b2e568bb8d77b3de95c21eb44a3815d80d315303df80d423594b6d8f",
+          "markdown_cells": 8,
+          "visual_outputs": 3
+        }
+      ],
+      "all_executed": true,
+      "scope": "Fresh-kernel CPU lessons, small training runs, equations/shape assertions and static visuals; optional local-codec execution is recorded separately. No image-scale training is launched.",
+      "course_revision": "2026-10-06",
+      "python": "3.10.20",
+      "selected_subset": false,
+      "optional_codec_enabled": false,
+      "optional_codec_device": "cpu"
+    }
+  },
+  "widgets": {
+    "status": "passed",
+    "ipywidgets": "8.1.9",
+    "execution": {
+      "notebooks": [
+        {
+          "notebook": "outputs/notebook_widget_validation/notebooks/00_probability_and_noising.ipynb",
+          "code_cells": 7,
+          "seconds": 9.204211744479835,
+          "status": "passed",
+          "sha256": "b7ae4f29dd5ff3a519fa352e5dc5e4b50c0e5f0e9657526da94fd5f62c29cacf",
+          "markdown_cells": 7,
+          "visual_outputs": 4
+        },
+        {
+          "notebook": "outputs/notebook_widget_validation/notebooks/01_prediction_targets_and_ddim.ipynb",
+          "code_cells": 8,
+          "seconds": 10.012096644379199,
+          "status": "passed",
+          "sha256": "c3fee61089e580930628d91cae6cb0f57a883e36b87bf9ce318f5d56f14306af",
+          "markdown_cells": 6,
+          "visual_outputs": 4
+        },
+        {
+          "notebook": "outputs/notebook_widget_validation/notebooks/03_flow_matching_and_solvers.ipynb",
+          "code_cells": 7,
+          "seconds": 14.484715755097568,
+          "status": "passed",
+          "sha256": "7f20d9bac7f4ed58f6e6eda27f67c212e41ade27b4425a1793374817d1d53f24",
+          "markdown_cells": 7,
+          "visual_outputs": 6
+        },
+        {
+          "notebook": "outputs/notebook_widget_validation/notebooks/04_guidance.ipynb",
+          "code_cells": 7,
+          "seconds": 185.94103795383126,
+          "status": "passed",
+          "sha256": "caf762cb798d05ed2b7b67a615167878d807d6e24fbe79e4daefbfdcf6a65454",
+          "markdown_cells": 6,
+          "visual_outputs": 1
+        }
+      ],
+      "all_executed": true,
+      "scope": "Fresh-kernel CPU lessons, small training runs, equations/shape assertions and static visuals; optional local-codec execution is recorded separately. No image-scale training is launched.",
+      "course_revision": "2026-10-06",
+      "python": "3.10.20",
+      "selected_subset": true,
+      "optional_codec_enabled": false,
+      "optional_codec_device": "cpu"
+    },
+    "scope": "Headless construction and initial callbacks; browser frontend not audited. Guidance kernel shutdown was slow even though its widget cell completed in 0.23 seconds."
+  },
+  "optional_codec": {
+    "status": "passed",
+    "physical_gpu": 2,
+    "hardware": "NVIDIA L40S",
+    "cuda_visible_devices": "2",
+    "local_components": "Existing SD2-family frozen VAE; one COCO validation image; no downloads or training.",
+    "execution": {
+      "notebooks": [
+        {
+          "notebook": "outputs/notebook_gpu_validation/notebooks/09_latent_diffusion_and_dit.ipynb",
+          "code_cells": 7,
+          "seconds": 10.506793648935854,
+          "status": "passed",
+          "sha256": "c0c5b71367b29627d5274202f3b735cae762f980ae7ea95dec8f964935aa680d",
+          "markdown_cells": 8,
+          "visual_outputs": 4
+        }
+      ],
+      "all_executed": true,
+      "scope": "Fresh-kernel CPU lessons, small training runs, equations/shape assertions and static visuals; optional local-codec execution is recorded separately. No image-scale training is launched.",
+      "course_revision": "2026-10-06",
+      "python": "3.10.20",
+      "selected_subset": true,
+      "optional_codec_enabled": true,
+      "optional_codec_device": "cuda:0"
+    }
+  },
+  "scientific_tests": {
+    "passed": 124,
+    "seconds": 7.38,
+    "failures": 0
+  },
+  "ruff_check": "passed",
+  "ruff_format_check": "passed",
+  "visual_review": "Plots inspected for noising/transport, sampler/solver comparisons, trained flow/reflow and consistency. Short-run denoiser and consistency models are explicitly labeled; reflow curvature improvement does not imply sharper mode matching.",
+  "scope": "Notebook publication readiness and implementation checks; not image-quality, license, weight-hosting or full-course browser certification.",
+  "historical_default_cpu_seconds_before_asset_reorganization": 84.30753050372005,
+  "asset_reorganization_note": "Current default execution report was refreshed after moving assets. Clean-copy, widget and optional GPU subreports below retain the earlier course-source hashes and their original scopes; post-reorganization public-copy checks are recorded separately in asset_reorganization.json."
+}

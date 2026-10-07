@@ -1,0 +1,13 @@
+defaults:
+  - image_train
+  - override data: latents
+  - _self_
+algorithm: edm
+conditional: false
+sigma_data: 1.0
+p_mean: -0.5
+model:
+  width: 96
+  channel_mult: [1, 2, 2]
+  attention_levels: [0, 1, 2]
+run_dir: outputs/${data.name}_latent_unet_quality

@@ -1,0 +1,14 @@
+{
+  "0.2": {
+    "coupled_squared_cost": 3.484424114227295,
+    "row_residual": 7.450580596923828e-08
+  },
+  "0.7": {
+    "coupled_squared_cost": 4.047323226928711,
+    "row_residual": 1.30385160446167e-08
+  },
+  "2.0": {
+    "coupled_squared_cost": 5.463812828063965,
+    "row_residual": 1.862645149230957e-09
+  }
+}

@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this toolkit in your work, please cite this software."
+type: software
+title: "Diffusion & Flow Lab"
+version: 0.4.0
+authors:
+  - given-names: Navid
+    family-names: Bagheri-Shouraki
+abstract: >-
+  An educational equation-to-experiment toolkit for diffusion models,
+  score-based SDEs, flow matching, stochastic interpolants, bridges,
+  latent diffusion, transformers and text conditioning.
+keywords:
+  - diffusion models
+  - flow matching
+  - generative modeling
+  - educational software

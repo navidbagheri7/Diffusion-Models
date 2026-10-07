@@ -1,0 +1,24 @@
+{
+  "fid_2048": 250.42994689941406,
+  "kid_mean": 0.19038625061511993,
+  "kid_std": 0.018717704340815544,
+  "inception_score_mean": 3.064854621887207,
+  "inception_score_std": 0.548938512802124,
+  "real_count": 128,
+  "generated_count": 128,
+  "preprocessing": "RGB [-1,1] -> rounded uint8; torch-fidelity Inception resize",
+  "small_sample_warning": true,
+  "seed": 42,
+  "training_steps": 3000,
+  "sample_count": 128,
+  "sampling_seconds": 0.9134280318394303,
+  "sampler": {
+    "method": "ddim",
+    "steps": 100,
+    "eta": 0.0,
+    "clip_x0": true
+  },
+  "prediction": "epsilon",
+  "process": "ddpm",
+  "conditional_evaluation": false
+}

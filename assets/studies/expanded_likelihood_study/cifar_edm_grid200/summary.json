@@ -1,0 +1,18 @@
+{
+  "name": "cifar_edm_grid200",
+  "samples": 128,
+  "integration_steps": 200,
+  "probes": 1,
+  "bpd": {
+    "mean": 3.3620743759395255,
+    "std": 0.6240449314994388,
+    "repetitions": 128,
+    "confidence": 0.95,
+    "confidence_interval": [
+      3.252926053700158,
+      3.471222698178893
+    ]
+  },
+  "is_exact_nll": false,
+  "quantity": "Truncated dequantized numerical ODE density estimate"
+}

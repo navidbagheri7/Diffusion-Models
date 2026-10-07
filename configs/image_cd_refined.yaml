@@ -1,0 +1,20 @@
+defaults:
+  - image_train
+  - _self_
+algorithm: distillation
+teacher: outputs/cifar10_edm_quality/checkpoint_0100000.pt
+steps: 40000
+model:
+  dropout: 0.0
+consistency_scales_min: 40
+consistency_scales_max: 40
+# Weighted L2 as supported in the original CD reference implementation.
+consistency_weighting: karras
+consistency_loss_norm: mse
+# Separate fast training target from slower generation EMA.
+target_ema_decay: 0.95
+ema_decay: 0.9999
+lr: 0.0001
+sampling_steps: 1
+preview_scale: 1.0
+run_dir: outputs/cifar10_cd_refined

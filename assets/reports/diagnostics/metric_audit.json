@@ -1,0 +1,7 @@
+{
+  "saved_evaluations_reassessed": 43,
+  "image_preprocessing": "Rendered-image clipping and uint8 quantization",
+  "digit_feature_sigma": 0.001,
+  "older_reports_preserved": true,
+  "guidance_assessment": "Independent held-out image classifiers; self-assessment is not the quality claim"
+}

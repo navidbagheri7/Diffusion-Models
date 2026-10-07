@@ -1,0 +1,8 @@
+{
+  "fokker_planck_relative_rms_residual": 0.0031379554696114036,
+  "continuity_relative_rms_residual": 0.0016860276182254455,
+  "spatial_dx": 0.06666666666666643,
+  "temporal_dt": 0.0001,
+  "time": 0.3,
+  "note": "Finite differences on a truncated domain; boundary cells excluded"
+}

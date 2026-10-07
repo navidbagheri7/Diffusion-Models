@@ -1,0 +1,18 @@
+{
+  "field_calls": 200,
+  "trace": "hutchinson",
+  "probe_count": 2,
+  "solver": "heun",
+  "mean_log_density_nats": 7195.07763671875,
+  "scope": "Continuous neural flow density at generation time 1; numerical change of variables",
+  "dequantization": "Uniform 8-bit bins, width 1/128 in [-1,1]",
+  "dequantized_density_bpd_estimate": 3.620995044708252,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_flow_quality/checkpoint_0100000.pt",
+  "samples": 8,
+  "seed": 123,
+  "dataset": "cifar10",
+  "conditional": true,
+  "is_exact_nll": false,
+  "checkpoint_sha256": "2b1f53c88c97ed76cc4a61d00de807b319623d1e593dba2f53313f7d91ed9b42",
+  "training_steps": 100000
+}

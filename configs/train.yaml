@@ -1,0 +1,39 @@
+defaults:
+  - data: gmm
+  - model: mlp
+  - process: ddpm
+  - sampler: ddim
+  - _self_
+  - experiment: null
+
+seed: 42
+device: cuda:0
+cpu_threads: 4
+workers: 2
+run_dir: outputs/${data.name}_${process.kind}_${process.prediction}_${seed}
+steps: 6000
+batch_size: 256
+lr: 0.0003
+weight_decay: 0.00001
+grad_clip: 1.0
+ema_decay: 0.995
+amp: false
+conditional: false
+label_dropout: 0.15
+classifier_steps: 0
+log_every: 200
+validate_every: 1000
+validation_samples: 1024
+evaluation_samples: 1024
+image_metrics: true
+metric_batch_size: 32
+resume: null
+reflow_checkpoint: null
+hydra:
+  job:
+    chdir: false
+  run:
+    dir: ${run_dir}/hydra
+  sweep:
+    dir: multirun/${now:%Y-%m-%d_%H-%M-%S}
+    subdir: ${hydra.job.num}

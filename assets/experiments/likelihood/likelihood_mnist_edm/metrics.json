@@ -1,0 +1,18 @@
+{
+  "field_calls": 200,
+  "trace": "hutchinson",
+  "probe_count": 4,
+  "solver": "heun",
+  "mean_log_density_nats": 4115.84033203125,
+  "scope": "EDM probability-flow density at positive sigma_min, with a Gaussian terminal base; excludes the sampler's final denoising map",
+  "dequantization": "Uniform 8-bit bins, width 1/128 in [-1,1]",
+  "dequantized_density_bpd_estimate": 1.2012672424316406,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_edm_quality/checkpoint_0020000.pt",
+  "samples": 16,
+  "seed": 123,
+  "dataset": "mnist",
+  "conditional": true,
+  "is_exact_nll": false,
+  "checkpoint_sha256": "2055d6ca2860cb8f3be57b4969aa4e18f963967cb2c2a1f49e27aa8d10640f2d",
+  "training_steps": 20000
+}

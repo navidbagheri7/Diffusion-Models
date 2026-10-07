@@ -1,0 +1,29 @@
+{
+  "inception_metrics": "disabled by argument",
+  "requested_class_accuracy": 0.0625,
+  "assessment_classifier_sha256": "03f743dc4412f5c1b33ac83a289fcfa3bf9da5c01cfd70dcd180695284b35446",
+  "assessment_classifier_sigma": 0.001,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_clip_teacher/checkpoint.pt",
+  "checkpoint_sha256": "b9d722b08ef8253d88baa74e3176ca4318ddc2b8b752d4a8b7c950742d3e3d48",
+  "training_steps": 27000,
+  "seed": 123,
+  "algorithm": "edm",
+  "sampler": "heun",
+  "steps": 18,
+  "nfe_per_image": 49,
+  "nfe_per_image_range": [
+    49,
+    49
+  ],
+  "network_calls_include_cfg": true,
+  "classifier_calls_per_image": 14,
+  "guidance_kind": "denoised_clip_heuristic",
+  "cfg_scale": 0,
+  "classifier_scale": 1.0,
+  "class_label": 0,
+  "generated_count": 32,
+  "reference_split": "validation",
+  "sampling_seconds": 18.550231985747814,
+  "precision": "bfloat16",
+  "batch_size": 4
+}

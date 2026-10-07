@@ -1,0 +1,6 @@
+{
+  "command": "python -m diffusion_lab.lessons --seed 7 --output assets/teaching/gaussian_diffusion",
+  "seed": 7,
+  "fields": "analytic GMM; no trained networks",
+  "torch": "2.7.1+cu128"
+}

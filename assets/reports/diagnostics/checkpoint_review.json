@@ -1,0 +1,299 @@
+{
+  "results": [
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/celeba128_latent_dit_quality/checkpoint_0030000.pt",
+      "sha256": "21a0d5505d5de2dea3bbcb6554a125e38290de083f694a1e1a27326fc00b4403",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/celeba128_latent_dit_quality/checkpoint.pt",
+      "sha256": "30492554e1df232cbbf3a82a790ca9c774241a55ea056ed02c0857e61864b773",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/celeba128_latent_unet_quality/checkpoint_0020000.pt",
+      "sha256": "774b417968e317da5c2766c04de7eb6f1de06661c716567f43a4370b8a1d9cfa",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/celeba128_latent_unet_quality/checkpoint.pt",
+      "sha256": "01ff0fae651504173c67f7e3a2319051253c8f0665e91ef2a7b1027ec45b4a08",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/celeba_flow_eval_teacher/checkpoint.pt",
+      "sha256": "c0c0d3c6f5783a670708326398d66786e8713e5c956a3447841293d0fddc8383",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/celeba_flow_quality/checkpoint.pt",
+      "sha256": "60703d284bc3e0d296bcc1c4ab7a304981989a8089cc889c15336bcbff1823b1",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_consistency_distilled/checkpoint.pt",
+      "sha256": "a70a8c027fbab39f8f36c5908d5a2a8e0b4a91f4858017e4e958292e1a05930f",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_edm_quality/checkpoint_0015000.pt",
+      "sha256": "76432949af18567bff3b6313a5fc655667d3ed814c99cf055c1c8e23eb1654c3",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_clip_teacher/checkpoint.pt",
+      "sha256": "b9d722b08ef8253d88baa74e3176ca4318ddc2b8b752d4a8b7c950742d3e3d48",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_dit_quality/checkpoint_0030000.pt",
+      "sha256": "a36ce9e908dcfb15c34019443a17625086d6dbb48dd70b4ef78655da9d650bd6",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_dit_quality/checkpoint.pt",
+      "sha256": "cf113f507d81bc904234982686c34fbd744bef4fb5d848c9776180824867940b",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_edm_quality/checkpoint.pt",
+      "sha256": "e5a2c93e3be9f39224869d7731df9f43603cf8827d544c8c84b12d2c7f51c32d",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_flow_quality/checkpoint.pt",
+      "sha256": "2b1f53c88c97ed76cc4a61d00de807b319623d1e593dba2f53313f7d91ed9b42",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_stochastic_interpolant/checkpoint.pt",
+      "sha256": "15e8bf2f074f2a388b4d2adbb817b38c99b415c0ba04bcd80625373137050f35",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_ddpm_x0/checkpoint.pt",
+      "sha256": "ff0f020a98186e8bdbe8a781eae50a11f8207bba76a3b5057f8067942e81e234",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_linear_epsilon/checkpoint.pt",
+      "sha256": "bc6d26a966efd4c0b6ba586a16eea2057f6d0b053876904c1b1a1de126e5441a",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_flow/checkpoint.pt",
+      "sha256": "bf9dd585348cb1ab55db84e2ce3131144ebe507fab020ff7d27ad48c19ce1346",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_edm_quality/checkpoint_0020000.pt",
+      "sha256": "2055d6ca2860cb8f3be57b4969aa4e18f963967cb2c2a1f49e27aa8d10640f2d",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_improved_ddpm/checkpoint_0020000.pt",
+      "sha256": "615334d526a8397f64b0ef529136b49e3f567cf36397cc8452e865e6c5b7e7d2",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_consistency_distilled/checkpoint.pt",
+      "sha256": "506b755d3537b7d35404e9e47815b511e4ee02cd80bab34665f7726504a7dcbe",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_consistency_training/checkpoint.pt",
+      "sha256": "4bad46528791db5782c2604493889c45a5d1ee8cff59b20fe9d724335e9c01b8",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_ict_quality/checkpoint.pt",
+      "sha256": "6fd50deb7f6bae6b5c1780e20217cfbe3910cc546493981ef92e464ae56e262f",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_ict_corrected_quality/checkpoint.pt",
+      "sha256": "34c6ad2bba04baa1aab34837243bb20b222532fbe278518b95d6373652115050",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_ict_corrected_quality/checkpoint_0005000.pt",
+      "sha256": "d9db931408ac2424f354792766fe4f5be43edb0e3497c3f40e077aaf8af7d764",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_ict_smooth_quality/checkpoint.pt",
+      "sha256": "af06df47938c1dbf72dbe59a9a87e8e717caa883cc2e8de2f41f9b7abbb0c155",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_progressive/stage_16/checkpoint.pt",
+      "sha256": "b18a906990574bda1d3aed2b6918392c11fea7d635c7707fa45fbb43dfb2c572",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_progressive/stage_1/checkpoint.pt",
+      "sha256": "e00236749d8f4ef7040fac814efba44549f7298e8399424cd1b2b42aca5e6a1f",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_progressive/stage_2/checkpoint.pt",
+      "sha256": "80a25e3301d4baabff37321fe7615da4a348a52d5769c67e12208b0be29ae8ca",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_progressive/stage_4/checkpoint.pt",
+      "sha256": "65171b4815da626c0bcaeb365de10e51b90a09444f24fb715481c42358bb6ef8",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_progressive/stage_8/checkpoint.pt",
+      "sha256": "8c7788af18ca8c173e17dc16771fa3eeaefdc9f4d9c0b79a4f80362bf89dc262",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/two_spirals_stochastic_interpolant/checkpoint.pt",
+      "sha256": "2432bf772371bd12b38cf8cb7a630d3137e2aa0289cff0b75c3dacd24c0ac128",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/wavy_rings_stochastic_interpolant/checkpoint.pt",
+      "sha256": "440687a6d20f388a4c78ae3b16c1439cd34c12e9f4067cde3cc4ab97bf93e96b",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_ddpm_seed42/checkpoint.pt",
+      "sha256": "7e4429c0db33685a1b5151466ee594f6b12cb355210c07f74f708156ed2ca2d0",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_ddpm_seed43/checkpoint.pt",
+      "sha256": "3301222090ccacd42d71bcb0dac7276403f1da50fed1d6c402765fe37536a556",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_ddpm_seed44/checkpoint.pt",
+      "sha256": "eb045537a31c8e345b80eff3380e221aa2c095ad7d2b950d15d4386222c73c8c",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_flow_seed42/checkpoint.pt",
+      "sha256": "c13a497f5d5031df186dabac982124ee38010dc555ee179b2b765be369d4433d",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_flow_seed43/checkpoint.pt",
+      "sha256": "27e0a293f28a1fbe2ac4c77e7078f9a37000c4eca5f4c8f541d5e736807c6a61",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_flow_seed44/checkpoint.pt",
+      "sha256": "afe810ad80426021fa3f692e1425733c7d54808e6f549f57e86fa5f495013c5f",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/coco2017_sd2_lora/checkpoint.pt",
+      "sha256": "1302b983832ac686463bd7aeea080a4143b631fe6d50ec16d24896400f748ebe",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/edm_seed42/checkpoint.pt",
+      "sha256": "fdaea51150e33eab73092618e8588812578f634dd9fd0e0a2471b8a5319522db",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/edm_seed43/checkpoint.pt",
+      "sha256": "38491f95780e141a74107e9ba5c3d9843e3d1a200958c31160324561d15d6afe",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/edm_seed44/checkpoint.pt",
+      "sha256": "8099b17f028bd10b753eaeee9870297aa13c2aaac042ce68357702810faa1f08",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/flow_seed42/checkpoint.pt",
+      "sha256": "3a2ec23ec4fdb7add10a625fadb84c8e2f1d2edd26be5a25c9d37ab355fa42b2",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/flow_seed43/checkpoint.pt",
+      "sha256": "f134ef8410a172c5eda939bf6495bf623092007dcdf229e826068dc263826a7e",
+      "matches": true
+    },
+    {
+      "kind": "generator",
+      "path": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/flow_seed44/checkpoint.pt",
+      "sha256": "8fa1ab4eda8bbbf5c132e13143de68fcac00e294c26c54a183f1b1df3ef05948",
+      "matches": true
+    },
+    {
+      "kind": "classifier",
+      "path": "outputs/cifar10_assessment_classifier/classifier.pt",
+      "sha256": "03f743dc4412f5c1b33ac83a289fcfa3bf9da5c01cfd70dcd180695284b35446",
+      "matches": true
+    },
+    {
+      "kind": "classifier",
+      "path": "outputs/cifar10_classifier/classifier.pt",
+      "sha256": "18702601acf9b0fbd832a3d75bb6b1270ef877a533d559305c66d877aa535929",
+      "matches": true
+    },
+    {
+      "kind": "classifier",
+      "path": "outputs/mnist_assessment_classifier/classifier.pt",
+      "sha256": "4466f5260714a2728c259090ec2cc1c10b28f182eb6b04557393d9c4265265fb",
+      "matches": true
+    },
+    {
+      "kind": "classifier",
+      "path": "outputs/mnist_classifier/classifier.pt",
+      "sha256": "7a54d9faca9819106ed5990476895e6ab8b404eca8d8f65e1b7ef9469427f649",
+      "matches": true
+    }
+  ],
+  "scope": "Current on-disk checkpoint hashes against the public evaluation manifest; no sample-quality claim."
+}

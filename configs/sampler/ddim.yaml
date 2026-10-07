@@ -1,0 +1,4 @@
+method: ddim
+steps: 100
+eta: 0.0
+clip_x0: false

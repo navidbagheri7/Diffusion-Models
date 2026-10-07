@@ -1,0 +1,266 @@
+{
+  "checkpoint": "outputs/mnist_improved_ddpm/checkpoint.pt",
+  "checkpoint_sha256": "615334d526a8397f64b0ef529136b49e3f567cf36397cc8452e865e6c5b7e7d2",
+  "training_steps": 20000,
+  "images": 64,
+  "seed": 123,
+  "rows": [
+    {
+      "t": 0.0020000000949949026,
+      "posterior_variance": 2.1797026420244947e-05,
+      "beta": 4.614175486494787e-05,
+      "predicted_variance_p10": 2.2398015062208287e-05,
+      "predicted_variance_median": 2.3816861357772723e-05,
+      "predicted_variance_p90": 4.113410977879539e-05
+    },
+    {
+      "t": 0.03400000184774399,
+      "posterior_variance": 0.00019197606889065355,
+      "beta": 0.00020181758736725897,
+      "predicted_variance_p10": 0.0001910329592647031,
+      "predicted_variance_median": 0.00019180479284841567,
+      "predicted_variance_p90": 0.00019635162607301027
+    },
+    {
+      "t": 0.06599999964237213,
+      "posterior_variance": 0.00034878269070759416,
+      "beta": 0.00035847866092808545,
+      "predicted_variance_p10": 0.000348374480381608,
+      "predicted_variance_median": 0.00034917009179480374,
+      "predicted_variance_p90": 0.0003524988132994622
+    },
+    {
+      "t": 0.0989999994635582,
+      "posterior_variance": 0.0005122380098327994,
+      "beta": 0.0005219129961915314,
+      "predicted_variance_p10": 0.0005122272414155304,
+      "predicted_variance_median": 0.0005130424979142845,
+      "predicted_variance_p90": 0.0005158017738722265
+    },
+    {
+      "t": 0.13099999725818634,
+      "posterior_variance": 0.0006733999471180141,
+      "beta": 0.0006830742349848151,
+      "predicted_variance_p10": 0.0006737028015777469,
+      "predicted_variance_median": 0.0006745305145159364,
+      "predicted_variance_p90": 0.000676847412250936
+    },
+    {
+      "t": 0.16300000250339508,
+      "posterior_variance": 0.0008380989311262965,
+      "beta": 0.0008477743831463158,
+      "predicted_variance_p10": 0.0008386865956708789,
+      "predicted_variance_median": 0.0008395368349738419,
+      "predicted_variance_p90": 0.0008415617048740387
+    },
+    {
+      "t": 0.19499999284744263,
+      "posterior_variance": 0.0010073034791275859,
+      "beta": 0.0010169815504923463,
+      "predicted_variance_p10": 0.0010081405052915215,
+      "predicted_variance_median": 0.001009010011330247,
+      "predicted_variance_p90": 0.00101083901245147
+    },
+    {
+      "t": 0.22699999809265137,
+      "posterior_variance": 0.0011820842046290636,
+      "beta": 0.0011917639058083296,
+      "predicted_variance_p10": 0.0011831313604488969,
+      "predicted_variance_median": 0.0011840197257697582,
+      "predicted_variance_p90": 0.0011857141507789493
+    },
+    {
+      "t": 0.25999999046325684,
+      "posterior_variance": 0.0013694342924281955,
+      "beta": 0.001379116321913898,
+      "predicted_variance_p10": 0.0013707232428714633,
+      "predicted_variance_median": 0.0013716203393414617,
+      "predicted_variance_p90": 0.0013731522485613823
+    },
+    {
+      "t": 0.2919999957084656,
+      "posterior_variance": 0.001559401280246675,
+      "beta": 0.0015690844738855958,
+      "predicted_variance_p10": 0.0015609108377248049,
+      "predicted_variance_median": 0.001561837736517191,
+      "predicted_variance_p90": 0.001563298050314188
+    },
+    {
+      "t": 0.3240000009536743,
+      "posterior_variance": 0.0017591306241229177,
+      "beta": 0.0017688145162537694,
+      "predicted_variance_p10": 0.0017607670743018389,
+      "predicted_variance_median": 0.0017617244739085436,
+      "predicted_variance_p90": 0.0017631363589316607
+    },
+    {
+      "t": 0.35600000619888306,
+      "posterior_variance": 0.001970471115782857,
+      "beta": 0.0019801566377282143,
+      "predicted_variance_p10": 0.0019722760189324617,
+      "predicted_variance_median": 0.001973256003111601,
+      "predicted_variance_p90": 0.001974634127691388
+    },
+    {
+      "t": 0.3880000114440918,
+      "posterior_variance": 0.0021956181153655052,
+      "beta": 0.002205303870141506,
+      "predicted_variance_p10": 0.002197581110522151,
+      "predicted_variance_median": 0.0021985850762575865,
+      "predicted_variance_p90": 0.002199897076934576
+    },
+    {
+      "t": 0.42100000381469727,
+      "posterior_variance": 0.0024450598284602165,
+      "beta": 0.002454746514558792,
+      "predicted_variance_p10": 0.002447118517011404,
+      "predicted_variance_median": 0.0024481455329805613,
+      "predicted_variance_p90": 0.0024494370445609093
+    },
+    {
+      "t": 0.453000009059906,
+      "posterior_variance": 0.0027069933712482452,
+      "beta": 0.002716680057346821,
+      "predicted_variance_p10": 0.002709178254008293,
+      "predicted_variance_median": 0.0027102287858724594,
+      "predicted_variance_p90": 0.0027114825788885355
+    },
+    {
+      "t": 0.48500001430511475,
+      "posterior_variance": 0.0029927073046565056,
+      "beta": 0.003002393990755081,
+      "predicted_variance_p10": 0.0029950186144560575,
+      "predicted_variance_median": 0.002996091265231371,
+      "predicted_variance_p90": 0.002997317351400852
+    },
+    {
+      "t": 0.5170000195503235,
+      "posterior_variance": 0.003307233564555645,
+      "beta": 0.0033169195521622896,
+      "predicted_variance_p10": 0.0033096615225076675,
+      "predicted_variance_median": 0.003310747444629669,
+      "predicted_variance_p90": 0.003311949083581567
+    },
+    {
+      "t": 0.5490000247955322,
+      "posterior_variance": 0.0036569912917912006,
+      "beta": 0.0036666770465672016,
+      "predicted_variance_p10": 0.003659377573058009,
+      "predicted_variance_median": 0.0036605328787118196,
+      "predicted_variance_p90": 0.0036617654841393232
+    },
+    {
+      "t": 0.5809999704360962,
+      "posterior_variance": 0.004050322342664003,
+      "beta": 0.004060008097440004,
+      "predicted_variance_p10": 0.004052816424518824,
+      "predicted_variance_median": 0.004053989890962839,
+      "predicted_variance_p90": 0.004055192228406668
+    },
+    {
+      "t": 0.6140000224113464,
+      "posterior_variance": 0.004513314459472895,
+      "beta": 0.004522996488958597,
+      "predicted_variance_p10": 0.004515882581472397,
+      "predicted_variance_median": 0.004517058841884136,
+      "predicted_variance_p90": 0.004518236964941025
+    },
+    {
+      "t": 0.6460000276565552,
+      "posterior_variance": 0.005033374764025211,
+      "beta": 0.0050430563278496265,
+      "predicted_variance_p10": 0.005035979673266411,
+      "predicted_variance_median": 0.005037199705839157,
+      "predicted_variance_p90": 0.005038348026573658
+    },
+    {
+      "t": 0.6779999732971191,
+      "posterior_variance": 0.005644716322422028,
+      "beta": 0.005654395557940006,
+      "predicted_variance_p10": 0.005647392477840185,
+      "predicted_variance_median": 0.005648620426654816,
+      "predicted_variance_p90": 0.005649741273373365
+    },
+    {
+      "t": 0.7099999785423279,
+      "posterior_variance": 0.006377671845257282,
+      "beta": 0.006387350149452686,
+      "predicted_variance_p10": 0.0063804094679653645,
+      "predicted_variance_median": 0.006381687708199024,
+      "predicted_variance_p90": 0.006382786203175783
+    },
+    {
+      "t": 0.7419999837875366,
+      "posterior_variance": 0.007277506869286299,
+      "beta": 0.007287180982530117,
+      "predicted_variance_p10": 0.007280255667865276,
+      "predicted_variance_median": 0.007281550671905279,
+      "predicted_variance_p90": 0.007282640784978867
+    },
+    {
+      "t": 0.7749999761581421,
+      "posterior_variance": 0.008455386385321617,
+      "beta": 0.008465052582323551,
+      "predicted_variance_p10": 0.008458229713141918,
+      "predicted_variance_median": 0.00845951959490776,
+      "predicted_variance_p90": 0.008460569195449352
+    },
+    {
+      "t": 0.8069999814033508,
+      "posterior_variance": 0.009961060248315334,
+      "beta": 0.009970721788704395,
+      "predicted_variance_p10": 0.00996393896639347,
+      "predicted_variance_median": 0.00996526051312685,
+      "predicted_variance_p90": 0.009966305457055569
+    },
+    {
+      "t": 0.8389999866485596,
+      "posterior_variance": 0.01203855313360691,
+      "beta": 0.0120482062920928,
+      "predicted_variance_p10": 0.01204148679971695,
+      "predicted_variance_median": 0.01204281859099865,
+      "predicted_variance_p90": 0.012043864466249943
+    },
+    {
+      "t": 0.8709999918937683,
+      "posterior_variance": 0.01510878186672926,
+      "beta": 0.015118424780666828,
+      "predicted_variance_p10": 0.015111829154193401,
+      "predicted_variance_median": 0.015113147906959057,
+      "predicted_variance_p90": 0.015114186331629753
+    },
+    {
+      "t": 0.902999997138977,
+      "posterior_variance": 0.020139534026384354,
+      "beta": 0.020149149000644684,
+      "predicted_variance_p10": 0.020142553374171257,
+      "predicted_variance_median": 0.020143860951066017,
+      "predicted_variance_p90": 0.020144889131188393
+    },
+    {
+      "t": 0.9359999895095825,
+      "posterior_variance": 0.030421674251556396,
+      "beta": 0.030431242659687996,
+      "predicted_variance_p10": 0.030424706637859344,
+      "predicted_variance_median": 0.030426025390625,
+      "predicted_variance_p90": 0.03042704239487648
+    },
+    {
+      "t": 0.9679999947547913,
+      "posterior_variance": 0.059628888964653015,
+      "beta": 0.05963829904794693,
+      "predicted_variance_p10": 0.05963202938437462,
+      "predicted_variance_median": 0.059633295983076096,
+      "predicted_variance_p90": 0.0596342608332634
+    },
+    {
+      "t": 1.0,
+      "posterior_variance": 0.9989975690841675,
+      "beta": 0.9990000128746033,
+      "predicted_variance_p10": 0.9989984035491943,
+      "predicted_variance_median": 0.9989987015724182,
+      "predicted_variance_p90": 0.9989989995956421
+    }
+  ],
+  "interpretation": "Learned-range outputs are not clamped; individual variances may lie outside interpolation bounds. Quantiles do not establish calibration."
+}

@@ -1,0 +1,31 @@
+{
+  "slurm_templates_syntax": "passed",
+  "caption_lora_cuda_smoke": {
+    "steps": 3,
+    "output": "outputs/smoke_text_lora",
+    "scope": "Historical smoke captured a partial base-file identity; source weights/projection updates were checked, not used as final-quality results."
+  },
+  "text_ddp": {
+    "steps": 2,
+    "world_size": 2,
+    "updated_B_projections": 128,
+    "output": "outputs/smoke_text_lora_ddp",
+    "scope": "Two-GPU accumulation/collective/checkpoint integration; historical partial base identity."
+  },
+  "full_identity_cpu": {
+    "steps": 6,
+    "fully_hashed_files": 12,
+    "output": "outputs/smoke_text_cpu_resume_full_identity"
+  },
+  "resume": "assets/reports/diagnostics/text_resume.json",
+  "installed_wheel_generation": "/tmp/diffusion_installed_v040_text_smoke/metrics.json",
+  "scope": "Integration and state handling, not image-quality evidence.",
+  "installed_wheel_generation_checks": {
+    "samples": 1,
+    "native_ddim_steps": 2,
+    "nfe": 2,
+    "full_base_identity_verified": true,
+    "independent_clip_std_finite_for_one_image": true,
+    "scope": "64px CPU integration; not a quality result"
+  }
+}

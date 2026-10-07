@@ -1,0 +1,4 @@
+method: sde
+steps: 1000
+ode_solver: heun
+sde_solver: euler_maruyama

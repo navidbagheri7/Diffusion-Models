@@ -1,0 +1,22 @@
+{
+  "ode": {
+    "mmd_squared_unbiased": 0.0008758604526519775,
+    "sliced_w2": 0.25483575463294983,
+    "empirical_w2_subsample": 0.7378723837741153,
+    "wasserstein_sample_count": 512,
+    "mean_target_negative_log_density": 2.137814998626709,
+    "mode_coverage_3sigma": 1.0,
+    "fraction_within_3sigma": 0.990234375,
+    "mode_total_variation_with_outlier_bin": 0.03515625
+  },
+  "sde": {
+    "mmd_squared_unbiased": -6.556510925292969e-05,
+    "sliced_w2": 0.1685783863067627,
+    "empirical_w2_subsample": 0.425251497505222,
+    "wasserstein_sample_count": 512,
+    "mean_target_negative_log_density": 2.1271767616271973,
+    "mode_coverage_3sigma": 1.0,
+    "fraction_within_3sigma": 0.98828125,
+    "mode_total_variation_with_outlier_bin": 0.033203125
+  }
+}

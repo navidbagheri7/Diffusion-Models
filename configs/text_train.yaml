@@ -1,0 +1,43 @@
+defaults:
+  - _self_
+data_root: ${oc.env:IMAGE_DATA_ROOT,/data/tii/Image_data}/coco2017
+train_manifest: null
+base_model: ${oc.env:TEXT_BASE_MODEL,/data/tii/sd2_base_local}
+# lora adapts a pretrained denoiser; compact trains our denoiser from scratch.
+mode: lora
+resolution: 512
+train_limit: 0
+width: 64
+channel_mult: [1, 2, 3]
+blocks_per_level: 2
+time_embedding: fourier
+time_scale: 1.0
+rank: 8
+lora_alpha: 8
+seed: 42
+device: cuda:1
+steps: 3000
+batch_size: 2
+accumulation: 4
+workers: 4
+cpu_threads: 4
+lr: 0.0001
+warmup_steps: 200
+weight_decay: 0.01
+grad_clip: 1.0
+ema_decay: 0.999
+ema_warmup: false
+caption_dropout: 0.1
+min_snr_gamma: 5.0
+amp: true
+gradient_checkpointing: false
+save_every: 250
+log_every: 25
+milestone_every: 1000
+resume: null
+run_dir: outputs/coco2017_sd2_lora
+hydra:
+  job:
+    chdir: false
+  run:
+    dir: ${run_dir}/hydra

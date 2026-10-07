@@ -1,0 +1,17 @@
+{
+  "gmm_flow": {
+    "mean_excess_length": 0.24724259972572327,
+    "mean_length_ratio": 1.170184850692749,
+    "normalized_velocity_variation": 0.6313534379005432
+  },
+  "gmm_flow_ot": {
+    "mean_excess_length": 0.0025448433589190245,
+    "mean_length_ratio": 1.0017378330230713,
+    "normalized_velocity_variation": 0.005128220655024052
+  },
+  "gmm_reflow": {
+    "mean_excess_length": 0.00020189303904771805,
+    "mean_length_ratio": 1.0001317262649536,
+    "normalized_velocity_variation": 0.0003000851138494909
+  }
+}

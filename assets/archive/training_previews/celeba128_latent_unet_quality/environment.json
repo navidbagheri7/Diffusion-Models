@@ -1,0 +1,12 @@
+{
+  "torch": "2.7.1+cu128",
+  "device": "cuda:1",
+  "gpu": "NVIDIA L40S",
+  "world_size": 1,
+  "parameters": 16678768,
+  "train_count": 28000,
+  "validation_count": 2000,
+  "class_names": [],
+  "representation": "whitened autoencoder posterior",
+  "latent_manifest_sha256": "5afc782f1e13be9df714c9c71ac26641536388363dd4d456bac83f733ec63dd0"
+}

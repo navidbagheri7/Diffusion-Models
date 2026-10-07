@@ -1,0 +1,557 @@
+{
+  "date": "2026-10-06",
+  "toolkit_version": "0.4.0",
+  "pytest": {
+    "tests": 124,
+    "failures": 0,
+    "errors": 0,
+    "skipped": 0,
+    "seconds": 7.43
+  },
+  "python": "3.10.20",
+  "dependencies": {
+    "torch": "2.7.1+cu128",
+    "torchvision": "0.22.1+cu128",
+    "numpy": "1.26.4",
+    "scipy": "1.15.3",
+    "hydra-core": "1.3.2",
+    "omegaconf": "2.3.0",
+    "matplotlib": "3.10.9",
+    "Pillow": "12.2.0",
+    "pytest": "7.2.0",
+    "torchmetrics": "1.6.1",
+    "torch-fidelity": "0.4.0",
+    "transformers": "4.53.0",
+    "diffusers": "0.36.0",
+    "safetensors": "0.8.0"
+  },
+  "ruff": "0.16.10",
+  "lint": {
+    "ruff_check": "passed",
+    "ruff_format_check": "passed",
+    "slurm_bash_syntax": "passed",
+    "slurm_scripts": 9
+  },
+  "local_documentation_targets_checked": 1683,
+  "notebooks": {
+    "count": 10,
+    "executed_code_cells": 69,
+    "all_passed": true,
+    "evidence": "assets/reports/diagnostics/notebook_validation.json",
+    "extended_evidence": "assets/reports/diagnostics/notebook_course_review.json",
+    "scope": "CPU defaults and public-file-only copy; separate headless widgets and optional local GPU codec checks. No image-scale retraining."
+  },
+  "wheel_installation": {
+    "version": "0.4.0",
+    "installed_package": "/tmp/diffusion_installed_release_review/diffusion_lab",
+    "sha256": "0174d1d8bf295b710bebf75d265ff98cb25b222b70ef6d198fed218b00fcff9c",
+    "source_distribution_sha256": "d0a9c9381be33162c8179d3b24212e8d1ec8593601cfe7130a029cdbe383db36",
+    "source_modules_equal": 45,
+    "bundled_hydra_configurations": 50,
+    "configurations_composed": [
+      "train",
+      "image_train",
+      "text_train",
+      "text_compact",
+      "image_dit",
+      "image_latent_dit"
+    ],
+    "legacy_files_bundled": 0,
+    "synthetic_local_config_weights_and_env_excluded_from_wheel_and_sdist": true,
+    "installed_text_attention_forward_backward": "passed",
+    "previous_wheel_audit": {
+      "version": "0.4.0",
+      "installed_package": "/tmp/diffusion_installed_v040_final/diffusion_lab/__init__.py",
+      "sha256": "0ce9f1225d53158cefcf5185a79afbe7908e671a642fd8e942ae453ad188abff",
+      "source_modules_equal": 45,
+      "bundled_hydra_configurations": 50,
+      "configurations_composed": [
+        "train",
+        "image_train",
+        "text_train",
+        "text_compact"
+      ],
+      "legacy_files_bundled": 0,
+      "integration_python_source_identical_to_interim_installed_wheel": true,
+      "interim_text_generation_evidence": "/tmp/diffusion_installed_v040_text_smoke/metrics.json",
+      "scope": "Final package metadata/configuration/source audit; single-caption generation and independent CLIP executed from byte-identical Python code in the interim installed wheel."
+    },
+    "scope": "Historical source/package audit before the current scratch/refinement changes; rebuild required for current source."
+  },
+  "public_image_animation_artifacts_verified": 616,
+  "exported_experiments": 150,
+  "checkpoint_hashes_recorded": {
+    "generator_checkpoints": 50,
+    "classifier_checkpoints": 4,
+    "scope": "45 previously reviewed generator files plus explicitly verified pilot, final CIFAR and COCO milestone weight files."
+  },
+  "benchmark_data": {
+    "cifar10": {
+      "train": 50000,
+      "test": 10000,
+      "all_exported_pixels_verified": true
+    },
+    "mnist": {
+      "train": 60000,
+      "test": 10000,
+      "all_exported_pixels_verified": true
+    },
+    "coco2017": {
+      "train": {
+        "images": 118287,
+        "captions": 591753,
+        "all_images_decoded": true,
+        "manifest_sha256": "d5756ec6937b60cbca79ce0fda6ed7d60bcbe424f5683e0f02831512871caa88"
+      },
+      "val": {
+        "images": 5000,
+        "captions": 25014,
+        "all_images_decoded": true,
+        "manifest_sha256": "b04aa50ff24c0f9abd7cf871b0a0f6f4dca2364b66f7bf62ebb9da6503664a8b"
+      }
+    }
+  },
+  "coco_checksum_scope": "All extracted image/caption members passed ZIP CRC; every image decoded and matched annotation dimensions; local SHA-256 recorded. No upstream SHA-256 claim.",
+  "text_integration": {
+    "slurm_templates_syntax": "passed",
+    "caption_lora_cuda_smoke": {
+      "steps": 3,
+      "output": "outputs/smoke_text_lora",
+      "scope": "Historical smoke captured a partial base-file identity; source weights/projection updates were checked, not used as final-quality results."
+    },
+    "text_ddp": {
+      "steps": 2,
+      "world_size": 2,
+      "updated_B_projections": 128,
+      "output": "outputs/smoke_text_lora_ddp",
+      "scope": "Two-GPU accumulation/collective/checkpoint integration; historical partial base identity."
+    },
+    "full_identity_cpu": {
+      "steps": 6,
+      "fully_hashed_files": 12,
+      "output": "outputs/smoke_text_cpu_resume_full_identity"
+    },
+    "resume": "assets/reports/diagnostics/text_resume.json",
+    "installed_wheel_generation": "/tmp/diffusion_installed_v040_text_smoke/metrics.json",
+    "scope": "Integration and state handling, not image-quality evidence.",
+    "installed_wheel_generation_checks": {
+      "samples": 1,
+      "native_ddim_steps": 2,
+      "nfe": 2,
+      "full_base_identity_verified": true,
+      "independent_clip_std_finite_for_one_image": true,
+      "scope": "64px CPU integration; not a quality result"
+    }
+  },
+  "text_resume": {
+    "cpu": {
+      "steps": 6,
+      "model_bitwise_equal": false,
+      "model_max_absolute_difference": 2.0860170479863882e-08,
+      "ema_bitwise_equal": false,
+      "cpu_rng_equal": true,
+      "cuda_rng_equal": null,
+      "epoch_offset_equal": true,
+      "workers": 2,
+      "scope": "State restoration check. This execution does not establish a bitwise deterministic optimization guarantee."
+    },
+    "cuda": {
+      "steps": 3,
+      "model_bitwise_equal": false,
+      "model_max_absolute_difference": 0.00018611470295581967,
+      "ema_bitwise_equal": false,
+      "cpu_rng_equal": true,
+      "cuda_rng_equal": true,
+      "epoch_offset_equal": true,
+      "workers": 0,
+      "scope": "State restoration check. This execution does not establish a bitwise deterministic optimization guarantee."
+    }
+  },
+  "learning_integrity": "assets/reports/diagnostics/learning_integrity.json",
+  "completed_training": {
+    "gmm_models": 6,
+    "gmm_updates_each": 6000,
+    "mnist_models": 6,
+    "mnist_updates_each": 20000,
+    "text_optimizer_updates": 3000,
+    "text_image_caption_pairs": 24000,
+    "text_method": "Pretrained SD2 attention LoRA, frozen VAE and CLIP text encoder",
+    "text_evaluations": 8,
+    "text_generated_images": 1552
+  },
+  "results": "docs/26_learning_and_text_results.md",
+  "scientific_limits": [
+    "Matched final CIFAR CD/iCT comparisons show mixed results. One-call CD improves modestly; multi-call CD remains weak and iCT trails the best one-call CD.",
+    "Training-seed repetitions cover GMM and MNIST, not the earlier CIFAR/face headline models.",
+    "COCO adapter saw less than one epoch; full-budget compact text-U-Net scratch training is not claimed.",
+    "Text CLIP diagnostics do not establish counting, anatomy, spatial binding or perceptual fidelity; no text FID headline is reported.",
+    "External pretrained-model evaluation overlap is unknown.",
+    "Text resume restores RNG and data offset; optimization is not bitwise deterministic in the measured CPU/CUDA checks."
+  ],
+  "public_asset_review": "assets/reports/diagnostics/public_asset_review.json",
+  "publication_review": "assets/reports/diagnostics/publication_review.json",
+  "github_ci_execution": "not claimed; workflow supplied for publication",
+  "previous_release_validation": {
+    "date": "2026-10-05",
+    "toolkit_version": "0.3.0",
+    "pytest": {
+      "tests": 106,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 7.23
+    },
+    "python": "3.10.20",
+    "dependencies": {
+      "torch": "2.7.1+cu128",
+      "torchvision": "0.22.1+cu128",
+      "numpy": "1.26.4",
+      "scipy": "1.15.3",
+      "hydra-core": "1.3.2",
+      "omegaconf": "2.3.0",
+      "matplotlib": "3.10.9",
+      "Pillow": "12.2.0",
+      "pytest": "7.2.0",
+      "torchmetrics": "1.6.1",
+      "torch-fidelity": "0.4.0",
+      "transformers": "4.53.0",
+      "diffusers": "0.36.0",
+      "safetensors": "0.8.0"
+    },
+    "ruff": "0.16.9",
+    "ddp_smoke": {
+      "world_size": 3,
+      "optimizer_steps": 3,
+      "accumulation": 2,
+      "completed": true,
+      "evidence": "outputs/smoke_image_v2_final_ddp"
+    },
+    "cpu_resume": {
+      "cpu_weights_and_ema_bitwise_equal": true,
+      "uninterrupted_steps": 4,
+      "split_steps": [
+        2,
+        2
+      ],
+      "workers": 0,
+      "augmentation": "device horizontal flips with restored RNG",
+      "scope": "EDM constant-LR continuation; CUDA nondeterminism and worker timing are separate"
+    },
+    "local_documentation_targets_checked": 447,
+    "exported_experiments": 142,
+    "public_image_animation_artifacts_verified": 578,
+    "lint": {
+      "ruff_check": "passed",
+      "ruff_format_check": "passed",
+      "slurm_bash_syntax": "passed"
+    },
+    "wheel_installation": {
+      "package": "diffusion-flow-lab",
+      "version": "0.3.0",
+      "sha256": "2af36ee512fc0638df132acacb64c8553edba4fada9d62a7e33a754e7ada8c4c",
+      "installed_outside_source_tree": true,
+      "source_modules_equal": 41,
+      "bundled_hydra_configurations": 48,
+      "configuration_composition": "passed",
+      "legacy_files_bundled": 0,
+      "cpu_corrected_ict_training_smoke_steps": 2,
+      "corrected_ict_evidence": "/tmp/diffusion_wheel_check_v030_corrected/ict",
+      "pixel_dit_cpu_and_latent_dit_gpu_smoke_steps": 2,
+      "decoded_rgb_sampling_and_latent_interpolation": "passed",
+      "dit_latent_evidence": "/tmp/diffusion_wheel_check_v030_final",
+      "dit_latent_integration_wheel_sha256": "956d8def24895ff356fdf66df384ded089a8d424909910cf9ba9587365edc3a0",
+      "dit_latent_source_unchanged_since_integration": true,
+      "release_installation_path": "/tmp/diffusion_installed_v030_audited",
+      "custom_interpolant_schedule_and_bfloat16_regression": "passed outside checkout",
+      "local_wheel": "dist/diffusion_flow_lab-0.3.0-py3-none-any.whl",
+      "previous_release_wheel_sha256": "74b3af64b9805650ed8c7de8a68265d5125991fd0d8418f3e6f391e18742b0e0",
+      "cpu_likelihood_metadata_smoke": {
+        "samples": 4,
+        "integration_steps": 2,
+        "training_steps": 6000,
+        "evidence": "/tmp/diffusion_wheel_audit_likelihood",
+        "scope": "Installation and metadata check; not a density-accuracy benchmark"
+      },
+      "historical_integration_checks_scope": "Earlier corrected-iCT, image/latent training and DDP checks are retained with their original dates and evidence; current build rechecked source/config equality, configuration composition and CPU likelihood execution."
+    },
+    "benchmark_data": {
+      "cifar10": {
+        "train": 50000,
+        "test": 10000,
+        "all_exported_pixels_verified": true
+      },
+      "mnist": {
+        "train": 60000,
+        "test": 10000,
+        "all_exported_pixels_verified": true
+      }
+    },
+    "training_status": "Configured DiT, latent diffusion, CIFAR distillation and corrected iCT budgets and final evaluations completed. Individual scores and limitations remain in docs/21_extension_results.md; completion is not a sample-quality guarantee.",
+    "github_ci_execution": "not claimed; workflow supplied for publication",
+    "cpu_resume_persistent_workers_epoch_boundary": {
+      "cpu_weights_and_ema_bitwise_equal": true,
+      "uninterrupted_steps": 12,
+      "split_steps": [
+        8,
+        4
+      ],
+      "workers": 2,
+      "train_limit": 8,
+      "augmentation": "device horizontal flips with restored RNG",
+      "scope": "EDM constant-LR continuation; CUDA nondeterminism and worker timing are separate"
+    },
+    "cpu_resume_persistent_workers_mid_epoch": {
+      "cpu_weights_and_ema_bitwise_equal": true,
+      "uninterrupted_steps": 12,
+      "split_steps": [
+        6,
+        6
+      ],
+      "workers": 2,
+      "train_limit": 8,
+      "augmentation": "device horizontal flips with restored RNG",
+      "scope": "EDM constant-LR continuation; CUDA nondeterminism and worker timing are separate"
+    },
+    "metric_audit": {
+      "saved_evaluations_reassessed": 43,
+      "image_preprocessing": "Rendered-image clipping and uint8 quantization",
+      "digit_feature_sigma": 0.001,
+      "older_reports_preserved": true,
+      "guidance_assessment": "Independent held-out image classifiers; self-assessment is not the quality claim"
+    },
+    "review_fixes": [
+      "Conditional OT assignment preserves each original class noise marginal before CFG label dropout",
+      "Persistent-worker continuation preserves later-epoch shuffle permutations",
+      "Evaluation supports unconditional generators with a separately trained conditional classifier",
+      "Classifier and CLIP network-call metadata audited against actual model calls",
+      "Tail-stable float64 discrete likelihood decoder; evaluation clipping convention recorded",
+      "Rendered PNG pixels use the same rounded uint8 conversion as metric inputs",
+      "iCT online student runs before detached target to preserve autocast Conv/Linear gradients; two invalid runs retained as diagnostics",
+      "Train-only latent whitening includes posterior variance and pixel-flip variants; posterior noise uses checkpointed trainer RNG"
+    ],
+    "publication_review": "assets/reports/diagnostics/publication_review.json",
+    "verification_dates": {
+      "current_tests_lint_documentation_and_final_artifacts": "2026-10-05",
+      "ddp_resume_and_wheel_integration": "2026-10-02",
+      "new_extensions_tests_ddp_wheel": "2026-10-04",
+      "current_wheel_source_and_cpu_likelihood_smoke": "2026-10-05"
+    },
+    "earlier_release_validation": {
+      "toolkit_version": "0.2.0",
+      "pytest": {
+        "tests": 87,
+        "failures": 0,
+        "errors": 0,
+        "skipped": 0
+      },
+      "wheel_installation": {
+        "package": "diffusion-flow-lab",
+        "version": "0.2.0",
+        "sha256": "50af181fdd8560056b2ba2e25ba68c2fee66d09f02f4c92aadb2024312fe89d0",
+        "installed_outside_source_tree": true,
+        "bundled_hydra_configurations": 39,
+        "configuration_composition": "passed",
+        "cpu_training_smoke_steps": 2,
+        "sampling_and_interpolation_animation": "passed",
+        "legacy_files_bundled": 0,
+        "reviewed_python_modules_match_source": true,
+        "source_modules_equal": 32,
+        "unconditional_generator_classifier_guidance": "passed"
+      },
+      "local_documentation_targets_checked": 308,
+      "exported_experiments": 97,
+      "public_image_animation_artifacts_verified": 357
+    },
+    "dit_ddp_smoke": {
+      "world_size": 3,
+      "optimizer_steps": 2,
+      "completed": true,
+      "evidence": "outputs/smoke_dit_ddp"
+    },
+    "ict_corrected_ddp_smoke": {
+      "world_size": 3,
+      "optimizer_steps": 2,
+      "completed": true,
+      "bfloat16": true,
+      "output_convolution_updated": true,
+      "max_absolute_output_weight": 9.00814654869464e-07,
+      "evidence": "outputs/smoke_ict_corrected_ddp"
+    },
+    "new_extension_integrity": "assets/reports/diagnostics/extension_integrity.json",
+    "public_asset_review": "assets/reports/diagnostics/public_asset_review.json",
+    "new_image_training_complete": true,
+    "repository_audit": "assets/reports/diagnostics/repository_audit.json"
+  },
+  "publication_layout_review": {
+    "actual_git_ignore_file_set": "assets/reports/diagnostics/publication_files.json",
+    "checkpoint_review": "assets/reports/diagnostics/checkpoint_review.json",
+    "generator_hashes_verified": 45,
+    "classifier_hashes_verified": 4,
+    "historical_helpers_moved_to_ignored_local_directory": 4,
+    "git_ignore_fixture_and_tracked_file_detection": "passed",
+    "exporter_missing_outputs_and_append_preservation_fixture": "passed",
+    "local_configuration_and_weight_build_exclusion_fixture": "passed",
+    "all_supplied_presets_fully_trained": false,
+    "remaining_tasks": [
+      "Scratch COCO text-denoiser training",
+      "Stronger CIFAR consistency refinement",
+      "RGB headline training-seed repetitions",
+      "License selection",
+      "Public checkpoint hosting",
+      "GitHub publication"
+    ],
+    "clean_public_source_preview": "assets/reports/diagnostics/clean_publication_review.json",
+    "local_publication_bundle": "dist/diffusion-flow-lab-0.4.0-github-source.tar.gz",
+    "local_publication_bundle_scope": "Historical reviewed publication snapshot before these training-extension source changes."
+  },
+  "training_extension_checks": {
+    "date": "2026-10-05",
+    "tests": 120,
+    "failures": 0,
+    "seconds": 7.45,
+    "ruff_version": "0.16.10",
+    "ruff_check": "passed",
+    "docs_targets": 651,
+    "publication_files": 1473,
+    "publication_status": "passed",
+    "cd_target_resume_report": "assets/reports/diagnostics/cd_target_resume.json",
+    "training_status": "Configured training and evaluations completed; post-export final checks passed. Final visual review records an unmet showcase-quality goal.",
+    "package_scope": "Existing dist archives cover the previous reviewed source, not this extension.",
+    "notebooks": "All seven CPU notebooks re-executed successfully.",
+    "asset_decoding": "620 PNG/GIF artifacts, 6222 frames decoded.",
+    "quality_review": "assets/studies/scratch_refinement/quality_review.json",
+    "quality_goal_met": false
+  },
+  "previous_publication_check_summary": {
+    "pytest": {
+      "tests": 116,
+      "failures": 0,
+      "errors": 0,
+      "skipped": 0,
+      "seconds": 6.88
+    },
+    "ruff": "0.16.9",
+    "documentation_targets": 635,
+    "scope": "Before the scratch/refinement training extension."
+  },
+  "completed_training_extension": {
+    "status": "completed_evaluations",
+    "finished": 1791252012.3799188,
+    "text_evaluations": [
+      "outputs/completion_studies/text_step0100000_validation_cfg1",
+      "outputs/completion_studies/text_step0100000_validation_cfg3",
+      "outputs/completion_studies/text_step0100000_validation_cfg5",
+      "outputs/completion_studies/text_step0100000_validation_cfg7.5",
+      "outputs/completion_studies/text_step0100000_prompts",
+      "outputs/completion_studies/text_step0100000_denoising",
+      "outputs/completion_studies/text_final_heldout"
+    ],
+    "consistency_comparisons": [
+      "outputs/completion_studies/cd_vs_old",
+      "outputs/completion_studies/ict_vs_cd"
+    ],
+    "scope": "Configured budgets and measured quality; not a guarantee of publication readiness or paper-level fidelity.",
+    "final_checks": {
+      "status": "passed",
+      "tests": 120,
+      "seconds": 10.29,
+      "documentation_targets_before_final_review": 663,
+      "publication_files_before_final_review": 1622,
+      "log": "outputs/completion_studies/final_checks/execution.log"
+    },
+    "final_quality_review": "assets/studies/scratch_refinement/quality_review.json",
+    "quality_goal_met": false
+  },
+  "notebook_course_revision": "2026-10-06",
+  "notebook_course_publication_audit": {
+    "passed": true,
+    "candidate_public_files": 1655,
+    "candidate_source_assets_mib": 361.94592475891113,
+    "maximum_file_mib_policy": 20,
+    "largest_files": [
+      {
+        "file": "assets/experiments/text/coco_text_cfg0/samples.png",
+        "mib": 4.072701454162598
+      },
+      {
+        "file": "assets/experiments/faces/celeba_flow_quality_progress/generation.gif",
+        "mib": 4.002047538757324
+      },
+      {
+        "file": "assets/experiments/faces/celeba_flow_balanced_progress/generation.gif",
+        "mib": 3.9919071197509766
+      },
+      {
+        "file": "assets/experiments/faces/celeba_flow_final/generation.gif",
+        "mib": 3.9740028381347656
+      },
+      {
+        "file": "assets/experiments/text/coco_text_lora_pairs/samples.png",
+        "mib": 3.904541015625
+      },
+      {
+        "file": "assets/experiments/text/coco_text_base_pairs/samples.png",
+        "mib": 3.8357486724853516
+      },
+      {
+        "file": "assets/experiments/text/coco_text_cfg1/samples.png",
+        "mib": 3.8350296020507812
+      },
+      {
+        "file": "assets/studies/text_gallery/prompt_contrasts.png",
+        "mib": 3.6142578125
+      },
+      {
+        "file": "assets/experiments/text/coco_text_cfg3/samples.png",
+        "mib": 3.5909652709960938
+      },
+      {
+        "file": "assets/experiments/text/coco_text_lora/samples.png",
+        "mib": 3.5096960067749023
+      }
+    ],
+    "ignore_probes": {
+      "outputs/run/config.yaml": true,
+      "multirun/run/.hydra/config.yaml": true,
+      ".local/session_scripts/finish_image_runs.py": true,
+      "configs/local/private.yaml": true,
+      "legacy/src/unet.py": true,
+      "data/example.jpg": true,
+      "datasets/coco2017/train.jsonl": true,
+      "checkpoints/weights.safetensors": true,
+      "model.pt": true,
+      "optimizer.pth": true,
+      "model.ckpt": true,
+      "pytorch_model.bin": true,
+      "samples.npy": true,
+      "posterior.npz": true,
+      "train.zip": true,
+      ".cache/hub/model.json": true,
+      ".env": true,
+      ".env.local": true,
+      "private.pem": true,
+      "process.log": true,
+      "slurm-123.out": true,
+      "slurm-123.err": true,
+      "slurm/logs/coco-text-123.out": true,
+      ".venv/pyvenv.cfg": true,
+      ".ipynb_checkpoints/lesson.ipynb": true,
+      "dist/package.whl": true,
+      "build/lib/module.py": true
+    },
+    "problems": {
+      "missing_public_files": [],
+      "missing_exclusions": [],
+      "symlinks": [],
+      "oversized_files": [],
+      "credential_pattern_matches": [],
+      "already_tracked_ignored_files": []
+    },
+    "scope": "Git ignore semantics, file presence/size, symlinks and limited credential patterns. Not a proof of scientific correctness, model quality, licensing or exhaustive secret detection."
+  },
+  "asset_reorganization": {
+    "date": "2026-10-06",
+    "evidence": "assets/reports/diagnostics/asset_reorganization.json",
+    "scope": "Directory organization, unchanged image bytes and numerical metric values, indexes, exporter checks and notebook execution; no new model training."
+  }
+}

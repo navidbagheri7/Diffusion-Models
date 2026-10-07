@@ -1,0 +1,111 @@
+{
+  "baseline": "First 128 examples, CIFAR EDM, 100 Heun steps, one probe, seed 123",
+  "results": [
+    {
+      "case": "cifar_edm_grid200",
+      "examples": 128,
+      "baseline_bpd": {
+        "mean": 3.345388712310086,
+        "std": 0.6266576262102116,
+        "repetitions": 128,
+        "confidence": 0.95,
+        "confidence_interval": [
+          3.235783417776241,
+          3.454994006843931
+        ]
+      },
+      "changed_bpd": {
+        "mean": 3.3620743759395255,
+        "std": 0.6240449314994388,
+        "repetitions": 128,
+        "confidence": 0.95,
+        "confidence_interval": [
+          3.252926053700158,
+          3.471222698178893
+        ]
+      },
+      "paired_difference_bpd": {
+        "mean": 0.016685663629440455,
+        "std": 0.0026794139164110086,
+        "repetitions": 128,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.01621702183972449,
+          0.01715430541915642
+        ]
+      },
+      "mean_absolute_difference_bpd": 0.016685663629440455
+    },
+    {
+      "case": "cifar_edm_probes4",
+      "examples": 128,
+      "baseline_bpd": {
+        "mean": 3.345388712310086,
+        "std": 0.6266576262102116,
+        "repetitions": 128,
+        "confidence": 0.95,
+        "confidence_interval": [
+          3.235783417776241,
+          3.454994006843931
+        ]
+      },
+      "changed_bpd": {
+        "mean": 3.3456496601530508,
+        "std": 0.6246693056655886,
+        "repetitions": 128,
+        "confidence": 0.95,
+        "confidence_interval": [
+          3.236392132006793,
+          3.4549071882993085
+        ]
+      },
+      "paired_difference_bpd": {
+        "mean": 0.00026094784296537554,
+        "std": 0.04422242629564371,
+        "repetitions": 128,
+        "confidence": 0.95,
+        "confidence_interval": [
+          -0.007473757451292638,
+          0.007995653137223389
+        ]
+      },
+      "mean_absolute_difference_bpd": 0.03727149965354127
+    },
+    {
+      "case": "cifar_edm_noise124",
+      "examples": 128,
+      "baseline_bpd": {
+        "mean": 3.345388712310086,
+        "std": 0.6266576262102116,
+        "repetitions": 128,
+        "confidence": 0.95,
+        "confidence_interval": [
+          3.235783417776241,
+          3.454994006843931
+        ]
+      },
+      "changed_bpd": {
+        "mean": 3.3402708812494852,
+        "std": 0.6260820710108511,
+        "repetitions": 128,
+        "confidence": 0.95,
+        "confidence_interval": [
+          3.2307662539612108,
+          3.4497755085377597
+        ]
+      },
+      "paired_difference_bpd": {
+        "mean": -0.005117831060600323,
+        "std": 0.07703099556423003,
+        "repetitions": 128,
+        "confidence": 0.95,
+        "confidence_interval": [
+          -0.018590905677297872,
+          0.008355243556097226
+        ]
+      },
+      "mean_absolute_difference_bpd": 0.06018057048276604
+    }
+  ],
+  "scope": "Matched examples and dequantization seeds for grid/probe checks. Changing seed changes both dequantization and trace probes. These comparisons are sensitivity checks, not convergence proofs."
+}

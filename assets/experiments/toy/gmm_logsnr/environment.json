@@ -1,0 +1,9 @@
+{
+  "torch": "2.7.1+cu128",
+  "device": "cpu",
+  "gpu": null,
+  "world_size": 1,
+  "parameters": 83202,
+  "train_count": "online GMM",
+  "validation_count": 1024
+}

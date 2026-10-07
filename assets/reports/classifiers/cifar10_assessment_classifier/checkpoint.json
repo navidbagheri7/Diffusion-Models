@@ -1,0 +1,6 @@
+{
+  "run": "cifar10_assessment_classifier",
+  "checkpoint": "outputs/cifar10_assessment_classifier/classifier.pt",
+  "sha256": "03f743dc4412f5c1b33ac83a289fcfa3bf9da5c01cfd70dcd180695284b35446",
+  "heldout_report": "assets/reports/classifiers/cifar10_assessment_classifier/diagnostics.json"
+}

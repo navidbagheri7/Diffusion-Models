@@ -1,0 +1,132 @@
+{
+  "review_date": "2026-10-05",
+  "version": "0.4.0",
+  "pytest_passed": 116,
+  "notebooks_executed": 7,
+  "code_cells_executed": 22,
+  "lint_and_formatting": "passed",
+  "local_documentation_targets_checked": 635,
+  "learning_integrity": "assets/reports/diagnostics/learning_integrity.json",
+  "installed_wheel": "assets/reports/diagnostics/wheel_v040.json",
+  "public_asset_audit": "assets/reports/diagnostics/public_asset_review.json",
+  "measured_results": "docs/26_learning_and_text_results.md",
+  "new_training_budgets_complete": true,
+  "checkpoint_weights_local": true,
+  "git_repository_initialized": false,
+  "license_present": false,
+  "public_checkpoint_downloads_present": false,
+  "author_citation_present": true,
+  "publication_scope": "Reviewed source, curriculum and measured examples; license selection, public checkpoint hosting and Git publication remain release tasks. Weak examples and scratch-training limits are documented.",
+  "previous_release_review": {
+    "review_date": "2026-10-04",
+    "final_evaluations": [
+      {
+        "experiment": "cifar10_edm_final",
+        "training_steps": 100000,
+        "fid_2048": 12.72465705871582,
+        "inception_score_mean": 8.416577339172363,
+        "generated_count": 10000,
+        "real_count": 10000,
+        "nfe_per_image": 35,
+        "checkpoint_sha256": "e5a2c93e3be9f39224869d7731df9f43603cf8827d544c8c84b12d2c7f51c32d",
+        "sample_png_matches_saved_tensor": true,
+        "export_matches_original": true
+      },
+      {
+        "experiment": "cifar10_edm_cfg_final",
+        "training_steps": 100000,
+        "fid_2048": 8.969184875488281,
+        "inception_score_mean": 8.964967727661133,
+        "generated_count": 10000,
+        "real_count": 10000,
+        "nfe_per_image": 70,
+        "checkpoint_sha256": "e5a2c93e3be9f39224869d7731df9f43603cf8827d544c8c84b12d2c7f51c32d",
+        "sample_png_matches_saved_tensor": true,
+        "export_matches_original": true
+      },
+      {
+        "experiment": "cifar10_flow20_final",
+        "training_steps": 100000,
+        "fid_2048": 22.24451446533203,
+        "inception_score_mean": 9.527217864990234,
+        "generated_count": 10000,
+        "real_count": 10000,
+        "nfe_per_image": 80,
+        "checkpoint_sha256": "2b1f53c88c97ed76cc4a61d00de807b319623d1e593dba2f53313f7d91ed9b42",
+        "sample_png_matches_saved_tensor": true,
+        "export_matches_original": true
+      },
+      {
+        "experiment": "cifar10_flow50_final",
+        "training_steps": 100000,
+        "fid_2048": 10.002927780151367,
+        "inception_score_mean": 9.134531021118164,
+        "generated_count": 10000,
+        "real_count": 10000,
+        "nfe_per_image": 200,
+        "checkpoint_sha256": "2b1f53c88c97ed76cc4a61d00de807b319623d1e593dba2f53313f7d91ed9b42",
+        "sample_png_matches_saved_tensor": true,
+        "export_matches_original": true
+      },
+      {
+        "experiment": "celeba_flow_final",
+        "training_steps": 100000,
+        "fid_2048": 16.305124282836914,
+        "inception_score_mean": 2.2703022956848145,
+        "generated_count": 10000,
+        "real_count": 2000,
+        "nfe_per_image": 100,
+        "checkpoint_sha256": "60703d284bc3e0d296bcc1c4ab7a304981989a8089cc889c15336bcbff1823b1",
+        "sample_png_matches_saved_tensor": true,
+        "export_matches_original": true
+      }
+    ],
+    "verified_images_and_gifs": 357,
+    "requested_path": "/home/labcmap/navid.bagheri-shouraki/Diffusion",
+    "resolved_path": "/home/navid.bagheri-shouraki/Diffusion",
+    "pytest": {
+      "passed": 87,
+      "failed": 0
+    },
+    "lint": "passed",
+    "formatting": "passed",
+    "candidate_public_files_at_scan": 800,
+    "candidate_source_assets_mib_at_scan": 214.12,
+    "largest_candidate_asset_mib_at_scan": 4.0,
+    "credential_pattern_scan": {
+      "matches": 0,
+      "scope": "Limited private-key, AWS-access-key, GitHub-token, and OpenAI-key patterns in candidate text files; not exhaustive"
+    },
+    "git_repository_initialized": false,
+    "license_present": false,
+    "public_checkpoint_downloads_present": false,
+    "exported_experiments": 97,
+    "sample_quality_scope": "Representative final grids inspected; weak/interim/guidance samples retained and documented, not a claim that every generated sample is good",
+    "scope": "Completed earlier baseline model audit. The version 0.3 extension review below distinguishes new verified code, measured interim experiments and pending budgets.",
+    "extension_review": {
+      "version": "0.3.0",
+      "pytest_passed": 106,
+      "lint_and_formatting": "passed",
+      "documentation_targets_checked": 413,
+      "current_public_asset_audit": "assets/reports/diagnostics/public_asset_review.json",
+      "new_checkpoint_and_rendered_pixel_audit": "assets/reports/diagnostics/extension_integrity.json",
+      "live_training_status": "assets/metadata/expansion_status.json",
+      "measured_results": "docs/21_extension_results.md",
+      "initial_ict_runs_invalidated": true,
+      "invalid_ict_reason": "Online-target-first autocast cache detached Conv/Linear casts; corrected student-first implementation has verified BF16 updates and is retraining",
+      "new_image_budgets_complete": true
+    }
+  },
+  "publication_cleanup": {
+    "guide": "docs/27_publication.md",
+    "script_index": "scripts/README.md",
+    "git_file_set_audit": "assets/reports/diagnostics/publication_files.json",
+    "source_and_wheel_build_exclusion_fixture": "passed",
+    "exporter_evidence_preservation_fixture": "passed",
+    "generator_checkpoint_hashes_reverified": 45,
+    "classifier_checkpoint_hashes_reverified": 4,
+    "local_outputs_and_checkpoints_preserved": true,
+    "clean_public_source_tests_passed": 116,
+    "clean_public_source_review": "assets/reports/diagnostics/clean_publication_review.json"
+  }
+}

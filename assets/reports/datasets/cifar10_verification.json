@@ -1,0 +1,46 @@
+{
+  "dataset": "cifar10",
+  "source": "torchvision official dataset with archive checksums",
+  "classes": [
+    "airplane",
+    "automobile",
+    "bird",
+    "cat",
+    "deer",
+    "dog",
+    "frog",
+    "horse",
+    "ship",
+    "truck"
+  ],
+  "counts": {
+    "train": [
+      5000,
+      5000,
+      5000,
+      5000,
+      5000,
+      5000,
+      5000,
+      5000,
+      5000,
+      5000
+    ],
+    "train_sha256_in_index_order": "66dbd9dd54ebf9916895a2de0ab972d06da9616f96d124f9fce175b9c447795e",
+    "validation": [
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000,
+      1000
+    ],
+    "validation_sha256_in_index_order": "dbf99e99430c1c23bdef2f23ab4cf23e9fee2ad11ab3be8f7406b544d538ae02"
+  },
+  "all_pixels_verified": true,
+  "official_test_used_as_validation": true
+}

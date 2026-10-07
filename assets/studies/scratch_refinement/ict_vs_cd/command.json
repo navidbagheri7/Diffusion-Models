@@ -1,0 +1,12 @@
+[
+  "-m",
+  "scripts.compare_consistency_refinement",
+  "--baseline",
+  "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_cd_refined/checkpoint_0040000.pt",
+  "--candidate",
+  "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_ict_refined/checkpoint_0040000.pt",
+  "--output",
+  "/home/navid.bagheri-shouraki/Diffusion/outputs/completion_studies/ict_vs_cd",
+  "--device",
+  "cuda:2"
+]

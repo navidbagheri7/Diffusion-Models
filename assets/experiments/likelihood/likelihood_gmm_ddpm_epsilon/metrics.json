@@ -1,0 +1,20 @@
+{
+  "network_calls": 1000,
+  "clean_prediction_clipped": false,
+  "decoder_numerics": "Continuous Gaussian log density",
+  "decoder": "Continuous Gaussian density (bits/dimension)",
+  "estimator": "All T terms; one Monte Carlo noise draw per term",
+  "is_exact_nll": false,
+  "negative_elbo_bpd_mean": 2.394114743396885,
+  "terminal_prior_kl_bpd_mean": 0.00013310870383479622,
+  "decoder_bpd_mean": -4.471240455415682,
+  "transition_kl_bpd_mean": 6.865222090108732,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_linear_epsilon/checkpoint.pt",
+  "samples": 512,
+  "seed": 123,
+  "dataset": "ring_gmm",
+  "conditional": false,
+  "conditioning_scope": "Unconditional model density",
+  "checkpoint_sha256": "bc6d26a966efd4c0b6ba586a16eea2057f6d0b053876904c1b1a1de126e5441a",
+  "training_steps": 6000
+}

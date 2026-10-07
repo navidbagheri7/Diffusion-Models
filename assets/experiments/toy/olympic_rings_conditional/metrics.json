@@ -1,0 +1,92 @@
+[
+  {
+    "guidance": "cfg",
+    "class": 0,
+    "mmd_squared_unbiased": 0.062374288412301304,
+    "sliced_w2": 0.3918277323246002,
+    "empirical_w2_subsample": 0.6274146366694465,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "cfg",
+    "class": 1,
+    "mmd_squared_unbiased": 0.02338827975563773,
+    "sliced_w2": 0.2291228026151657,
+    "empirical_w2_subsample": 0.40528039947197886,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "cfg",
+    "class": 2,
+    "mmd_squared_unbiased": 0.06189507199135069,
+    "sliced_w2": 0.3779037296772003,
+    "empirical_w2_subsample": 0.5622822460192475,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "cfg",
+    "class": 3,
+    "mmd_squared_unbiased": 0.04272474749578725,
+    "sliced_w2": 0.31841668486595154,
+    "empirical_w2_subsample": 0.5604947979728404,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "cfg",
+    "class": 4,
+    "mmd_squared_unbiased": 0.03007933288999065,
+    "sliced_w2": 0.26969489455223083,
+    "empirical_w2_subsample": 0.489847379393369,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "classifier",
+    "class": 0,
+    "mmd_squared_unbiased": 0.49823186077824655,
+    "sliced_w2": 0.9629389643669128,
+    "empirical_w2_subsample": 1.4564224614312116,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "classifier",
+    "class": 1,
+    "mmd_squared_unbiased": 0.4076826445211348,
+    "sliced_w2": 0.8887290954589844,
+    "empirical_w2_subsample": 1.297450297732376,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "classifier",
+    "class": 2,
+    "mmd_squared_unbiased": 0.36680117996288963,
+    "sliced_w2": 0.8519282937049866,
+    "empirical_w2_subsample": 1.253174401205225,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "classifier",
+    "class": 3,
+    "mmd_squared_unbiased": 0.44254480597821955,
+    "sliced_w2": 0.9443544149398804,
+    "empirical_w2_subsample": 1.3625440955763375,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "classifier",
+    "class": 4,
+    "mmd_squared_unbiased": 0.45167754299406626,
+    "sliced_w2": 0.9840997457504272,
+    "empirical_w2_subsample": 1.3885282303134912,
+    "sample_count": 1024,
+    "exact_density_available": false
+  }
+]

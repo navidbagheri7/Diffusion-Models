@@ -1,0 +1,3 @@
+method: dpmpp_2m
+steps: 20
+clip_x0: false

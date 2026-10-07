@@ -1,0 +1,4 @@
+method: ddpm
+steps: 1000
+eta: 0.0
+clip_x0: false

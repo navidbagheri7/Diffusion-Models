@@ -1,0 +1,6 @@
+method: predictor_corrector
+steps: 500
+ode_solver: heun
+sde_solver: euler_maruyama
+corrector_steps: 1
+snr: 0.1

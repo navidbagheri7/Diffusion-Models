@@ -1,0 +1,36 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "diffusion-flow-lab"
+version = "0.4.0"
+authors = [{name = "Navid Bagheri-Shouraki"}]
+description = "An equation-to-experiment laboratory for diffusion, flows, and bridges"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["torch>=2.2", "torchvision>=0.17", "hydra-core>=1.3,<1.4", "numpy>=1.24", "scipy>=1.10", "matplotlib>=3.7", "Pillow>=10"]
+
+[project.optional-dependencies]
+metrics = ["torchmetrics>=1.3", "torch-fidelity>=0.3"]
+guidance = ["transformers>=4.40"]
+latent = ["diffusers>=0.30", "safetensors>=0.4", "transformers>=4.40"]
+text = ["diffusers>=0.30,<0.37", "safetensors>=0.4", "transformers>=4.40,<5", "requests>=2.31"]
+notebooks = ["jupyterlab>=4,<5", "nbformat>=5.9", "nbclient>=0.10", "ipykernel>=6", "ipywidgets>=8.1"]
+dev = ["pytest>=7", "ruff>=0.6"]
+
+[tool.setuptools.packages.find]
+include = ["diffusion_lab*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.ruff]
+line-length = 100
+extend-exclude = ["legacy", "outputs", "build", "assets", ".local"]
+
+[tool.ruff.lint]
+select = ["E4", "E7", "E9", "F", "I", "B", "C4", "RUF"]
+# Mathematical figure labels intentionally use these Unicode symbols.
+allowed-confusables = ["×", "−", "–", "σ"]

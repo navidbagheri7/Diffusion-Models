@@ -1,0 +1,9 @@
+{
+  "step": 100000,
+  "nfe_per_image": 35,
+  "cfg_scale": 1.5,
+  "layout": "class labels cycle",
+  "training_budget": 100000,
+  "training_complete": true,
+  "interim": false
+}

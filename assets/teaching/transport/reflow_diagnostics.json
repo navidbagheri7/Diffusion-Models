@@ -1,0 +1,17 @@
+[
+  {
+    "reflow_iteration": 1,
+    "transport_cost_squared": 16.000017166137695,
+    "mean_excess_path_length": 1.993030309677124e-07
+  },
+  {
+    "reflow_iteration": 2,
+    "transport_cost_squared": 16.00639533996582,
+    "mean_excess_path_length": 2.5704503059387207e-07
+  },
+  {
+    "reflow_iteration": 3,
+    "transport_cost_squared": 16.02883529663086,
+    "mean_excess_path_length": 2.1979212760925293e-07
+  }
+]

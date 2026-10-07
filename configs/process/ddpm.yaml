@@ -1,0 +1,5 @@
+kind: ddpm
+# A stable first GMM example; image presets override this with epsilon.
+prediction: x0
+steps: 1000
+schedule: cosine

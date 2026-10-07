@@ -1,0 +1,19 @@
+{
+  "image_metrics": "disabled by argument",
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/imagenet_conditional/checkpoint.pt",
+  "seed": 123,
+  "sample_count": 32,
+  "sampling_seconds": 2.5235191769897938,
+  "guidance": "classifier",
+  "guidance_scale": 1.0,
+  "class_label": 0,
+  "classifier_kind": "learned",
+  "sampler": {
+    "method": "ddim",
+    "steps": 100,
+    "eta": 0.0,
+    "clip_x0": true
+  },
+  "process": "ddpm",
+  "prediction": "epsilon"
+}

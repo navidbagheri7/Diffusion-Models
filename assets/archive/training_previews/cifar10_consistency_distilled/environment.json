@@ -1,0 +1,23 @@
+{
+  "torch": "2.7.1+cu128",
+  "device": "cuda:0",
+  "gpu": "NVIDIA L40S",
+  "world_size": 1,
+  "parameters": 9977027,
+  "train_count": 50000,
+  "validation_count": 10000,
+  "class_names": [
+    "class_00",
+    "class_01",
+    "class_02",
+    "class_03",
+    "class_04",
+    "class_05",
+    "class_06",
+    "class_07",
+    "class_08",
+    "class_09"
+  ],
+  "representation": "pixels",
+  "latent_manifest_sha256": null
+}

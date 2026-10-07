@@ -1,0 +1,7 @@
+# @package _global_
+defaults:
+  - override /process: flow
+  - override /sampler: ode
+process:
+  coupling: reflow
+reflow_checkpoint: outputs/gmm_flow/checkpoint.pt

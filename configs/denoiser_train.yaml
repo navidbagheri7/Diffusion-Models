@@ -1,0 +1,3 @@
+# Compatibility entrypoint for the original filename.
+defaults:
+  - train

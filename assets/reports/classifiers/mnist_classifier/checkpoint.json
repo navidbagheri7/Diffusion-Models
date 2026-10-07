@@ -1,0 +1,6 @@
+{
+  "run": "mnist_classifier",
+  "checkpoint": "outputs/mnist_classifier/classifier.pt",
+  "sha256": "7a54d9faca9819106ed5990476895e6ab8b404eca8d8f65e1b7ef9469427f649",
+  "heldout_report": "assets/reports/classifiers/mnist_classifier/diagnostics.json"
+}

@@ -1,0 +1,29 @@
+{
+  "package": "diffusion-flow-lab",
+  "version": "0.3.0",
+  "sha256": "2af36ee512fc0638df132acacb64c8553edba4fada9d62a7e33a754e7ada8c4c",
+  "installed_outside_source_tree": true,
+  "source_modules_equal": 41,
+  "bundled_hydra_configurations": 48,
+  "configuration_composition": "passed",
+  "legacy_files_bundled": 0,
+  "cpu_corrected_ict_training_smoke_steps": 2,
+  "corrected_ict_evidence": "/tmp/diffusion_wheel_check_v030_corrected/ict",
+  "pixel_dit_cpu_and_latent_dit_gpu_smoke_steps": 2,
+  "decoded_rgb_sampling_and_latent_interpolation": "passed",
+  "dit_latent_evidence": "/tmp/diffusion_wheel_check_v030_final",
+  "dit_latent_integration_wheel_sha256": "956d8def24895ff356fdf66df384ded089a8d424909910cf9ba9587365edc3a0",
+  "dit_latent_source_unchanged_since_integration": true,
+  "release_installation_path": "/tmp/diffusion_installed_v030_audited",
+  "custom_interpolant_schedule_and_bfloat16_regression": "passed outside checkout",
+  "local_wheel": "dist/diffusion_flow_lab-0.3.0-py3-none-any.whl",
+  "previous_release_wheel_sha256": "74b3af64b9805650ed8c7de8a68265d5125991fd0d8418f3e6f391e18742b0e0",
+  "cpu_likelihood_metadata_smoke": {
+    "samples": 4,
+    "integration_steps": 2,
+    "training_steps": 6000,
+    "evidence": "/tmp/diffusion_wheel_audit_likelihood",
+    "scope": "Installation and metadata check; not a density-accuracy benchmark"
+  },
+  "historical_integration_checks_scope": "Earlier corrected-iCT, image/latent training and DDP checks are retained with their original dates and evidence; current build rechecked source/config equality, configuration composition and CPU likelihood execution."
+}

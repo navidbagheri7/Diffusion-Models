@@ -1,0 +1,242 @@
+[
+  {
+    "step": 1,
+    "weighted_drift_mse": 0.3297594487667084
+  },
+  {
+    "step": 101,
+    "weighted_drift_mse": 0.18091973662376404
+  },
+  {
+    "step": 201,
+    "weighted_drift_mse": 0.16376559436321259
+  },
+  {
+    "step": 301,
+    "weighted_drift_mse": 0.18012090027332306
+  },
+  {
+    "step": 401,
+    "weighted_drift_mse": 0.1430433690547943
+  },
+  {
+    "step": 501,
+    "weighted_drift_mse": 0.18476487696170807
+  },
+  {
+    "step": 601,
+    "weighted_drift_mse": 0.173935204744339
+  },
+  {
+    "step": 701,
+    "weighted_drift_mse": 0.16953495144844055
+  },
+  {
+    "step": 801,
+    "weighted_drift_mse": 0.17593684792518616
+  },
+  {
+    "step": 901,
+    "weighted_drift_mse": 0.1904739886522293
+  },
+  {
+    "step": 1001,
+    "weighted_drift_mse": 0.15500332415103912
+  },
+  {
+    "step": 1101,
+    "weighted_drift_mse": 0.20014669001102448
+  },
+  {
+    "step": 1201,
+    "weighted_drift_mse": 0.1562175452709198
+  },
+  {
+    "step": 1301,
+    "weighted_drift_mse": 0.19235801696777344
+  },
+  {
+    "step": 1401,
+    "weighted_drift_mse": 0.16770896315574646
+  },
+  {
+    "step": 1501,
+    "weighted_drift_mse": 0.15540438890457153
+  },
+  {
+    "step": 1601,
+    "weighted_drift_mse": 0.15820865333080292
+  },
+  {
+    "step": 1701,
+    "weighted_drift_mse": 0.18770232796669006
+  },
+  {
+    "step": 1801,
+    "weighted_drift_mse": 0.16984324157238007
+  },
+  {
+    "step": 1901,
+    "weighted_drift_mse": 0.19608625769615173
+  },
+  {
+    "step": 2001,
+    "weighted_drift_mse": 0.1661333441734314
+  },
+  {
+    "step": 2101,
+    "weighted_drift_mse": 0.15354210138320923
+  },
+  {
+    "step": 2201,
+    "weighted_drift_mse": 0.1807749718427658
+  },
+  {
+    "step": 2301,
+    "weighted_drift_mse": 0.18598711490631104
+  },
+  {
+    "step": 2401,
+    "weighted_drift_mse": 0.17998239398002625
+  },
+  {
+    "step": 2501,
+    "weighted_drift_mse": 0.1776900589466095
+  },
+  {
+    "step": 2601,
+    "weighted_drift_mse": 0.18752606213092804
+  },
+  {
+    "step": 2701,
+    "weighted_drift_mse": 0.14824584126472473
+  },
+  {
+    "step": 2801,
+    "weighted_drift_mse": 0.17171704769134521
+  },
+  {
+    "step": 2901,
+    "weighted_drift_mse": 0.17588500678539276
+  },
+  {
+    "step": 3001,
+    "weighted_drift_mse": 0.14863929152488708
+  },
+  {
+    "step": 3101,
+    "weighted_drift_mse": 0.1984996795654297
+  },
+  {
+    "step": 3201,
+    "weighted_drift_mse": 0.17846357822418213
+  },
+  {
+    "step": 3301,
+    "weighted_drift_mse": 0.1694028079509735
+  },
+  {
+    "step": 3401,
+    "weighted_drift_mse": 0.1579982191324234
+  },
+  {
+    "step": 3501,
+    "weighted_drift_mse": 0.16663646697998047
+  },
+  {
+    "step": 3601,
+    "weighted_drift_mse": 0.16428180038928986
+  },
+  {
+    "step": 3701,
+    "weighted_drift_mse": 0.14785899221897125
+  },
+  {
+    "step": 3801,
+    "weighted_drift_mse": 0.1563095897436142
+  },
+  {
+    "step": 3901,
+    "weighted_drift_mse": 0.16668011248111725
+  },
+  {
+    "step": 4001,
+    "weighted_drift_mse": 0.15996518731117249
+  },
+  {
+    "step": 4101,
+    "weighted_drift_mse": 0.18253889679908752
+  },
+  {
+    "step": 4201,
+    "weighted_drift_mse": 0.16286787390708923
+  },
+  {
+    "step": 4301,
+    "weighted_drift_mse": 0.1863952875137329
+  },
+  {
+    "step": 4401,
+    "weighted_drift_mse": 0.15927399694919586
+  },
+  {
+    "step": 4501,
+    "weighted_drift_mse": 0.16451187431812286
+  },
+  {
+    "step": 4601,
+    "weighted_drift_mse": 0.14216044545173645
+  },
+  {
+    "step": 4701,
+    "weighted_drift_mse": 0.16374066472053528
+  },
+  {
+    "step": 4801,
+    "weighted_drift_mse": 0.1882627308368683
+  },
+  {
+    "step": 4901,
+    "weighted_drift_mse": 0.16510340571403503
+  },
+  {
+    "step": 5001,
+    "weighted_drift_mse": 0.17448653280735016
+  },
+  {
+    "step": 5101,
+    "weighted_drift_mse": 0.15444537997245789
+  },
+  {
+    "step": 5201,
+    "weighted_drift_mse": 0.14155122637748718
+  },
+  {
+    "step": 5301,
+    "weighted_drift_mse": 0.1521988958120346
+  },
+  {
+    "step": 5401,
+    "weighted_drift_mse": 0.18528923392295837
+  },
+  {
+    "step": 5501,
+    "weighted_drift_mse": 0.1662939339876175
+  },
+  {
+    "step": 5601,
+    "weighted_drift_mse": 0.20877130329608917
+  },
+  {
+    "step": 5701,
+    "weighted_drift_mse": 0.16965723037719727
+  },
+  {
+    "step": 5801,
+    "weighted_drift_mse": 0.17031115293502808
+  },
+  {
+    "step": 5901,
+    "weighted_drift_mse": 0.19595074653625488
+  }
+]

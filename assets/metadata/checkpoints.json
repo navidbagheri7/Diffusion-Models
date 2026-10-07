@@ -1,0 +1,532 @@
+{
+  "description": "Hashes of the exact weight files loaded for evaluations. Weights remain in outputs; a latest checkpoint path may subsequently be replaced. Prefer a matching immutable milestone for reproduction.",
+  "checkpoints": [
+    {
+      "sha256": "21a0d5505d5de2dea3bbcb6554a125e38290de083f694a1e1a27326fc00b4403",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/celeba128_latent_dit_quality/checkpoint_0030000.pt",
+      "training_steps": 30000,
+      "evaluations": [
+        "celeba128_latent_dit_30k"
+      ]
+    },
+    {
+      "sha256": "30492554e1df232cbbf3a82a790ca9c774241a55ea056ed02c0857e61864b773",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/celeba128_latent_dit_quality/checkpoint.pt",
+      "training_steps": 100000,
+      "evaluations": [
+        "celeba128_latent_dit_final"
+      ]
+    },
+    {
+      "sha256": "774b417968e317da5c2766c04de7eb6f1de06661c716567f43a4370b8a1d9cfa",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/celeba128_latent_unet_quality/checkpoint_0020000.pt",
+      "training_steps": 20000,
+      "evaluations": [
+        "celeba128_latent_unet_20k"
+      ]
+    },
+    {
+      "sha256": "01ff0fae651504173c67f7e3a2319051253c8f0665e91ef2a7b1027ec45b4a08",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/celeba128_latent_unet_quality/checkpoint.pt",
+      "training_steps": 100000,
+      "evaluations": [
+        "celeba128_latent_unet_final"
+      ]
+    },
+    {
+      "sha256": "c0c0d3c6f5783a670708326398d66786e8713e5c956a3447841293d0fddc8383",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/celeba_flow_eval_teacher/checkpoint.pt",
+      "training_steps": 15000,
+      "evaluations": [
+        "celeba_flow_balanced_progress"
+      ]
+    },
+    {
+      "sha256": "60703d284bc3e0d296bcc1c4ab7a304981989a8089cc889c15336bcbff1823b1",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/celeba_flow_quality/checkpoint.pt",
+      "training_steps": 100000,
+      "evaluations": [
+        "celeba_flow_final"
+      ]
+    },
+    {
+      "sha256": "a70a8c027fbab39f8f36c5908d5a2a8e0b4a91f4858017e4e958292e1a05930f",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_consistency_distilled/checkpoint.pt",
+      "training_steps": 30000,
+      "evaluations": [
+        "cifar10_cd1",
+        "cifar10_cd2",
+        "cifar10_cd4",
+        "evidence/consistency_refinement_study/final_1",
+        "evidence/consistency_refinement_study/final_2",
+        "evidence/consistency_refinement_study/final_4",
+        "evidence/scratch_refinement_progress/cd_vs_old/baseline_final_1",
+        "evidence/scratch_refinement_progress/cd_vs_old/baseline_final_2",
+        "evidence/scratch_refinement_progress/cd_vs_old/baseline_final_4",
+        "evidence/scratch_refinement/cd_vs_old/baseline_final_1",
+        "evidence/scratch_refinement/cd_vs_old/baseline_final_2",
+        "evidence/scratch_refinement/cd_vs_old/baseline_final_4"
+      ]
+    },
+    {
+      "sha256": "76432949af18567bff3b6313a5fc655667d3ed814c99cf055c1c8e23eb1654c3",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_edm_quality/checkpoint_0015000.pt",
+      "training_steps": 15000,
+      "evaluations": [
+        "cifar10_cfg15k_10k_eval",
+        "cifar10_edm15k_10k_eval"
+      ]
+    },
+    {
+      "sha256": "b9d722b08ef8253d88baa74e3176ca4318ddc2b8b752d4a8b7c950742d3e3d48",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_clip_teacher/checkpoint.pt",
+      "training_steps": 27000,
+      "evaluations": [
+        "cifar10_cfg27k_10k_eval",
+        "cifar10_clip_scale0.03",
+        "cifar10_clip_scale0.3",
+        "cifar10_clip_scale1.0"
+      ]
+    },
+    {
+      "sha256": "a36ce9e908dcfb15c34019443a17625086d6dbb48dd70b4ef78655da9d650bd6",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_dit_quality/checkpoint_0030000.pt",
+      "training_steps": 30000,
+      "evaluations": [
+        "cifar10_dit_30k"
+      ]
+    },
+    {
+      "sha256": "cf113f507d81bc904234982686c34fbd744bef4fb5d848c9776180824867940b",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_dit_quality/checkpoint.pt",
+      "training_steps": 100000,
+      "evaluations": [
+        "cifar10_dit_cfg_final",
+        "cifar10_dit_final"
+      ]
+    },
+    {
+      "sha256": "e5a2c93e3be9f39224869d7731df9f43603cf8827d544c8c84b12d2c7f51c32d",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_edm_quality/checkpoint.pt",
+      "training_steps": 100000,
+      "evaluations": [
+        "cifar10_edm_cfg_final",
+        "cifar10_edm_final",
+        "cifar10_edm_repeat_123",
+        "cifar10_edm_repeat_124",
+        "cifar10_edm_repeat_125",
+        "cifar10_guidance_cfg",
+        "cifar10_guidance_cg_high",
+        "cifar10_guidance_cg_low",
+        "cifar10_guidance_conditional",
+        "cifar10_guidance_unconditional",
+        "likelihood_cifar10_edm",
+        "likelihood_cifar10_edm_200steps"
+      ]
+    },
+    {
+      "sha256": "2b1f53c88c97ed76cc4a61d00de807b319623d1e593dba2f53313f7d91ed9b42",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_flow_quality/checkpoint.pt",
+      "training_steps": 100000,
+      "evaluations": [
+        "cifar10_flow20_final",
+        "cifar10_flow50_final",
+        "likelihood_cifar10_flow"
+      ]
+    },
+    {
+      "sha256": "15e8bf2f074f2a388b4d2adbb817b38c99b415c0ba04bcd80625373137050f35",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_stochastic_interpolant/checkpoint.pt",
+      "training_steps": 15000,
+      "evaluations": [
+        "gmm_stochastic_interpolant"
+      ]
+    },
+    {
+      "sha256": "ff0f020a98186e8bdbe8a781eae50a11f8207bba76a3b5057f8067942e81e234",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_ddpm_x0/checkpoint.pt",
+      "training_steps": 6000,
+      "evaluations": [
+        "likelihood_gmm_ddpm"
+      ]
+    },
+    {
+      "sha256": "bc6d26a966efd4c0b6ba586a16eea2057f6d0b053876904c1b1a1de126e5441a",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_linear_epsilon/checkpoint.pt",
+      "training_steps": 6000,
+      "evaluations": [
+        "likelihood_gmm_ddpm_epsilon"
+      ]
+    },
+    {
+      "sha256": "bf9dd585348cb1ab55db84e2ce3131144ebe507fab020ff7d27ad48c19ce1346",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_flow/checkpoint.pt",
+      "training_steps": 6000,
+      "evaluations": [
+        "likelihood_gmm_flow"
+      ]
+    },
+    {
+      "sha256": "2055d6ca2860cb8f3be57b4969aa4e18f963967cb2c2a1f49e27aa8d10640f2d",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_edm_quality/checkpoint_0020000.pt",
+      "training_steps": 20000,
+      "evaluations": [
+        "likelihood_mnist_edm",
+        "mnist_cg_gate0.2_scale1",
+        "mnist_cg_gate0.2_scale10",
+        "mnist_cg_gate0.2_scale20",
+        "mnist_cg_gate0.2_scale5",
+        "mnist_cg_gate0.5_scale1",
+        "mnist_cg_gate0.5_scale10",
+        "mnist_cg_gate0.5_scale20",
+        "mnist_cg_gate0.5_scale5",
+        "mnist_classifier_final_digit3",
+        "mnist_edm18",
+        "mnist_edm_euler18",
+        "mnist_guidance_cfg",
+        "mnist_guidance_cg_high",
+        "mnist_guidance_cg_low",
+        "mnist_guidance_conditional",
+        "mnist_guidance_unconditional"
+      ]
+    },
+    {
+      "sha256": "615334d526a8397f64b0ef529136b49e3f567cf36397cc8452e865e6c5b7e7d2",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_improved_ddpm/checkpoint_0020000.pt",
+      "training_steps": 20000,
+      "evaluations": [
+        "likelihood_mnist_full_elbo",
+        "likelihood_mnist_full_elbo_unclipped",
+        "likelihood_mnist_sampled_elbo",
+        "mnist_ddim20",
+        "mnist_ddim50",
+        "mnist_ddpm1000",
+        "mnist_dpm20",
+        "mnist_dpmpp20",
+        "mnist_progressive_teacher32"
+      ]
+    },
+    {
+      "sha256": "506b755d3537b7d35404e9e47815b511e4ee02cd80bab34665f7726504a7dcbe",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_consistency_distilled/checkpoint.pt",
+      "training_steps": 20000,
+      "evaluations": [
+        "mnist_cd1",
+        "mnist_cd2",
+        "mnist_cd4"
+      ]
+    },
+    {
+      "sha256": "4bad46528791db5782c2604493889c45a5d1ee8cff59b20fe9d724335e9c01b8",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_consistency_training/checkpoint.pt",
+      "training_steps": 20000,
+      "evaluations": [
+        "mnist_ct1",
+        "mnist_ct4"
+      ]
+    },
+    {
+      "sha256": "6fd50deb7f6bae6b5c1780e20217cfbe3910cc546493981ef92e464ae56e262f",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_ict_quality/checkpoint.pt",
+      "training_steps": 20000,
+      "evaluations": [
+        "mnist_ict1",
+        "mnist_ict2",
+        "mnist_ict4"
+      ]
+    },
+    {
+      "sha256": "34c6ad2bba04baa1aab34837243bb20b222532fbe278518b95d6373652115050",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_ict_corrected_quality/checkpoint.pt",
+      "training_steps": 40000,
+      "evaluations": [
+        "mnist_ict_corrected1",
+        "mnist_ict_corrected2",
+        "mnist_ict_corrected4"
+      ]
+    },
+    {
+      "sha256": "d9db931408ac2424f354792766fe4f5be43edb0e3497c3f40e077aaf8af7d764",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_ict_corrected_quality/checkpoint_0005000.pt",
+      "training_steps": 5000,
+      "evaluations": [
+        "mnist_ict_corrected_5k1",
+        "mnist_ict_corrected_5k4"
+      ]
+    },
+    {
+      "sha256": "af06df47938c1dbf72dbe59a9a87e8e717caa883cc2e8de2f41f9b7abbb0c155",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_ict_smooth_quality/checkpoint.pt",
+      "training_steps": 40000,
+      "evaluations": [
+        "mnist_ict_smooth1",
+        "mnist_ict_smooth2",
+        "mnist_ict_smooth4"
+      ]
+    },
+    {
+      "sha256": "b18a906990574bda1d3aed2b6918392c11fea7d635c7707fa45fbb43dfb2c572",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_progressive/stage_16/checkpoint.pt",
+      "training_steps": 5000,
+      "evaluations": [
+        "mnist_progressive_16_eval"
+      ]
+    },
+    {
+      "sha256": "e00236749d8f4ef7040fac814efba44549f7298e8399424cd1b2b42aca5e6a1f",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_progressive/stage_1/checkpoint.pt",
+      "training_steps": 5000,
+      "evaluations": [
+        "mnist_progressive_1_eval"
+      ]
+    },
+    {
+      "sha256": "80a25e3301d4baabff37321fe7615da4a348a52d5769c67e12208b0be29ae8ca",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_progressive/stage_2/checkpoint.pt",
+      "training_steps": 5000,
+      "evaluations": [
+        "mnist_progressive_2_eval"
+      ]
+    },
+    {
+      "sha256": "65171b4815da626c0bcaeb365de10e51b90a09444f24fb715481c42358bb6ef8",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_progressive/stage_4/checkpoint.pt",
+      "training_steps": 5000,
+      "evaluations": [
+        "mnist_progressive_4_eval"
+      ]
+    },
+    {
+      "sha256": "8c7788af18ca8c173e17dc16771fa3eeaefdc9f4d9c0b79a4f80362bf89dc262",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_progressive/stage_8/checkpoint.pt",
+      "training_steps": 5000,
+      "evaluations": [
+        "mnist_progressive_8_eval"
+      ]
+    },
+    {
+      "sha256": "2432bf772371bd12b38cf8cb7a630d3137e2aa0289cff0b75c3dacd24c0ac128",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/two_spirals_stochastic_interpolant/checkpoint.pt",
+      "training_steps": 15000,
+      "evaluations": [
+        "two_spirals_stochastic_interpolant"
+      ]
+    },
+    {
+      "sha256": "440687a6d20f388a4c78ae3b16c1439cd34c12e9f4067cde3cc4ab97bf93e96b",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/wavy_rings_stochastic_interpolant/checkpoint.pt",
+      "training_steps": 15000,
+      "evaluations": [
+        "wavy_rings_stochastic_interpolant"
+      ]
+    },
+    {
+      "sha256": "7e4429c0db33685a1b5151466ee594f6b12cb355210c07f74f708156ed2ca2d0",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_ddpm_seed42/checkpoint.pt",
+      "training_steps": 6000,
+      "evaluations": [
+        "evidence/training_seed_study/gmm_ddpm_seed42"
+      ]
+    },
+    {
+      "sha256": "3301222090ccacd42d71bcb0dac7276403f1da50fed1d6c402765fe37536a556",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_ddpm_seed43/checkpoint.pt",
+      "training_steps": 6000,
+      "evaluations": [
+        "evidence/training_seed_study/gmm_ddpm_seed43"
+      ]
+    },
+    {
+      "sha256": "eb045537a31c8e345b80eff3380e221aa2c095ad7d2b950d15d4386222c73c8c",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_ddpm_seed44/checkpoint.pt",
+      "training_steps": 6000,
+      "evaluations": [
+        "evidence/training_seed_study/gmm_ddpm_seed44"
+      ]
+    },
+    {
+      "sha256": "c13a497f5d5031df186dabac982124ee38010dc555ee179b2b765be369d4433d",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_flow_seed42/checkpoint.pt",
+      "training_steps": 6000,
+      "evaluations": [
+        "evidence/training_seed_study/gmm_flow_seed42"
+      ]
+    },
+    {
+      "sha256": "27e0a293f28a1fbe2ac4c77e7078f9a37000c4eca5f4c8f541d5e736807c6a61",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_flow_seed43/checkpoint.pt",
+      "training_steps": 6000,
+      "evaluations": [
+        "evidence/training_seed_study/gmm_flow_seed43"
+      ]
+    },
+    {
+      "sha256": "afe810ad80426021fa3f692e1425733c7d54808e6f549f57e86fa5f495013c5f",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_flow_seed44/checkpoint.pt",
+      "training_steps": 6000,
+      "evaluations": [
+        "evidence/training_seed_study/gmm_flow_seed44"
+      ]
+    },
+    {
+      "sha256": "1302b983832ac686463bd7aeea080a4143b631fe6d50ec16d24896400f748ebe",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/coco2017_sd2_lora/checkpoint.pt",
+      "training_steps": 3000,
+      "evaluations": [
+        "coco_text_cfg0",
+        "coco_text_cfg1",
+        "coco_text_cfg3",
+        "coco_text_cfg75",
+        "coco_text_lora",
+        "coco_text_lora_pairs"
+      ]
+    },
+    {
+      "sha256": "fdaea51150e33eab73092618e8588812578f634dd9fd0e0a2471b8a5319522db",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/edm_seed42/checkpoint.pt",
+      "training_steps": 20000,
+      "evaluations": [
+        "evidence/mnist_training_seed_study/edm_seed42"
+      ]
+    },
+    {
+      "sha256": "38491f95780e141a74107e9ba5c3d9843e3d1a200958c31160324561d15d6afe",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/edm_seed43/checkpoint.pt",
+      "training_steps": 20000,
+      "evaluations": [
+        "evidence/mnist_training_seed_study/edm_seed43"
+      ]
+    },
+    {
+      "sha256": "8099b17f028bd10b753eaeee9870297aa13c2aaac042ce68357702810faa1f08",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/edm_seed44/checkpoint.pt",
+      "training_steps": 20000,
+      "evaluations": [
+        "evidence/mnist_training_seed_study/edm_seed44"
+      ]
+    },
+    {
+      "sha256": "3a2ec23ec4fdb7add10a625fadb84c8e2f1d2edd26be5a25c9d37ab355fa42b2",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/flow_seed42/checkpoint.pt",
+      "training_steps": 20000,
+      "evaluations": [
+        "evidence/mnist_training_seed_study/flow_seed42"
+      ]
+    },
+    {
+      "sha256": "f134ef8410a172c5eda939bf6495bf623092007dcdf229e826068dc263826a7e",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/flow_seed43/checkpoint.pt",
+      "training_steps": 20000,
+      "evaluations": [
+        "evidence/mnist_training_seed_study/flow_seed43"
+      ]
+    },
+    {
+      "sha256": "8fa1ab4eda8bbbf5c132e13143de68fcac00e294c26c54a183f1b1df3ef05948",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/mnist_training_seed_study/flow_seed44/checkpoint.pt",
+      "training_steps": 20000,
+      "evaluations": [
+        "evidence/mnist_training_seed_study/flow_seed44"
+      ]
+    },
+    {
+      "sha256": "88ad6ea9b54760a8c226c320d108810e5214ea31b7413b9e0ccfb4fabecf6944",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_cd_refined/checkpoint_0004000.pt",
+      "training_steps": 4000,
+      "evaluations": [
+        "evidence/scratch_refinement_pilot/cd_pilot_1",
+        "evidence/scratch_refinement_pilot/cd_pilot_2",
+        "evidence/scratch_refinement_pilot/cd_pilot_4"
+      ]
+    },
+    {
+      "sha256": "402a65d2356e71862498bf7fbc5c9b9574c95158c6153bdab3f3f3dbe3f19b22",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/coco_scratch_step1000_prompts/checkpoint.pt",
+      "training_steps": 1000,
+      "evaluations": [
+        "evidence/scratch_refinement_pilot/coco_scratch_step1000_denoising",
+        "evidence/scratch_refinement_pilot/coco_scratch_step1000_prompts"
+      ]
+    },
+    {
+      "sha256": "8e3e0507c57fc157091d28666bd4469b5e54f39cf01d3f1de3ec72423a3b39d6",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/completion_studies/cd_vs_old/candidate.pt",
+      "training_steps": 40000,
+      "evaluations": [
+        "evidence/scratch_refinement_progress/cd_vs_old/candidate_final_1",
+        "evidence/scratch_refinement_progress/cd_vs_old/candidate_final_2",
+        "evidence/scratch_refinement_progress/cd_vs_old/candidate_final_4",
+        "evidence/scratch_refinement_progress/ict_vs_cd/baseline_final_1",
+        "evidence/scratch_refinement_progress/ict_vs_cd/baseline_final_2",
+        "evidence/scratch_refinement_progress/ict_vs_cd/baseline_final_4",
+        "evidence/scratch_refinement/cd_vs_old/candidate_final_1",
+        "evidence/scratch_refinement/cd_vs_old/candidate_final_2",
+        "evidence/scratch_refinement/cd_vs_old/candidate_final_4",
+        "evidence/scratch_refinement/ict_vs_cd/baseline_final_1",
+        "evidence/scratch_refinement/ict_vs_cd/baseline_final_2",
+        "evidence/scratch_refinement/ict_vs_cd/baseline_final_4"
+      ]
+    },
+    {
+      "sha256": "e0148b5c45dd48fd305b2f3c33709cea984a50aa30b75cba6489c854c0f27952",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/completion_studies/ict_vs_cd/candidate.pt",
+      "training_steps": 40000,
+      "evaluations": [
+        "evidence/scratch_refinement_progress/ict_vs_cd/candidate_final_1",
+        "evidence/scratch_refinement_progress/ict_vs_cd/candidate_final_2",
+        "evidence/scratch_refinement_progress/ict_vs_cd/candidate_final_4",
+        "evidence/scratch_refinement/ict_vs_cd/candidate_final_1",
+        "evidence/scratch_refinement/ict_vs_cd/candidate_final_2",
+        "evidence/scratch_refinement/ict_vs_cd/candidate_final_4"
+      ]
+    },
+    {
+      "sha256": "4353c9121a53e204ded97a7137a202fbed02fd2abe827669c1328384eaaa4076",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/coco2017_scratch_denoiser/checkpoint_0060000.pt",
+      "training_steps": 60000,
+      "evaluations": [
+        "evidence/scratch_refinement_progress/text_60k_prompts"
+      ]
+    },
+    {
+      "sha256": "e0d0deac1c636a76d747a3c9495f30dbfb54c7efcad70ec76833535b7cd5fb46",
+      "checkpoint_at_evaluation": "/home/navid.bagheri-shouraki/Diffusion/outputs/coco2017_scratch_denoiser/checkpoint_0100000.pt",
+      "training_steps": 100000,
+      "evaluations": [
+        "evidence/scratch_refinement/text_step0100000_validation_cfg1",
+        "evidence/scratch_refinement/text_step0100000_validation_cfg3",
+        "evidence/scratch_refinement/text_step0100000_validation_cfg5",
+        "evidence/scratch_refinement/text_step0100000_validation_cfg7.5",
+        "evidence/scratch_refinement/text_step0100000_prompts",
+        "evidence/scratch_refinement/text_step0100000_denoising",
+        "evidence/scratch_refinement/text_final_heldout"
+      ]
+    }
+  ],
+  "classifiers": [
+    {
+      "run": "cifar10_assessment_classifier",
+      "checkpoint": "outputs/cifar10_assessment_classifier/classifier.pt",
+      "sha256": "03f743dc4412f5c1b33ac83a289fcfa3bf9da5c01cfd70dcd180695284b35446",
+      "heldout_report": "assets/reports/classifiers/cifar10_assessment_classifier/diagnostics.json"
+    },
+    {
+      "run": "cifar10_classifier",
+      "checkpoint": "outputs/cifar10_classifier/classifier.pt",
+      "sha256": "18702601acf9b0fbd832a3d75bb6b1270ef877a533d559305c66d877aa535929",
+      "heldout_report": "assets/reports/classifiers/cifar10_classifier/diagnostics.json"
+    },
+    {
+      "run": "mnist_assessment_classifier",
+      "checkpoint": "outputs/mnist_assessment_classifier/classifier.pt",
+      "sha256": "4466f5260714a2728c259090ec2cc1c10b28f182eb6b04557393d9c4265265fb",
+      "heldout_report": "assets/reports/classifiers/mnist_assessment_classifier/diagnostics.json"
+    },
+    {
+      "run": "mnist_classifier",
+      "checkpoint": "outputs/mnist_classifier/classifier.pt",
+      "sha256": "7a54d9faca9819106ed5990476895e6ab8b404eca8d8f65e1b7ef9469427f649",
+      "heldout_report": "assets/reports/classifiers/mnist_classifier/diagnostics.json"
+    }
+  ]
+}

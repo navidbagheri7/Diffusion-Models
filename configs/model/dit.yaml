@@ -1,0 +1,10 @@
+kind: dit
+image_size: ${data.image_size}
+patch_size: 2
+width: 384
+depth: 8
+heads: 6
+mlp_ratio: 4
+channels: ${oc.select:data.channels,3}
+out_channels: ${oc.select:data.channels,3}
+gradient_checkpointing: false

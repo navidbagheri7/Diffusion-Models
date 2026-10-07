@@ -1,0 +1,9 @@
+kind: vp_logsnr
+prediction: v
+logsnr_max: 15.0
+logsnr_min: -15.0
+beta_min: 0.1
+beta_max: 20.0
+sigma_min: 0.01
+sigma_max: 20.0
+time_eps: 0.001

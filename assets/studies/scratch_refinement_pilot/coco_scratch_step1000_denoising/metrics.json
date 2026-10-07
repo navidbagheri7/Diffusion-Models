@@ -1,0 +1,410 @@
+{
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/coco_scratch_step1000_prompts/checkpoint.pt",
+  "checkpoint_sha256": "402a65d2356e71862498bf7fbc5c9b9574c95158c6153bdab3f3f3dbe3f19b22",
+  "training_steps": 1000,
+  "weights": "ema",
+  "samples": 64,
+  "split": "evaluation",
+  "seed": 125,
+  "image_ids": [
+    119365,
+    119445,
+    119452,
+    119516,
+    119641,
+    119677,
+    119828,
+    119911,
+    119995,
+    120420,
+    120572,
+    120584,
+    120777,
+    120853,
+    121031,
+    121153,
+    121242,
+    121417,
+    121497,
+    121506,
+    121586,
+    121591,
+    121673,
+    121744,
+    122046,
+    122166,
+    122217,
+    122606,
+    122672,
+    122745,
+    122927,
+    122962,
+    122969,
+    123131,
+    123213,
+    123321,
+    123480,
+    123585,
+    123633,
+    124277,
+    124442,
+    124636,
+    124659,
+    124798,
+    124975,
+    125062,
+    125072,
+    125129,
+    125211,
+    125245,
+    125257,
+    125405,
+    125472,
+    125572,
+    125778,
+    125806,
+    125850,
+    125936,
+    125952,
+    126107,
+    126110,
+    126137,
+    126216,
+    126226
+  ],
+  "manifest_sha256": "b04aa50ff24c0f9abd7cf871b0a0f6f4dca2364b66f7bf62ebb9da6503664a8b",
+  "prediction_type": "epsilon",
+  "results": [
+    {
+      "discrete_timestep": 100,
+      "mse": {
+        "caption": {
+          "mean": 0.6064024646766484,
+          "std": 0.07277408559262422,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.5882240389660714,
+            0.6245808903872253
+          ]
+        },
+        "empty": {
+          "mean": 0.607005740981549,
+          "std": 0.07309700299105681,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.5887466529048254,
+            0.6252648290582726
+          ]
+        },
+        "shuffled": {
+          "mean": 0.6076420694589615,
+          "std": 0.07293668568729901,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.5894230274532087,
+            0.6258611114647142
+          ]
+        }
+      },
+      "paired_empty_minus_caption": {
+        "mean": 0.0006032763049006462,
+        "std": 0.0013172312419460364,
+        "repetitions": 64,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.0002742417305686822,
+          0.0009323108792326102
+        ]
+      },
+      "paired_shuffled_minus_caption": {
+        "mean": 0.0012396047823131084,
+        "std": 0.0020431455905104545,
+        "repetitions": 64,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.0007292421988394183,
+          0.0017499673657867987
+        ]
+      }
+    },
+    {
+      "discrete_timestep": 300,
+      "mse": {
+        "caption": {
+          "mean": 0.290961624821648,
+          "std": 0.043355961562198855,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.2801316278529339,
+            0.3017916217903621
+          ]
+        },
+        "empty": {
+          "mean": 0.29163000942207873,
+          "std": 0.043527069014067714,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.28075727108359,
+            0.30250274776056746
+          ]
+        },
+        "shuffled": {
+          "mean": 0.2925876146182418,
+          "std": 0.04359155755732968,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.281698767520937,
+            0.3034764617155466
+          ]
+        }
+      },
+      "paired_empty_minus_caption": {
+        "mean": 0.000668384600430727,
+        "std": 0.00111281768148082,
+        "repetitions": 64,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.00039041101426359515,
+          0.0009463581865978589
+        ]
+      },
+      "paired_shuffled_minus_caption": {
+        "mean": 0.0016259897965937853,
+        "std": 0.002002159779603153,
+        "repetitions": 64,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.0011258651640706136,
+          0.002126114429116957
+        ]
+      }
+    },
+    {
+      "discrete_timestep": 500,
+      "mse": {
+        "caption": {
+          "mean": 0.1235066888621077,
+          "std": 0.01819310627377633,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.11896218612944823,
+            0.12805119159476716
+          ]
+        },
+        "empty": {
+          "mean": 0.12383712863083929,
+          "std": 0.018244699566920344,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.11927973827700335,
+            0.12839451898467524
+          ]
+        },
+        "shuffled": {
+          "mean": 0.124245211831294,
+          "std": 0.01819844858994792,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.11969937462775995,
+            0.12879104903482805
+          ]
+        }
+      },
+      "paired_empty_minus_caption": {
+        "mean": 0.0003304397687315941,
+        "std": 0.0006589082708601168,
+        "repetitions": 64,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.00016584937979884293,
+          0.0004950301576643453
+        ]
+      },
+      "paired_shuffled_minus_caption": {
+        "mean": 0.000738522969186306,
+        "std": 0.000859599602683563,
+        "repetitions": 64,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.0005238013771391454,
+          0.0009532445612334666
+        ]
+      }
+    },
+    {
+      "discrete_timestep": 700,
+      "mse": {
+        "caption": {
+          "mean": 0.03977705695433542,
+          "std": 0.004989155378636015,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.03853080302107745,
+            0.041023310887593395
+          ]
+        },
+        "empty": {
+          "mean": 0.039919525501318276,
+          "std": 0.0049306423905354935,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.038687887677608467,
+            0.041151163325028085
+          ]
+        },
+        "shuffled": {
+          "mean": 0.04004299076041207,
+          "std": 0.004917928489632337,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.038814528774655806,
+            0.04127145274616833
+          ]
+        }
+      },
+      "paired_empty_minus_caption": {
+        "mean": 0.0001424685469828546,
+        "std": 0.0002622374695924929,
+        "repetitions": 64,
+        "confidence": 0.95,
+        "confidence_interval": [
+          7.696357607601354e-05,
+          0.00020797351788969567
+        ]
+      },
+      "paired_shuffled_minus_caption": {
+        "mean": 0.00026593380607664585,
+        "std": 0.00041149338071879067,
+        "repetitions": 64,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.0001631458178679856,
+          0.0003687217942853061
+        ]
+      }
+    },
+    {
+      "discrete_timestep": 900,
+      "mse": {
+        "caption": {
+          "mean": 0.009728465534863062,
+          "std": 0.0010008456913789033,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.009478461719626853,
+            0.009978469350099271
+          ]
+        },
+        "empty": {
+          "mean": 0.009752173820743337,
+          "std": 0.001001103880081224,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.009502105511888195,
+            0.01000224212959848
+          ]
+        },
+        "shuffled": {
+          "mean": 0.009795231599127874,
+          "std": 0.0010129260075501096,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.009542210210695241,
+            0.010048252987560506
+          ]
+        }
+      },
+      "paired_empty_minus_caption": {
+        "mean": 2.370828588027507e-05,
+        "std": 0.0001063468114183114,
+        "repetitions": 64,
+        "confidence": 0.95,
+        "confidence_interval": [
+          -2.8563572228523467e-06,
+          5.027292898340249e-05
+        ]
+      },
+      "paired_shuffled_minus_caption": {
+        "mean": 6.676606426481158e-05,
+        "std": 0.0001726980679825932,
+        "repetitions": 64,
+        "confidence": 0.95,
+        "confidence_interval": [
+          2.3627370406734184e-05,
+          0.00010990475812288897
+        ]
+      }
+    },
+    {
+      "discrete_timestep": 999,
+      "mse": {
+        "caption": {
+          "mean": 0.005314066766004544,
+          "std": 0.0006745321246878841,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.005145573654504987,
+            0.0054825598775041
+          ]
+        },
+        "empty": {
+          "mean": 0.005316022830811562,
+          "std": 0.0006838358511383837,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.005145205717591686,
+            0.005486839944031438
+          ]
+        },
+        "shuffled": {
+          "mean": 0.005351078085368499,
+          "std": 0.0006929262339686646,
+          "repetitions": 64,
+          "confidence": 0.95,
+          "confidence_interval": [
+            0.005177990262079025,
+            0.005524165908657974
+          ]
+        }
+      },
+      "paired_empty_minus_caption": {
+        "mean": 1.956064807018265e-06,
+        "std": 9.371509091316253e-05,
+        "repetitions": 64,
+        "confidence": 0.95,
+        "confidence_interval": [
+          -2.1453268395205457e-05,
+          2.5365398009241987e-05
+        ]
+      },
+      "paired_shuffled_minus_caption": {
+        "mean": 3.701131936395541e-05,
+        "std": 0.00014990160753686533,
+        "repetitions": 64,
+        "confidence": 0.95,
+        "confidence_interval": [
+          -4.3298810228842505e-07,
+          7.445562683019924e-05
+        ]
+      }
+    }
+  ],
+  "interpretation": "Positive paired differences indicate better denoising with the paired caption. They do not establish generated-image fidelity or counting accuracy."
+}

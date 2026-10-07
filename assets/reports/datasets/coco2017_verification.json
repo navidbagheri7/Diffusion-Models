@@ -1,0 +1,43 @@
+{
+  "dataset": "COCO 2017 captions",
+  "source": "https://cocodataset.org/#download",
+  "archives": [
+    {
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/zips/train2017.zip",
+      "bytes": 19336861798,
+      "etag": "\"62ff7d7fbcc7e0c0604cbb0f9047ce77-2306\"",
+      "sha256": "69a8bb58ea5f8f99d24875f21416de2e9ded3178e903f1f7603e283b9e06d929",
+      "archive": "train2017.zip"
+    },
+    {
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/zips/val2017.zip",
+      "bytes": 815585330,
+      "etag": "\"d366be60d3dc737327160d62453e3973-98\"",
+      "sha256": "4f7e2ccb2866ec5041993c9cf2a952bbed69647b115d0f74da7ce8f4bef82f05",
+      "archive": "val2017.zip"
+    },
+    {
+      "url": "https://s3.amazonaws.com/images.cocodataset.org/annotations/annotations_trainval2017.zip",
+      "bytes": 252907541,
+      "etag": "\"f4bbac642086de4f52a3fdda2de5fa2c\"",
+      "sha256": "113a836d90195ee1f884e704da6304dfaaecff1f023f49b6ca93c4aaae470268",
+      "archive": "annotations_trainval2017.zip"
+    }
+  ],
+  "splits": {
+    "train": {
+      "images": 118287,
+      "captions": 591753,
+      "all_images_decoded": true,
+      "manifest_sha256": "d5756ec6937b60cbca79ce0fda6ed7d60bcbe424f5683e0f02831512871caa88"
+    },
+    "val": {
+      "images": 5000,
+      "captions": 25014,
+      "all_images_decoded": true,
+      "manifest_sha256": "b04aa50ff24c0f9abd7cf871b0a0f6f4dca2364b66f7bf62ebb9da6503664a8b"
+    }
+  },
+  "checksum_scope": "Locally recorded SHA-256; ZIP CRC and full JPEG decoding. No upstream SHA-256 claim.",
+  "terms": "https://cocodataset.org/#termsofuse"
+}

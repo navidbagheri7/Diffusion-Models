@@ -1,0 +1,299 @@
+{
+  "study": "Independent training seeds: GMM DDPM versus flow",
+  "training_seeds": [
+    42,
+    43,
+    44
+  ],
+  "matched_evaluation_seed": 123,
+  "matched_reference_seed": 999,
+  "matched_network_calls_per_image": 100,
+  "steps_per_model": 6000,
+  "results": [
+    {
+      "mmd_squared_unbiased": 0.004859854091914639,
+      "sliced_w2": 0.21979528665542603,
+      "empirical_w2_subsample": 0.5120185451213292,
+      "wasserstein_sample_count": 512,
+      "mean_target_negative_log_density": 1.9150121212005615,
+      "mode_coverage_3sigma": 1.0,
+      "fraction_within_3sigma": 0.94677734375,
+      "mode_total_variation_with_outlier_bin": 0.063232421875,
+      "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_ddpm_seed42/checkpoint.pt",
+      "seed": 123,
+      "reference_seed": 999,
+      "network_calls_during_sampling": 100,
+      "nfe_per_image": 100,
+      "sample_count": 4096,
+      "sampling_seconds": 0.9357947679236531,
+      "guidance": "cfg",
+      "guidance_scale": 1.0,
+      "class_label": null,
+      "classifier_kind": null,
+      "sampler": {
+        "method": "ddim",
+        "steps": 100,
+        "eta": 0.0,
+        "clip_x0": false
+      },
+      "process": "ddpm",
+      "prediction": "x0",
+      "training_seed": 42,
+      "family": "ddpm",
+      "checkpoint_sha256": "7e4429c0db33685a1b5151466ee594f6b12cb355210c07f74f708156ed2ca2d0",
+      "training_steps": 6000
+    },
+    {
+      "mmd_squared_unbiased": 0.004235502782521272,
+      "sliced_w2": 0.17268002033233643,
+      "empirical_w2_subsample": 0.40448341515228764,
+      "wasserstein_sample_count": 512,
+      "mean_target_negative_log_density": 2.0304324626922607,
+      "mode_coverage_3sigma": 1.0,
+      "fraction_within_3sigma": 0.937744140625,
+      "mode_total_variation_with_outlier_bin": 0.062255859375,
+      "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_ddpm_seed43/checkpoint.pt",
+      "seed": 123,
+      "reference_seed": 999,
+      "network_calls_during_sampling": 100,
+      "nfe_per_image": 100,
+      "sample_count": 4096,
+      "sampling_seconds": 0.6125958589836955,
+      "guidance": "cfg",
+      "guidance_scale": 1.0,
+      "class_label": null,
+      "classifier_kind": null,
+      "sampler": {
+        "method": "ddim",
+        "steps": 100,
+        "eta": 0.0,
+        "clip_x0": false
+      },
+      "process": "ddpm",
+      "prediction": "x0",
+      "training_seed": 43,
+      "family": "ddpm",
+      "checkpoint_sha256": "3301222090ccacd42d71bcb0dac7276403f1da50fed1d6c402765fe37536a556",
+      "training_steps": 6000
+    },
+    {
+      "mmd_squared_unbiased": 0.003617543410354418,
+      "sliced_w2": 0.17343582212924957,
+      "empirical_w2_subsample": 0.4101072032067315,
+      "wasserstein_sample_count": 512,
+      "mean_target_negative_log_density": 1.9759005308151245,
+      "mode_coverage_3sigma": 1.0,
+      "fraction_within_3sigma": 0.9462890625,
+      "mode_total_variation_with_outlier_bin": 0.0537109375,
+      "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_ddpm_seed44/checkpoint.pt",
+      "seed": 123,
+      "reference_seed": 999,
+      "network_calls_during_sampling": 100,
+      "nfe_per_image": 100,
+      "sample_count": 4096,
+      "sampling_seconds": 0.9865829069167376,
+      "guidance": "cfg",
+      "guidance_scale": 1.0,
+      "class_label": null,
+      "classifier_kind": null,
+      "sampler": {
+        "method": "ddim",
+        "steps": 100,
+        "eta": 0.0,
+        "clip_x0": false
+      },
+      "process": "ddpm",
+      "prediction": "x0",
+      "training_seed": 44,
+      "family": "ddpm",
+      "checkpoint_sha256": "eb045537a31c8e345b80eff3380e221aa2c095ad7d2b950d15d4386222c73c8c",
+      "training_steps": 6000
+    },
+    {
+      "mmd_squared_unbiased": 0.0004966434530995212,
+      "sliced_w2": 0.17226609587669373,
+      "empirical_w2_subsample": 0.46564709841605434,
+      "wasserstein_sample_count": 512,
+      "mean_target_negative_log_density": 2.470468282699585,
+      "mode_coverage_3sigma": 1.0,
+      "fraction_within_3sigma": 0.93310546875,
+      "mode_total_variation_with_outlier_bin": 0.068359375,
+      "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_flow_seed42/checkpoint.pt",
+      "seed": 123,
+      "reference_seed": 999,
+      "network_calls_during_sampling": 100,
+      "nfe_per_image": 100,
+      "sample_count": 4096,
+      "sampling_seconds": 0.9348846590146422,
+      "guidance": "cfg",
+      "guidance_scale": 1.0,
+      "class_label": null,
+      "classifier_kind": null,
+      "sampler": {
+        "method": "ode",
+        "steps": 50,
+        "ode_solver": "heun",
+        "sde_solver": "euler_maruyama"
+      },
+      "process": "flow",
+      "prediction": "velocity",
+      "training_seed": 42,
+      "family": "flow",
+      "checkpoint_sha256": "c13a497f5d5031df186dabac982124ee38010dc555ee179b2b765be369d4433d",
+      "training_steps": 6000
+    },
+    {
+      "mmd_squared_unbiased": 0.00047841903635775784,
+      "sliced_w2": 0.15849657356739044,
+      "empirical_w2_subsample": 0.44127092998475387,
+      "wasserstein_sample_count": 512,
+      "mean_target_negative_log_density": 2.41455340385437,
+      "mode_coverage_3sigma": 1.0,
+      "fraction_within_3sigma": 0.93896484375,
+      "mode_total_variation_with_outlier_bin": 0.07080078125,
+      "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_flow_seed43/checkpoint.pt",
+      "seed": 123,
+      "reference_seed": 999,
+      "network_calls_during_sampling": 100,
+      "nfe_per_image": 100,
+      "sample_count": 4096,
+      "sampling_seconds": 0.4944121306762099,
+      "guidance": "cfg",
+      "guidance_scale": 1.0,
+      "class_label": null,
+      "classifier_kind": null,
+      "sampler": {
+        "method": "ode",
+        "steps": 50,
+        "ode_solver": "heun",
+        "sde_solver": "euler_maruyama"
+      },
+      "process": "flow",
+      "prediction": "velocity",
+      "training_seed": 43,
+      "family": "flow",
+      "checkpoint_sha256": "27e0a293f28a1fbe2ac4c77e7078f9a37000c4eca5f4c8f541d5e736807c6a61",
+      "training_steps": 6000
+    },
+    {
+      "mmd_squared_unbiased": 0.0004508833674790047,
+      "sliced_w2": 0.16204853355884552,
+      "empirical_w2_subsample": 0.4229449835674004,
+      "wasserstein_sample_count": 512,
+      "mean_target_negative_log_density": 2.454920768737793,
+      "mode_coverage_3sigma": 1.0,
+      "fraction_within_3sigma": 0.939697265625,
+      "mode_total_variation_with_outlier_bin": 0.063232421875,
+      "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/training_seed_study/gmm_flow_seed44/checkpoint.pt",
+      "seed": 123,
+      "reference_seed": 999,
+      "network_calls_during_sampling": 100,
+      "nfe_per_image": 100,
+      "sample_count": 4096,
+      "sampling_seconds": 0.840562260709703,
+      "guidance": "cfg",
+      "guidance_scale": 1.0,
+      "class_label": null,
+      "classifier_kind": null,
+      "sampler": {
+        "method": "ode",
+        "steps": 50,
+        "ode_solver": "heun",
+        "sde_solver": "euler_maruyama"
+      },
+      "process": "flow",
+      "prediction": "velocity",
+      "training_seed": 44,
+      "family": "flow",
+      "checkpoint_sha256": "afe810ad80426021fa3f692e1425733c7d54808e6f549f57e86fa5f495013c5f",
+      "training_steps": 6000
+    }
+  ],
+  "summary": {
+    "ddpm": {
+      "sliced_w2": {
+        "mean": 0.188637043039004,
+        "std": 0.02698647657687609,
+        "repetitions": 3,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.1215989188679499,
+          0.2556751672100581
+        ]
+      },
+      "mmd_squared_unbiased": {
+        "mean": 0.004237633428263443,
+        "std": 0.0006211580814238148,
+        "repetitions": 3,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.0026945912132591847,
+          0.005780675643267702
+        ]
+      },
+      "empirical_w2_subsample": {
+        "mean": 0.44220305449344943,
+        "std": 0.06052733925036684,
+        "repetitions": 3,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.2918448084715705,
+          0.5925613005153283
+        ]
+      },
+      "fraction_within_3sigma": {
+        "mean": 0.943603515625,
+        "std": 0.005080237316085159,
+        "repetitions": 3,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.9309835065236279,
+          0.9562235247263721
+        ]
+      }
+    },
+    "flow": {
+      "sliced_w2": {
+        "mean": 0.16427040100097656,
+        "std": 0.0071485982789916,
+        "repetitions": 3,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.14651229843020008,
+          0.18202850357175304
+        ]
+      },
+      "mmd_squared_unbiased": {
+        "mean": 0.0004753152856454279,
+        "std": 2.3037389399896554e-05,
+        "repetitions": 3,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.00041808723785757677,
+          0.000532543333433279
+        ]
+      },
+      "empirical_w2_subsample": {
+        "mean": 0.44328767065606955,
+        "std": 0.021422373475840903,
+        "repetitions": 3,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.39007154483019263,
+          0.4965037964819465
+        ]
+      },
+      "fraction_within_3sigma": {
+        "mean": 0.937255859375,
+        "std": 0.0036129513151730327,
+        "repetitions": 3,
+        "confidence": 0.95,
+        "confidence_interval": [
+          0.9282807907623719,
+          0.9462309279876281
+        ]
+      }
+    }
+  },
+  "scope": "Three independently initialized/trained models per family; identical architecture/data/training updates/evaluation counts and 100 measured model calls. Independent fixed reference seed 999. These intervals are not evidence of image-model training uncertainty."
+}

@@ -1,0 +1,44 @@
+[
+  {
+    "time": 0.05,
+    "accuracy": 1.0,
+    "bayes_accuracy": 1.0,
+    "sigma_weighted_gradient_rmse": 0.006596530321985483
+  },
+  {
+    "time": 0.15,
+    "accuracy": 0.99560546875,
+    "bayes_accuracy": 0.9970703125,
+    "sigma_weighted_gradient_rmse": 0.10439002513885498
+  },
+  {
+    "time": 0.3,
+    "accuracy": 0.96337890625,
+    "bayes_accuracy": 0.9658203125,
+    "sigma_weighted_gradient_rmse": 0.13317936658859253
+  },
+  {
+    "time": 0.5,
+    "accuracy": 0.71875,
+    "bayes_accuracy": 0.71484375,
+    "sigma_weighted_gradient_rmse": 0.1078997254371643
+  },
+  {
+    "time": 0.7,
+    "accuracy": 0.4404296875,
+    "bayes_accuracy": 0.443359375,
+    "sigma_weighted_gradient_rmse": 0.09814046323299408
+  },
+  {
+    "time": 0.9,
+    "accuracy": 0.20849609375,
+    "bayes_accuracy": 0.2119140625,
+    "sigma_weighted_gradient_rmse": 0.10028476268053055
+  },
+  {
+    "time": 0.98,
+    "accuracy": 0.13232421875,
+    "bayes_accuracy": 0.13623046875,
+    "sigma_weighted_gradient_rmse": 0.06722043454647064
+  }
+]

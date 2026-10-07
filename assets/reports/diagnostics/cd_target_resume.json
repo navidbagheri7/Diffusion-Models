@@ -1,0 +1,16 @@
+{
+  "steps": 3,
+  "device": "cpu",
+  "teacher_identity_equal": true,
+  "states": {
+    "model": {
+      "max_absolute_difference": 0.0
+    },
+    "ema": {
+      "max_absolute_difference": 0.0
+    },
+    "target_ema": {
+      "max_absolute_difference": 0.0
+    }
+  }
+}

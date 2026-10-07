@@ -1,0 +1,12 @@
+[
+  "-m",
+  "scripts.evaluate_text_denoising",
+  "--checkpoint",
+  "/home/navid.bagheri-shouraki/Diffusion/outputs/coco2017_scratch_denoiser/checkpoint_0100000.pt",
+  "--output",
+  "/home/navid.bagheri-shouraki/Diffusion/outputs/completion_studies/text_step0100000_denoising",
+  "--device",
+  "cuda:2",
+  "--samples",
+  "256"
+]

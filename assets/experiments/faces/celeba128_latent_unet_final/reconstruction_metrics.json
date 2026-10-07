@@ -1,0 +1,16 @@
+{
+  "fid_2048": 5.279585361480713,
+  "kid_mean": 0.0017717551672831178,
+  "kid_std": 0.0002850747259799391,
+  "inception_score_mean": 3.280470371246338,
+  "inception_score_std": 0.14218111336231232,
+  "real_count": 2000,
+  "generated_count": 2000,
+  "kid_subsets": 50,
+  "kid_subset_size": 1000,
+  "inception_score_splits": 5,
+  "preprocessing": "RGB [-1,1] -> rounded uint8; torch-fidelity Inception resize",
+  "small_sample_warning": true,
+  "psnr_db": 32.09908676147461,
+  "kind": "Frozen VAE posterior-mean reconstructions of the same held-out reference"
+}

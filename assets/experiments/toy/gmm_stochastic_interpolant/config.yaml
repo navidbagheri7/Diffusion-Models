@@ -1,0 +1,14 @@
+dataset: gmm
+steps: 15000
+device: cuda:2
+width: 256
+batch_size: 256
+amplitude: 0.5
+path: linear
+samples: 2048
+conditional: true
+scale: 1.0
+seed: 42
+resume: /home/navid.bagheri-shouraki/Diffusion/outputs/gmm_stochastic_interpolant/checkpoint.pt
+oracle_only: false
+output: outputs/gmm_stochastic_interpolant

@@ -1,0 +1,14 @@
+{
+  "output": "outputs/dsbm_imf",
+  "device": "cpu",
+  "dataset": "gmm",
+  "initialization": "imf",
+  "iterations": 4,
+  "inner_steps": 6000,
+  "particles": 8192,
+  "simulation_steps": 200,
+  "epsilon": 0.5,
+  "width": 128,
+  "seed": 42,
+  "resume": null
+}

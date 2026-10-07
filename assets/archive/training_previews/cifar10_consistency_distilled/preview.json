@@ -1,0 +1,9 @@
+{
+  "step": 30000,
+  "nfe_per_image": 4,
+  "cfg_scale": 1,
+  "layout": "rows repeat class 0 through class 9",
+  "training_budget": 30000,
+  "training_complete": true,
+  "interim": false
+}

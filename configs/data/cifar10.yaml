@@ -1,0 +1,10 @@
+kind: images
+name: cifar10
+root: ${oc.env:IMAGE_DATA_ROOT,/data/tii/Image_data}/cifar10
+image_size: 32
+channels: 3
+horizontal_flip: true
+holdout_fraction: 0.0
+split_seed: 123
+train_limit: 0
+validation_limit: 0

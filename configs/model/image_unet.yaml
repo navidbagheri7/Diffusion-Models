@@ -1,0 +1,8 @@
+kind: image_unet
+width: 64
+channels: ${oc.select:data.channels,3}
+out_channels: ${oc.select:data.channels,3}
+channel_mult: [1, 2, 2, 2]
+blocks_per_level: 2
+attention_levels: [1, 2]
+dropout: 0.1

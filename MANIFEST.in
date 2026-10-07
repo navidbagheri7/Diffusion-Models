@@ -1,0 +1,7 @@
+include README.md
+include CITATION.cff
+include CHANGELOG.md
+recursive-include configs *.yaml
+recursive-include configs *.txt
+prune configs/local
+global-exclude *.pt *.pth *.ckpt *.safetensors *.bin *.pyc *.tmp

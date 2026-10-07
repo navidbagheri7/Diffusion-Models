@@ -1,0 +1,24 @@
+{
+  "dataset": "Analytic 8-component GMM",
+  "samples": 256,
+  "steps": 200,
+  "results": [
+    {
+      "trace": "exact",
+      "probes": 0,
+      "field_calls": 800,
+      "rmse_log_density": 7.774516751390324e-07,
+      "mean_absolute_error": 1.3697467227211796e-07,
+      "reference": "Exact GMM density at t=0.0001; exact GMM terminal marginal, not a Gaussian approximation"
+    },
+    {
+      "trace": "hutchinson",
+      "probes": 8,
+      "field_calls": 800,
+      "rmse_log_density": 0.2990810313764664,
+      "mean_absolute_error": 0.185123350381507,
+      "reference": "Exact GMM density at t=0.0001; exact GMM terminal marginal, not a Gaussian approximation"
+    }
+  ],
+  "seed": 123
+}

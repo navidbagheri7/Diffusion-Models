@@ -1,0 +1,23 @@
+[
+  "-m",
+  "diffusion_lab.text_evaluate",
+  "--checkpoint",
+  "/home/navid.bagheri-shouraki/Diffusion/outputs/coco2017_scratch_denoiser/checkpoint_0100000.pt",
+  "--output",
+  "/home/navid.bagheri-shouraki/Diffusion/outputs/completion_studies/text_final_heldout",
+  "--device",
+  "cuda:2",
+  "--samples",
+  "2048",
+  "--batch-size",
+  "16",
+  "--steps",
+  "30",
+  "--scale",
+  "7.5",
+  "--split",
+  "evaluation",
+  "--clip",
+  "/data/tii/clip-checkpoints/openai--clip-vit-large-patch14",
+  "--fid"
+]

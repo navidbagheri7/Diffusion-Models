@@ -1,0 +1,8 @@
+kind: images
+name: ffhq
+root: ${oc.env:IMAGE_DATA_ROOT,/data/tii/Image_data}/ffhq_256
+image_size: 32
+holdout_fraction: 0.14285714285714285
+split_seed: 123
+train_limit: 4096
+validation_limit: 512

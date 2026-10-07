@@ -1,0 +1,17 @@
+{
+  "field_calls": 400,
+  "trace": "exact",
+  "probe_count": 0,
+  "solver": "heun",
+  "mean_log_density_nats": -2.1490564346313477,
+  "scope": "Continuous neural flow density at generation time 1; numerical change of variables",
+  "dequantization": null,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_flow/checkpoint.pt",
+  "samples": 512,
+  "seed": 123,
+  "dataset": "ring_gmm",
+  "conditional": false,
+  "is_exact_nll": false,
+  "checkpoint_sha256": "bf9dd585348cb1ab55db84e2ce3131144ebe507fab020ff7d27ad48c19ce1346",
+  "training_steps": 6000
+}

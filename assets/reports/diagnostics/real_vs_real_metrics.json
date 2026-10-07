@@ -1,0 +1,10 @@
+{
+  "mmd_squared_unbiased": 0.0019429028034210205,
+  "sliced_w2": 0.3371012806892395,
+  "empirical_w2_subsample": 0.5806612114847828,
+  "wasserstein_sample_count": 512,
+  "mean_target_negative_log_density": 2.1253037452697754,
+  "mode_coverage_3sigma": 1.0,
+  "fraction_within_3sigma": 0.9853515625,
+  "mode_total_variation_with_outlier_bin": 0.0400390625
+}

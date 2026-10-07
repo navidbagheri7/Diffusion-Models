@@ -1,0 +1,6 @@
+{
+  "seed": 42,
+  "figures": "original code-generated figures inspired by rectified-flow literature; not copied paper images",
+  "path_comparison": "analytic translated Gaussian example, finite VP endpoints, Euler errors",
+  "density_animation": "empirical histogram of simulated particles, not exact PDE solution"
+}

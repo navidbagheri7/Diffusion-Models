@@ -1,0 +1,44 @@
+[
+  {
+    "run": "cifar10_dit_quality",
+    "latest_saved_step": 100000,
+    "budget": 100000,
+    "training_complete": true
+  },
+  {
+    "run": "celeba128_latent_unet_quality",
+    "latest_saved_step": 100000,
+    "budget": 100000,
+    "training_complete": true
+  },
+  {
+    "run": "celeba128_latent_dit_quality",
+    "latest_saved_step": 100000,
+    "budget": 100000,
+    "training_complete": true
+  },
+  {
+    "run": "cifar10_consistency_distilled",
+    "latest_saved_step": 30000,
+    "budget": 30000,
+    "training_complete": true
+  },
+  {
+    "run": "mnist_ict_quality",
+    "latest_saved_step": 20000,
+    "budget": 20000,
+    "training_complete": true
+  },
+  {
+    "run": "mnist_ict_smooth_quality",
+    "latest_saved_step": 40000,
+    "budget": 40000,
+    "training_complete": true
+  },
+  {
+    "run": "mnist_ict_corrected_quality",
+    "latest_saved_step": 40000,
+    "budget": 40000,
+    "training_complete": true
+  }
+]

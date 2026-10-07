@@ -1,0 +1,259 @@
+[
+  {
+    "run": "mnist_edm_quality",
+    "latest_saved_step": 20000,
+    "configured_steps": 20000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/mnist_edm_quality/checkpoint_0020000.pt"
+    ]
+  },
+  {
+    "run": "cifar10_edm_quality",
+    "latest_saved_step": 100000,
+    "configured_steps": 100000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/cifar10_edm_quality/checkpoint_0015000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0030000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0035000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0040000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0045000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0050000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0055000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0060000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0065000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0070000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0075000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0080000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0085000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0090000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0095000.pt",
+      "outputs/cifar10_edm_quality/checkpoint_0100000.pt"
+    ]
+  },
+  {
+    "run": "celeba_flow_quality",
+    "latest_saved_step": 100000,
+    "configured_steps": 100000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/celeba_flow_quality/checkpoint_0010000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0015000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0020000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0025000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0030000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0035000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0040000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0045000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0050000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0055000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0060000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0065000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0070000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0075000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0080000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0085000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0090000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0095000.pt",
+      "outputs/celeba_flow_quality/checkpoint_0100000.pt"
+    ]
+  },
+  {
+    "run": "mnist_consistency_distilled",
+    "latest_saved_step": 20000,
+    "configured_steps": 20000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/mnist_consistency_distilled/checkpoint_0015000.pt",
+      "outputs/mnist_consistency_distilled/checkpoint_0020000.pt"
+    ]
+  },
+  {
+    "run": "mnist_consistency_training",
+    "latest_saved_step": 20000,
+    "configured_steps": 20000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/mnist_consistency_training/checkpoint_0020000.pt"
+    ]
+  },
+  {
+    "run": "mnist_improved_ddpm",
+    "latest_saved_step": 20000,
+    "configured_steps": 20000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/mnist_improved_ddpm/checkpoint_0020000.pt"
+    ]
+  },
+  {
+    "run": "cifar10_flow_quality",
+    "latest_saved_step": 100000,
+    "configured_steps": 100000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/cifar10_flow_quality/checkpoint_0005000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0010000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0015000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0020000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0025000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0030000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0035000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0040000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0045000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0050000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0055000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0060000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0065000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0070000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0075000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0080000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0085000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0090000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0095000.pt",
+      "outputs/cifar10_flow_quality/checkpoint_0100000.pt"
+    ]
+  },
+  {
+    "run": "cifar10_dit_quality",
+    "latest_saved_step": 100000,
+    "configured_steps": 100000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/cifar10_dit_quality/checkpoint_0010000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0015000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0020000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0025000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0030000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0035000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0040000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0045000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0050000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0055000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0060000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0065000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0070000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0075000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0080000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0085000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0090000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0095000.pt",
+      "outputs/cifar10_dit_quality/checkpoint_0100000.pt"
+    ]
+  },
+  {
+    "run": "celeba128_latent_unet_quality",
+    "latest_saved_step": 100000,
+    "configured_steps": 100000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/celeba128_latent_unet_quality/checkpoint_0005000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0010000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0015000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0020000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0025000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0030000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0035000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0040000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0045000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0050000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0055000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0060000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0065000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0070000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0075000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0080000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0085000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0090000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0095000.pt",
+      "outputs/celeba128_latent_unet_quality/checkpoint_0100000.pt"
+    ]
+  },
+  {
+    "run": "celeba128_latent_dit_quality",
+    "latest_saved_step": 100000,
+    "configured_steps": 100000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/celeba128_latent_dit_quality/checkpoint_0005000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0010000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0015000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0020000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0025000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0030000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0035000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0040000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0045000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0050000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0055000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0060000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0065000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0070000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0075000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0080000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0085000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0090000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0095000.pt",
+      "outputs/celeba128_latent_dit_quality/checkpoint_0100000.pt"
+    ]
+  },
+  {
+    "run": "mnist_ict_quality",
+    "latest_saved_step": 20000,
+    "configured_steps": 20000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/mnist_ict_quality/checkpoint_0005000.pt",
+      "outputs/mnist_ict_quality/checkpoint_0010000.pt",
+      "outputs/mnist_ict_quality/checkpoint_0015000.pt",
+      "outputs/mnist_ict_quality/checkpoint_0020000.pt"
+    ]
+  },
+  {
+    "run": "cifar10_consistency_distilled",
+    "latest_saved_step": 30000,
+    "configured_steps": 30000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/cifar10_consistency_distilled/checkpoint_0005000.pt",
+      "outputs/cifar10_consistency_distilled/checkpoint_0010000.pt",
+      "outputs/cifar10_consistency_distilled/checkpoint_0015000.pt",
+      "outputs/cifar10_consistency_distilled/checkpoint_0020000.pt",
+      "outputs/cifar10_consistency_distilled/checkpoint_0025000.pt",
+      "outputs/cifar10_consistency_distilled/checkpoint_0030000.pt"
+    ]
+  },
+  {
+    "run": "mnist_ict_smooth_quality",
+    "latest_saved_step": 40000,
+    "configured_steps": 40000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/mnist_ict_smooth_quality/checkpoint_0005000.pt",
+      "outputs/mnist_ict_smooth_quality/checkpoint_0010000.pt",
+      "outputs/mnist_ict_smooth_quality/checkpoint_0015000.pt",
+      "outputs/mnist_ict_smooth_quality/checkpoint_0020000.pt",
+      "outputs/mnist_ict_smooth_quality/checkpoint_0025000.pt",
+      "outputs/mnist_ict_smooth_quality/checkpoint_0030000.pt",
+      "outputs/mnist_ict_smooth_quality/checkpoint_0035000.pt",
+      "outputs/mnist_ict_smooth_quality/checkpoint_0040000.pt"
+    ]
+  },
+  {
+    "run": "mnist_ict_corrected_quality",
+    "latest_saved_step": 40000,
+    "configured_steps": 40000,
+    "training_complete": true,
+    "milestones": [
+      "outputs/mnist_ict_corrected_quality/checkpoint_0005000.pt",
+      "outputs/mnist_ict_corrected_quality/checkpoint_0010000.pt",
+      "outputs/mnist_ict_corrected_quality/checkpoint_0015000.pt",
+      "outputs/mnist_ict_corrected_quality/checkpoint_0020000.pt",
+      "outputs/mnist_ict_corrected_quality/checkpoint_0025000.pt",
+      "outputs/mnist_ict_corrected_quality/checkpoint_0030000.pt",
+      "outputs/mnist_ict_corrected_quality/checkpoint_0035000.pt",
+      "outputs/mnist_ict_corrected_quality/checkpoint_0040000.pt"
+    ]
+  }
+]

@@ -1,0 +1,12 @@
+[
+  "-m",
+  "scripts.evaluate_prompt_pairs",
+  "--run",
+  "/home/navid.bagheri-shouraki/Diffusion/outputs/completion_studies/text_step0100000_prompts",
+  "--pairs",
+  "assets/studies/prompts/contrast_pairs.json",
+  "--clip",
+  "/data/tii/clip-checkpoints/openai--clip-vit-large-patch14",
+  "--device",
+  "cuda:2"
+]

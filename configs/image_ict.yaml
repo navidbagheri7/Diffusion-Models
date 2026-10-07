@@ -1,0 +1,17 @@
+defaults:
+  - image_train
+  - override data: mnist
+  - _self_
+algorithm: improved_consistency
+steps: 20000
+lr: 0.0003
+sampling_steps: 4
+preview_scale: 1.0
+ema_decay: 0.9999
+consistency_scales_min: 10
+consistency_scales_max: 1280
+p_mean: -1.1
+p_std: 2.0
+model:
+  dropout: 0.0
+run_dir: outputs/${data.name}_ict_quality

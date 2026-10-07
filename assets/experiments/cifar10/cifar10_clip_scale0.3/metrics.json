@@ -1,0 +1,48 @@
+{
+  "inception_metrics": "disabled by argument",
+  "requested_class_accuracy": 0.03125,
+  "assessment_classifier_sha256": "03f743dc4412f5c1b33ac83a289fcfa3bf9da5c01cfd70dcd180695284b35446",
+  "assessment_classifier_sigma": 0.001,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_clip_teacher/checkpoint.pt",
+  "checkpoint_sha256": "b9d722b08ef8253d88baa74e3176ca4318ddc2b8b752d4a8b7c950742d3e3d48",
+  "training_steps": 27000,
+  "seed": 123,
+  "algorithm": "edm",
+  "sampler": "heun",
+  "steps": 18,
+  "nfe_per_image": 49,
+  "nfe_per_image_range": [
+    49,
+    49
+  ],
+  "network_calls_include_cfg": true,
+  "classifier_calls_per_image": 14,
+  "guidance_kind": "denoised_clip_heuristic",
+  "cfg_scale": 0,
+  "classifier_scale": 0.3,
+  "class_label": 0,
+  "generated_count": 32,
+  "reference_split": "validation",
+  "sampling_seconds": 21.780668513849378,
+  "precision": "bfloat16",
+  "batch_size": 4,
+  "assessment_preprocessing": "Clipped and rounded uint8 images, normalized to [-1,1]",
+  "feature_metric_audit": "Recomputed from the original saved image tensors; see metrics_before_feature_audit.json for the previous feature protocol. Generation and Inception scores were not changed.",
+  "clip_snapshot": "/data/tii/commun_checkpoints/models--openai--clip-vit-large-patch14/snapshots/32bd64288804d66eefd0ccbe215aa642df71cc41",
+  "clip_prompts": [
+    "a photo of an airplane",
+    "a photo of an automobile",
+    "a photo of a bird",
+    "a photo of a cat",
+    "a photo of a deer",
+    "a photo of a dog",
+    "a photo of a frog",
+    "a photo of a horse",
+    "a photo of a ship",
+    "a photo of a truck"
+  ],
+  "guidance_sigma_range": [
+    0.05,
+    5.0
+  ]
+}

@@ -1,0 +1,38 @@
+[
+  {
+    "guidance": "cfg",
+    "class": 0,
+    "mmd_squared_unbiased": 0.0028172959914716245,
+    "sliced_w2": 0.05183316022157669,
+    "empirical_w2_subsample": 0.10534112157600031,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "cfg",
+    "class": 1,
+    "mmd_squared_unbiased": 0.0003050217414269918,
+    "sliced_w2": 0.06860237568616867,
+    "empirical_w2_subsample": 0.23168349851137085,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "cfg",
+    "class": 2,
+    "mmd_squared_unbiased": 1.0560709528206758e-05,
+    "sliced_w2": 0.09123855084180832,
+    "empirical_w2_subsample": 0.2924686523389998,
+    "sample_count": 1024,
+    "exact_density_available": false
+  },
+  {
+    "guidance": "cfg",
+    "class": 3,
+    "mmd_squared_unbiased": 0.0006829343319157966,
+    "sliced_w2": 0.173858642578125,
+    "empirical_w2_subsample": 0.2826690473230536,
+    "sample_count": 1024,
+    "exact_density_available": false
+  }
+]

@@ -1,0 +1,30 @@
+{
+  "precision": 0.54150390625,
+  "recall": 0.38450002670288086,
+  "density": 0.5188802083333333,
+  "coverage": 0.5040000081062317,
+  "nearest_reference_distance_mean": 10.72526198750236,
+  "nearest_reference_distance_median": 10.530599879246504,
+  "real_count": 2000,
+  "generated_count": 2048,
+  "neighbors_k": 3,
+  "feature_dimension": 2048,
+  "distance": "Euclidean; float64 distance computation; self excluded from kNN radius",
+  "experiment": "celeba128_latent_dit_30k",
+  "feature_model": "Torch-fidelity Inception pool3, 2048 dimensions; rendered uint8 images",
+  "feature_classifier_sha256": null,
+  "subsample_seed": 123,
+  "generation_seed": 123,
+  "checkpoint_sha256": "21a0d5505d5de2dea3bbcb6554a125e38290de083f694a1e1a27326fc00b4403",
+  "counts_are_subsamples_of_saved_outputs": true,
+  "precision_recall_reference": "Kynkaanniemi et al. 2019",
+  "density_coverage_reference": "Naeem et al. 2020",
+  "training_neighbor_diagnostic": {
+    "training_count": 2000,
+    "heldout_count": 2000,
+    "training_distance_mean": 10.745536654775217,
+    "heldout_distance_mean": 10.72526198750236,
+    "mean_training_to_heldout_distance_ratio": 1.001890365689573,
+    "scope": "Equal-size random training/held-out feature neighbors; not proof of non-memorization"
+  }
+}

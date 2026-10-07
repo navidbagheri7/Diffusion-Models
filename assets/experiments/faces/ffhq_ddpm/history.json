@@ -1,0 +1,31 @@
+[
+  {
+    "step": 200,
+    "train_loss": 0.262424455396831,
+    "elapsed_seconds": 19.962121340446174
+  },
+  {
+    "step": 400,
+    "train_loss": 0.11941155303269625,
+    "elapsed_seconds": 38.80560952890664
+  },
+  {
+    "step": 600,
+    "train_loss": 0.10235342556610703,
+    "elapsed_seconds": 57.161750490777194
+  },
+  {
+    "step": 800,
+    "train_loss": 0.09243148984387517,
+    "elapsed_seconds": 75.34767214488238
+  },
+  {
+    "step": 1000,
+    "train_loss": 0.08908007873222232,
+    "elapsed_seconds": 92.58581516705453
+  },
+  {
+    "step": 1000,
+    "validation_loss": 0.0906857531517744
+  }
+]

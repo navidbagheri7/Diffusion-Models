@@ -1,0 +1,18 @@
+{
+  "field_calls": 200,
+  "trace": "hutchinson",
+  "probe_count": 2,
+  "solver": "heun",
+  "mean_log_density_nats": 7140.76611328125,
+  "scope": "EDM probability-flow density at positive sigma_min, with a Gaussian terminal base; excludes the sampler's final denoising map",
+  "dequantization": "Uniform 8-bit bins, width 1/128 in [-1,1]",
+  "dequantized_density_bpd_estimate": 3.646501302719116,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/cifar10_edm_quality/checkpoint_0100000.pt",
+  "samples": 8,
+  "seed": 123,
+  "dataset": "cifar10",
+  "conditional": true,
+  "is_exact_nll": false,
+  "checkpoint_sha256": "e5a2c93e3be9f39224869d7731df9f43603cf8827d544c8c84b12d2c7f51c32d",
+  "training_steps": 100000
+}

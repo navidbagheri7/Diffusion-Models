@@ -1,0 +1,26 @@
+{
+  "mmd_squared_unbiased": -7.817375005769733e-05,
+  "sliced_w2": 0.020525826141238213,
+  "empirical_w2_subsample": 0.0689609424537661,
+  "wasserstein_sample_count": 512,
+  "mean_target_negative_log_density": 0.08089923858642578,
+  "mode_coverage_3sigma": 1.0,
+  "fraction_within_3sigma": 0.982421875,
+  "mode_total_variation_with_outlier_bin": 0.017578125,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/gmm_flow_conditional/checkpoint.pt",
+  "seed": 123,
+  "sample_count": 1024,
+  "sampling_seconds": 0.45854902267456055,
+  "guidance": "cfg",
+  "guidance_scale": 1.0,
+  "class_label": 0,
+  "classifier_kind": null,
+  "sampler": {
+    "method": "ode",
+    "steps": 200,
+    "ode_solver": "heun",
+    "sde_solver": "euler_maruyama"
+  },
+  "process": "flow",
+  "prediction": "velocity"
+}

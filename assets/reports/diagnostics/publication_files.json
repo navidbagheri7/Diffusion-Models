@@ -1,0 +1,86 @@
+{
+  "passed": true,
+  "candidate_public_files": 1655,
+  "candidate_source_assets_mib": 361.94592475891113,
+  "maximum_file_mib_policy": 20,
+  "largest_files": [
+    {
+      "file": "assets/experiments/text/coco_text_cfg0/samples.png",
+      "mib": 4.072701454162598
+    },
+    {
+      "file": "assets/experiments/faces/celeba_flow_quality_progress/generation.gif",
+      "mib": 4.002047538757324
+    },
+    {
+      "file": "assets/experiments/faces/celeba_flow_balanced_progress/generation.gif",
+      "mib": 3.9919071197509766
+    },
+    {
+      "file": "assets/experiments/faces/celeba_flow_final/generation.gif",
+      "mib": 3.9740028381347656
+    },
+    {
+      "file": "assets/experiments/text/coco_text_lora_pairs/samples.png",
+      "mib": 3.904541015625
+    },
+    {
+      "file": "assets/experiments/text/coco_text_base_pairs/samples.png",
+      "mib": 3.8357486724853516
+    },
+    {
+      "file": "assets/experiments/text/coco_text_cfg1/samples.png",
+      "mib": 3.8350296020507812
+    },
+    {
+      "file": "assets/studies/text_gallery/prompt_contrasts.png",
+      "mib": 3.6142578125
+    },
+    {
+      "file": "assets/experiments/text/coco_text_cfg3/samples.png",
+      "mib": 3.5909652709960938
+    },
+    {
+      "file": "assets/experiments/text/coco_text_lora/samples.png",
+      "mib": 3.5096960067749023
+    }
+  ],
+  "ignore_probes": {
+    "outputs/run/config.yaml": true,
+    "multirun/run/.hydra/config.yaml": true,
+    ".local/session_scripts/finish_image_runs.py": true,
+    "configs/local/private.yaml": true,
+    "legacy/src/unet.py": true,
+    "data/example.jpg": true,
+    "datasets/coco2017/train.jsonl": true,
+    "checkpoints/weights.safetensors": true,
+    "model.pt": true,
+    "optimizer.pth": true,
+    "model.ckpt": true,
+    "pytorch_model.bin": true,
+    "samples.npy": true,
+    "posterior.npz": true,
+    "train.zip": true,
+    ".cache/hub/model.json": true,
+    ".env": true,
+    ".env.local": true,
+    "private.pem": true,
+    "process.log": true,
+    "slurm-123.out": true,
+    "slurm-123.err": true,
+    "slurm/logs/coco-text-123.out": true,
+    ".venv/pyvenv.cfg": true,
+    ".ipynb_checkpoints/lesson.ipynb": true,
+    "dist/package.whl": true,
+    "build/lib/module.py": true
+  },
+  "problems": {
+    "missing_public_files": [],
+    "missing_exclusions": [],
+    "symlinks": [],
+    "oversized_files": [],
+    "credential_pattern_matches": [],
+    "already_tracked_ignored_files": []
+  },
+  "scope": "Git ignore semantics, file presence/size, symlinks and limited credential patterns. Not a proof of scientific correctness, model quality, licensing or exhaustive secret detection."
+}

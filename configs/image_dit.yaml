@@ -1,0 +1,7 @@
+defaults:
+  - image_train
+  - override model: dit
+  - _self_
+model:
+  depth: 12
+run_dir: outputs/${data.name}_dit_quality

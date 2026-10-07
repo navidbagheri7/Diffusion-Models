@@ -1,0 +1,24 @@
+{
+  "cpu": {
+    "steps": 6,
+    "model_bitwise_equal": false,
+    "model_max_absolute_difference": 2.0860170479863882e-08,
+    "ema_bitwise_equal": false,
+    "cpu_rng_equal": true,
+    "cuda_rng_equal": null,
+    "epoch_offset_equal": true,
+    "workers": 2,
+    "scope": "State restoration check. This execution does not establish a bitwise deterministic optimization guarantee."
+  },
+  "cuda": {
+    "steps": 3,
+    "model_bitwise_equal": false,
+    "model_max_absolute_difference": 0.00018611470295581967,
+    "ema_bitwise_equal": false,
+    "cpu_rng_equal": true,
+    "cuda_rng_equal": true,
+    "epoch_offset_equal": true,
+    "workers": 0,
+    "scope": "State restoration check. This execution does not establish a bitwise deterministic optimization guarantee."
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "fid_2048": 24.271270751953125,
+  "kid_mean": 0.010605969466269016,
+  "kid_std": 0.0009364063153043389,
+  "inception_score_mean": 7.6673760414123535,
+  "inception_score_std": 0.18493512272834778,
+  "real_count": 5000,
+  "generated_count": 5000,
+  "kid_subsets": 50,
+  "kid_subset_size": 1000,
+  "inception_score_splits": 5,
+  "preprocessing": "RGB [-1,1] -> rounded uint8; torch-fidelity Inception resize",
+  "small_sample_warning": true,
+  "checkpoint": "/home/navid.bagheri-shouraki/Diffusion/outputs/completion_studies/cd_vs_old/candidate.pt",
+  "checkpoint_sha256": "8e3e0507c57fc157091d28666bd4469b5e54f39cf01d3f1de3ec72423a3b39d6",
+  "training_steps": 40000,
+  "seed": 124,
+  "algorithm": "distillation",
+  "sampler": "distillation",
+  "steps": 1,
+  "consistency_sigmas": [
+    80.0
+  ],
+  "clip_consistency": false,
+  "nfe_per_image": 1,
+  "nfe_per_image_range": [
+    1,
+    1
+  ],
+  "network_calls_include_cfg": true,
+  "classifier_calls_per_image": 0,
+  "guidance_kind": "cfg",
+  "cfg_scale": 1.0,
+  "classifier_scale": null,
+  "class_label": null,
+  "reference_split": "validation",
+  "reference_offset": 1000,
+  "sampling_seconds": 2.580164290033281,
+  "precision": "bfloat16",
+  "batch_size": 64
+}

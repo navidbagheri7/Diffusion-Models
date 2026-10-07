@@ -1,0 +1,18 @@
+{
+  "name": "mnist_elbo",
+  "samples": 1024,
+  "integration_steps": null,
+  "probes": 1,
+  "bpd": {
+    "mean": 1.0902222080916817,
+    "std": 0.24252467301294098,
+    "repetitions": 1024,
+    "confidence": 0.95,
+    "confidence_interval": [
+      1.0753502493959646,
+      1.1050941667873988
+    ]
+  },
+  "is_exact_nll": false,
+  "quantity": "Monte Carlo negative DDPM ELBO"
+}

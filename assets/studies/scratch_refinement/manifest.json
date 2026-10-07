@@ -1,0 +1,18 @@
+{
+  "status": "completed_evaluations",
+  "finished": 1791252012.3799188,
+  "text_evaluations": [
+    "outputs/completion_studies/text_step0100000_validation_cfg1",
+    "outputs/completion_studies/text_step0100000_validation_cfg3",
+    "outputs/completion_studies/text_step0100000_validation_cfg5",
+    "outputs/completion_studies/text_step0100000_validation_cfg7.5",
+    "outputs/completion_studies/text_step0100000_prompts",
+    "outputs/completion_studies/text_step0100000_denoising",
+    "outputs/completion_studies/text_final_heldout"
+  ],
+  "consistency_comparisons": [
+    "outputs/completion_studies/cd_vs_old",
+    "outputs/completion_studies/ict_vs_cd"
+  ],
+  "scope": "Configured budgets and measured quality; not a guarantee of publication readiness or paper-level fidelity."
+}
