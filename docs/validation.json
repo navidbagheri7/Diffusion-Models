@@ -68,5 +68,7 @@
     }
   ],
   "browser_live_checks": 36,
+  "browser_comparison_records": 218,
+  "browser_checked_metric_fields": 3015,
   "scope": "Source/media-bound explorer and current fresh-kernel outputs; fifteen separate CPU inference commands reproduce every public GAN prediction. audit_adversarial.py separately recomputes GAN metrics/selection. Historical image evidence, optional codec checks and full test/packaging results retain their separate documented scope."
 }

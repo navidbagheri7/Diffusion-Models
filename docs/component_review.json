@@ -23,7 +23,7 @@
     },
     {
       "path": "README.md",
-      "sha256": "df3b2ae7461dfb6d2a793d18169bf63dcfac37d99d13408720e75ec799c4bb04",
+      "sha256": "f23a46951165b67412f06b878bc2a83d10e4e97f714399110d46b7828b9740ea",
       "kind": ".md"
     },
     {
@@ -5215,18 +5215,33 @@
       "kind": ".md"
     },
     {
+      "path": "docs/demo_controls_validation.json",
+      "sha256": "c42b8a75a16967571e89aa7241772c9cd43cdd38f0680de3de1c88b95fc37d63",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/demo_details_validation.json",
+      "sha256": "38e219526974c3245313348f7faaf05ea73e704ce9f5e6fb0cde5bd2b1c257ab",
+      "kind": ".json"
+    },
+    {
+      "path": "docs/demo_review.md",
+      "sha256": "03187ff4b0be613c050f65b570c68a15bca58954e83c7727bb1e247c238c041a",
+      "kind": ".md"
+    },
+    {
       "path": "docs/exercises.md",
       "sha256": "27f4edca3f9816c5e250509c2d856477a8d71f80c5ea5787d9fc1f594da4a086",
       "kind": ".md"
     },
     {
       "path": "docs/explorer_browser_validation.json",
-      "sha256": "be4cc73278da49776ea3657e27437126c3da9d590e194c3e6deafc96a509db14",
+      "sha256": "378ee5ead3b977119e0cf728c484d94bc66c601e075a42b7396540b77e47d73f",
       "kind": ".json"
     },
     {
       "path": "docs/explorer_manifest.json",
-      "sha256": "08d989ca0863532bd0d934a9071f23e61067c7fe77a02dd22875a6be078298a1",
+      "sha256": "a655c33609645b990b1cd5982a64c9b1e1d49f20ca8255a21e92be50d836e8ce",
       "kind": ".json"
     },
     {
@@ -5236,7 +5251,7 @@
     },
     {
       "path": "docs/validation.json",
-      "sha256": "382e2f8e2ea3886231c53e60367c3db08959276640d663114b099c11e2457162",
+      "sha256": "ad66ac80645c52d5f2ccf9b920f9af189efeb9e6253a88a0cdd06b62683ba73c",
       "kind": ".json"
     },
     {
@@ -5424,6 +5439,28 @@
       ]
     },
     {
+      "path": "scripts/check_demo_controls.py",
+      "sha256": "eef2a0e6e2c8af8f1613f64b5cd46b4409fd9896a25d704dde77de1e8b08a56b",
+      "kind": ".py",
+      "functions": [
+        "digest",
+        "QuietHandler",
+        "main",
+        "log_message",
+        "inspect",
+        "controls",
+        "presets"
+      ]
+    },
+    {
+      "path": "scripts/check_demo_details.py",
+      "sha256": "e39e25eedd1f3ebbe7f72e085d96ea7b54237bbe9a370d71394b797ee13d8de9",
+      "kind": ".py",
+      "functions": [
+        "main"
+      ]
+    },
+    {
       "path": "scripts/check_distribution.py",
       "sha256": "fbcb0aeaa5c5016e41a76eeef15c805474d4f282473d23158bda1cedf81b2099",
       "kind": ".py",
@@ -5442,9 +5479,12 @@
     },
     {
       "path": "scripts/check_explorer_browser.py",
-      "sha256": "a43053cf4f54d7e05952d374eeb5c6db7e9318e0579669f85c0cec3302b30023",
+      "sha256": "67b084053a08c10d202873e72a5342aa1e47585ab51bb299742e1d87abea896b",
       "kind": ".py",
       "functions": [
+        "records",
+        "numeric",
+        "displayed",
         "main"
       ]
     },
@@ -5487,6 +5527,17 @@
       "kind": ".py",
       "functions": [
         "main"
+      ]
+    },
+    {
+      "path": "scripts/demo_oracle.py",
+      "sha256": "e31259b7a502cfbf0a77f07f7a8c6f09882d5571edb09ca3eb733dc3f496e7fd",
+      "kind": ".py",
+      "functions": [
+        "close",
+        "cards",
+        "image_sources",
+        "check"
       ]
     },
     {
@@ -5711,7 +5762,7 @@
     },
     {
       "path": "scripts/validate_release.py",
-      "sha256": "9db9a8fbcd1e06b8573e4b05f1d1de137bf5ffb4d365a72a4a47afc57caa4eda",
+      "sha256": "a535e5c1ea3e8211d3afbff733de8004a2b9c77b56f2330049f57b6f52d9a675",
       "kind": ".py",
       "functions": [
         "main"
@@ -5972,6 +6023,6 @@
       "functions": []
     }
   ],
-  "local_links": 1698,
+  "local_links": 1704,
   "scope": "Public inventory, Python AST/JSON/notebook syntax, English-script and local-link checks. Scientific manual review is documented separately; new GAN evidence is independently recomputed by audit_adversarial.py; historical fitting evidence retains its documented scope."
 }

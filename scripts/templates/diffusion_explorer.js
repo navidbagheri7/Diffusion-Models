@@ -186,6 +186,100 @@ function selected() {
     return evidence.rows.filter(r => r.group === group);
 }
 
+// Reports include scalar dictionaries, analytic trace results, and per-class
+// lists. Preserve their measurements and estimator identities without treating
+// likelihood bounds, image distances, and caption scores as interchangeable.
+function measurementRecords(row) {
+    const value = row.metrics;
+    const parent = Array.isArray(value) ? {} : value;
+    const children = Array.isArray(value) ? value : Array.isArray(value.results) ? value.results : [value];
+    return children.map((child, index) => {
+        const metrics = {
+            ...parent,
+            ...child
+        };
+        delete metrics.results;
+        const identity = children.length > 1 ? [child.trace, child.guidance, child.class === undefined ? null : `class ${child.class}`].filter(x => x !== null && x !== undefined).join(" · ") || `result ${index + 1}` : "";
+        return {
+            name: row.name + (identity ? " · " + identity : ""),
+            sourceName: row.name,
+            index,
+            metrics
+        };
+    });
+}
+
+const comparisonFields = [
+    ["nfe", "Sampling NFE/sample", ["nfe_per_sample", "nfe_per_image"]],
+    ["calls", "Likelihood field/model calls", ["field_calls", "network_calls"]],
+    ["probes", "Trace probes", ["probe_count", "probes"]],
+    ["log_density", "Mean log density (nats)", ["mean_log_density_nats"]],
+    ["density_bpd", "Dequantized density estimate (bits/dim)", ["dequantized_density_bpd_estimate"]],
+    ["elbo_bpd", "Negative ELBO estimate (bits/dim)", ["negative_elbo_bpd_mean"]],
+    ["density_rmse", "Log-density RMSE", ["rmse_log_density"]],
+    ["density_mae", "Log-density MAE", ["mean_absolute_error"]],
+    ["mmd", "MMD² (declared target)", ["mmd_squared_unbiased"]],
+    ["w2", "Sliced W₂ (declared target)", ["sliced_w2"]],
+    ["fid", "FID (Inception features)", ["fid_2048", "fid", "frechet_inception_distance"]],
+    ["kid", "KID mean", ["kid_mean"]],
+    ["digit", "Digit feature distance", ["frechet_digit_features_128"]],
+    ["accuracy", "Requested class accuracy", ["requested_class_accuracy"]],
+    ["clip", "Paired CLIP cosine", ["clip_cosine_mean"]],
+    ["clip_margin", "Paired − mismatched cosine", ["paired_minus_mismatched_mean"]],
+    ["coverage", "Mode coverage (3σ)", ["mode_coverage_3sigma"]],
+    ["samples", "Evaluated samples", ["generated_count", "sample_count", "samples"]],
+    ["reference", "Reference samples", ["real_count", "reference_count"]]
+];
+
+function fieldValue(metrics, aliases) {
+    for (const key of aliases) {
+        if (typeof metrics[key] === "number" && Number.isFinite(metrics[key])) return metrics[key];
+    }
+    return undefined;
+}
+
+function measurementFamily(metrics) {
+    if (typeof metrics.rmse_log_density === "number") return "Analytic log-density verification";
+    if (typeof metrics.negative_elbo_bpd_mean === "number") return "Variational bounds";
+    if (typeof metrics.mean_log_density_nats === "number") return "Numerical continuous-density estimates";
+    if (typeof metrics.clip_cosine_mean === "number") return "Caption alignment";
+    if (typeof metrics.frechet_digit_features_128 === "number") return "Digit classifier features";
+    if (fieldValue(metrics, ["fid_2048", "fid", "frechet_inception_distance"]) !== undefined) return "Inception image features";
+    if (typeof metrics.mmd_squared_unbiased === "number") return "Distribution distances";
+    if (typeof metrics.requested_class_accuracy === "number") return "Class assessment only";
+    return null;
+}
+
+function measurementDataset(record) {
+    if (record.metrics.dataset) return record.metrics.dataset;
+    if (record.sourceName.startsWith("Historical / gmm_") || record.metrics.config?.components === 8) return "ring_gmm";
+    const prefix = record.sourceName.split("/")[0];
+    return ["mnist", "cifar10", "faces", "imagenet", "text", "toy", "bridges"].includes(prefix) ? prefix : "See source dataset";
+}
+
+function details(row) {
+    const entries = [];
+    const identifiers = ["dataset", "trace", "solver", "decoder", "estimator", "guidance", "class", "conditioning_scope", "dequantization"];
+    for (const record of measurementRecords(row)) {
+        for (const [key, value] of Object.entries(record.metrics)) {
+            if (typeof value === "number" || typeof value === "boolean" || identifiers.includes(key) && typeof value === "string") {
+                const tr = node("tr");
+                tr.dataset.sourceName = record.sourceName;
+                tr.dataset.recordIndex = record.index;
+                tr.dataset.field = key;
+                tr.append(node("th", (record.name === row.name ? "" : record.name.split(row.name + " · ")[1] + " / ") + key.replaceAll("_", " ")), node("td", fmt(value)));
+                entries.push(tr);
+            }
+        }
+    }
+    $("metrics").replaceChildren(...entries);
+    if (!entries.length) {
+        const tr = node("tr");
+        tr.append(node("td", "Illustrative lesson: no fitted scalar measurements. Read its caption and source."));
+        $("metrics").append(tr);
+    }
+}
+
 function render() {
     const row = selected().find(r => r.name === $("preset").value),
         file = $("view").value;
@@ -195,13 +289,9 @@ function render() {
     $("media").alt = row.name + " / " + file.split("/").pop();
     $("caption").textContent = file + " · Original recorded view; refer to its lesson caption and metric scope.";
     let metrics = row.metrics;
-    $("scope").textContent = metrics.scope || metrics.interpretation || metrics.representation || metrics.status || "Recorded experiment/lesson. Training budget, checkpoint identity, reference split and sample counts remain in the source report. This panel preserves exploratory and weak results alongside final studies.";
+    $("scope").textContent = metrics.experiment_validity || metrics.scope || metrics.interpretation || metrics.representation || metrics.status || "Recorded experiment/lesson. Training budget, checkpoint identity, reference split and sample counts remain in the source report. This panel preserves exploratory and weak results alongside final studies.";
     $("raw").textContent = JSON.stringify(metrics, null, 2);
-    $("metrics").replaceChildren(...Object.entries(metrics).filter(([k, v]) => typeof v === "number" || typeof v === "boolean").map(([k, v]) => {
-        let tr = node("tr");
-        tr.append(node("th", k.replaceAll("_", " ")), node("td", fmt(v)));
-        return tr;
-    }));
+    details(row);
     $("source").href = row.source;
     comparison();
 }
@@ -217,18 +307,41 @@ function setViews() {
 }
 
 function comparison() {
-    const rows = selected().filter(r => r.metrics && Object.keys(r.metrics).length);
-    let table = node("table"),
-        head = node("tr");
-    ["Recorded experiment", "NFE/sample", "MMD² (GMM)", "Sliced W₂ (GMM)", "FID (declared dataset)", "Digit feature distance"].forEach(x => head.append(node("th", x)));
-    table.append(head);
-    rows.forEach(r => {
-        let m = r.metrics,
-            tr = node("tr");
-        [r.name, m.nfe_per_sample ?? m.nfe_per_image, m.mmd_squared_unbiased, m.sliced_w2, m.fid ?? m.frechet_inception_distance, m.frechet_digit_features_128].forEach(x => tr.append(node("td", fmt(x))));
-        table.append(tr);
-    });
-    $("comparison").replaceChildren(table);
+    const records = selected().flatMap(measurementRecords);
+    const measured = records.filter(r => measurementFamily(r.metrics));
+    $("comparison").replaceChildren(node("p", "Measurements are grouped by recorded dataset and metric family. Different conditioning, sample counts, representations and estimators remain different protocols; these tables do not establish a combined ranking. — means that quantity was not recorded for this experiment.", "muted"));
+    if (!measured.length) {
+        $("comparison").append(node("p", "This concept contains illustrative lessons, with no fitted comparison metrics. Its figures and analytic controls are available above.", "notice"));
+        return;
+    }
+    const sections = new Map();
+    for (const record of measured) {
+        const key = measurementDataset(record) + " · " + measurementFamily(record.metrics);
+        if (!sections.has(key)) sections.set(key, []);
+        sections.get(key).push(record);
+    }
+    for (const [title, rows] of sections) {
+        $("comparison").append(node("h3", title));
+        const columns = comparisonFields.filter(([, , aliases]) => rows.some(r => fieldValue(r.metrics, aliases) !== undefined));
+        const table = node("table"),
+            head = node("tr");
+        head.append(node("th", "Recorded experiment"));
+        columns.forEach(([, label]) => head.append(node("th", label)));
+        table.append(head);
+        rows.forEach(r => {
+            const tr = node("tr");
+            tr.dataset.sourceName = r.sourceName;
+            tr.dataset.recordIndex = r.index;
+            tr.append(node("td", r.name));
+            columns.forEach(([key, , aliases]) => {
+                const td = node("td", fmt(fieldValue(r.metrics, aliases)));
+                td.dataset.metric = key;
+                tr.append(td);
+            });
+            table.append(tr);
+        });
+        $("comparison").append(table);
+    }
 }
 
 function select(value) {

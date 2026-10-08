@@ -50,6 +50,9 @@ results; it needs no GPU, account, external API or JavaScript framework.
 [Publication and hosting instructions](docs/27_publication.md) explain how to
 share the same demo after uploading the repository.
 
+The [user interaction audit](docs/demo_review.md) documents exhaustive enabled
+dropdown checks, representative joint slider settings and source-bound asset checks.
+
 ## Final trained examples
 
 The CIFAR diffusion, CIFAR flow, and face flow runs each completed 100,000

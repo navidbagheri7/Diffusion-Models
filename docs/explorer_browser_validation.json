@@ -1,6 +1,6 @@
 {
   "status": "passed",
-  "html_sha256": "1c72fdf8a4a5be3548f8b37fbfd8364d9c98ccdf56bd0b371cc2418bd278c0e7",
+  "html_sha256": "65d109a804679657dcd46f734dce6fc94b05e6a08f52392f5d51593a3bcee3ec",
   "checked_views": [
     {
       "group": "Scores and reverse dynamics",
@@ -2997,5 +2997,1099 @@
     "GAN objectives",
     "Likelihood and evaluation"
   ],
-  "javascript_errors": []
+  "javascript_errors": [],
+  "comparison_records": [
+    {
+      "group": "Flows and transport",
+      "name": "toy/cfg_scale_0",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/cfg_scale_1",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/cfg_scale_2",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/cfg_scale_4",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/classifier_analytic_scale_1",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/classifier_scale_1",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/classifier_scale_2",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_cosine_v",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_exponential",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_euler_10",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_heun_10",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_ot",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_rk4_10",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_flow_trigonometric",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_linear_epsilon",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_logsnr",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_reflow",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_reflow_euler_10",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_subvp",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_ve_score",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_vp_epsilon",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle/oracle_strength_0.0",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle/oracle_strength_0.5",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle/oracle_strength_2.0",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_stochastic_interpolant/strength_0.0",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_stochastic_interpolant/strength_0.5",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/gmm_stochastic_interpolant/strength_2.0",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle",
+      "result": 1
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/interpolant_oracle",
+      "result": 2
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/two_spirals_stochastic_interpolant/strength_0.0",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/two_spirals_stochastic_interpolant/strength_0.5",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/two_spirals_stochastic_interpolant/strength_2.0",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/wavy_rings_stochastic_interpolant/strength_0.0",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/wavy_rings_stochastic_interpolant/strength_0.5",
+      "result": 0
+    },
+    {
+      "group": "Flows and transport",
+      "name": "toy/wavy_rings_stochastic_interpolant/strength_2.0",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_1_backward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_1_forward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_2_backward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_2_forward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_3_backward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_3_forward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_4_backward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_imf/iteration_4_forward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_1_backward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_1_forward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_2_backward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_2_forward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_3_backward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_3_forward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_4_backward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/dsbm_ipf/iteration_4_forward",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/gmm_bridge_ode",
+      "result": 0
+    },
+    {
+      "group": "Bridges and interpolants",
+      "name": "bridges/gmm_bridge_sde",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd1",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd2",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "cifar10/cifar10_cd4",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "faces/celeba_ddpm",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "faces/ffhq_ddpm",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "likelihood/likelihood_gmm_ddpm",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "likelihood/likelihood_gmm_ddpm_epsilon",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_cd1",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_cd2",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_cd4",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_consistency_distilled_progress",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_consistency_training_progress",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ddim20",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ddim50",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ddpm1000",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_dpm20",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_dpm20_progress",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_dpmpp20",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_edm_euler18",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict1",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict2",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict4",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected1",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected2",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected4",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected_5k1",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_corrected_5k4",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth1",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth2",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_ict_smooth4",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_16_eval",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_1_eval",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_2_eval",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_4_eval",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_8_eval",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "mnist/mnist_progressive_teacher32",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddim_20",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddim_5",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddpm_ancestral",
+      "result": 0
+    },
+    {
+      "group": "Solvers and few-step models",
+      "name": "toy/gmm_ddpm_x0",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_clip_scale0.03",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_clip_scale0.3",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_clip_scale1.0",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm15k_10k_eval",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_balanced_progress",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_final",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_repeat_123",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_repeat_124",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_edm_repeat_125",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_flow20_final",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "cifar10/cifar10_flow50_final",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.2_scale1",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.2_scale10",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.2_scale20",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.2_scale5",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.5_scale1",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.5_scale10",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.5_scale20",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_cg_gate0.5_scale5",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_ct1",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_ct4",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_edm18",
+      "result": 0
+    },
+    {
+      "group": "Image generators",
+      "name": "mnist/mnist_edm_balanced_progress",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_30k",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_cfg_final",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_dit_final",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_guidance_conditional",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "cifar10/cifar10_guidance_unconditional",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_dit_30k",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_dit_final",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_unet_20k",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba128_latent_unet_final",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_balanced_progress",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_final",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "faces/celeba_flow_quality_progress",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "imagenet/imagenet_conditional",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "mnist/mnist_guidance_conditional",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "mnist/mnist_guidance_unconditional",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/checkerboard_conditional",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/checkerboard_conditional",
+      "result": 1
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/checkerboard_conditional",
+      "result": 2
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/checkerboard_conditional",
+      "result": 3
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/gmm_flow_conditional",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "result": 1
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "result": 2
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "result": 3
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "result": 4
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "result": 5
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "result": 6
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "result": 7
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "result": 8
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/olympic_rings_conditional",
+      "result": 9
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/wavy_rings_conditional",
+      "result": 0
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/wavy_rings_conditional",
+      "result": 1
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/wavy_rings_conditional",
+      "result": 2
+    },
+    {
+      "group": "Representations and DiT",
+      "name": "toy/wavy_rings_conditional",
+      "result": 3
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_cfg15k_10k_eval",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_cfg27k_10k_eval",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_edm_cfg_final",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_guidance_cfg",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_guidance_cg_high",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "cifar10/cifar10_guidance_cg_low",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_digit3",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_digit3_gated",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_digit3_scale20",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_digit3_scale5",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_classifier_final_digit3",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_guidance_cfg",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_guidance_cg_high",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "mnist/mnist_guidance_cg_low",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_base",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_base_pairs",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_cfg0",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_cfg1",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_cfg3",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_cfg75",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_lora",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "text/coco_text_lora_pairs",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/gmm_flow_cfg_class0",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/gmm_guidance",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "result": 0
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "result": 1
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "result": 2
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "result": 3
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "result": 4
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "result": 5
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "result": 6
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "result": 7
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "result": 8
+    },
+    {
+      "group": "Guidance and text",
+      "name": "toy/olympic_rings_analytic_guidance",
+      "result": 9
+    },
+    {
+      "group": "GAN objectives",
+      "name": "hinge_spectral_42",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "hinge_spectral_43",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "hinge_spectral_44",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "least_squares_42",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "least_squares_43",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "least_squares_44",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "non_saturating_r1_42",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "non_saturating_r1_43",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "non_saturating_r1_44",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "wasserstein_clip_42",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "wasserstein_clip_43",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "wasserstein_clip_44",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "wasserstein_gp_42",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "wasserstein_gp_43",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "wasserstein_gp_44",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "Historical / gmm_ddpm_seed42",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "Historical / gmm_ddpm_seed43",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "Historical / gmm_ddpm_seed44",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "Historical / gmm_flow_seed42",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "Historical / gmm_flow_seed43",
+      "result": 0
+    },
+    {
+      "group": "GAN objectives",
+      "name": "Historical / gmm_flow_seed44",
+      "result": 0
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_analytic_gmm",
+      "result": 0
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_analytic_gmm",
+      "result": 1
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_cifar10_edm",
+      "result": 0
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_cifar10_edm_200steps",
+      "result": 0
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_cifar10_flow",
+      "result": 0
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_gmm_flow",
+      "result": 0
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_mnist_edm",
+      "result": 0
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_mnist_full_elbo",
+      "result": 0
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_mnist_full_elbo_unclipped",
+      "result": 0
+    },
+    {
+      "group": "Likelihood and evaluation",
+      "name": "likelihood/likelihood_mnist_sampled_elbo",
+      "result": 0
+    }
+  ],
+  "checked_metric_fields": 3015,
+  "comparison_scope": "Every applicable scalar comparison is checked against the original embedded report; every selected detail field and image/source selector is verified. Empty lessons explicitly declare the absence of fitted comparisons. Likelihood bounds, density estimates, image features and caption alignment have separate tables."
 }

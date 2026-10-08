@@ -23,6 +23,7 @@ def main():
     assert digest(root / "docs/explorer.html") == browser["html_sha256"] == manifest["html_sha256"]
     assert len(browser["checked_views"]) == 567
     assert len(browser["live_analytic_checks"]) == 36 and len(browser["mobile_concepts"]) == 11
+    assert browser["comparison_records"] and browser["checked_metric_fields"] > 0
     assert not browser["javascript_errors"]
     for filename, value in manifest["bindings"].items():
         assert digest(root / filename) == value, filename
@@ -77,6 +78,8 @@ def main():
         "executed_code_cells": cells,
         "fresh_generation_commands": commands,
         "browser_live_checks": 36,
+        "browser_comparison_records": len(browser["comparison_records"]),
+        "browser_checked_metric_fields": browser["checked_metric_fields"],
         "scope": "Source/media-bound explorer and current fresh-kernel outputs; fifteen separate CPU inference commands reproduce every public GAN prediction. audit_adversarial.py separately recomputes GAN metrics/selection. Historical image evidence, optional codec checks and full test/packaging results retain their separate documented scope.",
     }
     save_json(root / "docs/validation.json", report)

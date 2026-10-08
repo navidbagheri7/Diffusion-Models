@@ -62,5 +62,16 @@
   "installed_wheel_tests": 132,
   "source_archive_notebooks": 11,
   "source_archive_executed_cells": 73,
-  "scope": "Wheel imports/all 132 tests and two bundled CPU training commands run outside the checkout. The source archive executes all eleven walkthroughs, rechecks all fifteen portable GANs and source-bound explorer/media evidence, and decodes every public PNG/GIF without private datasets/checkpoints. External checksum metadata is excluded from the source distribution to avoid recursive checksums. Hosted CI is not claimed."
+  "scope": "Wheel imports/all 132 tests and two bundled CPU training commands run outside the checkout. The source archive executes all eleven walkthroughs, rechecks all fifteen portable GANs and source-bound explorer/media evidence, and decodes every public PNG/GIF without private datasets/checkpoints. External checksum metadata is excluded from the source distribution to avoid recursive checksums. Hosted CI is not claimed.",
+  "demo_followup": {
+    "status": "passed",
+    "artifacts": {
+      "diffusion_flow_lab-0.5.0.tar.gz": "a906322a4649448b8ed6989326fa6bab4aa64c5934514c66c63f4fea86bdd4ea",
+      "diffusion_flow_lab-0.5.0-py3-none-any.whl": "0b1a6bb798b602531a9cdfb11aaa2df6a0ee14f35a75ec0ff86eda948e72aaef"
+    },
+    "browser_and_evidence_files_verified": 765,
+    "wheel_runtime_files_verified": 47,
+    "runtime_tests_configs_notebooks_measurements_unchanged_from_validated_release": true,
+    "scope": "These fresh local archives include the corrected/audited demos and their verification tools. All HTTP-audited browser assets and source links, the HTML and checking tools match the checkout byte-for-byte. The baseline artifact hashes and execution checks above are preserved; notebooks and scientific runtime are unchanged. This follow-up verifies content and browser interaction, without claiming new notebook executions or model fitting."
+  }
 }
