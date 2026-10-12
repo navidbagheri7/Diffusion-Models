@@ -27,7 +27,12 @@ jobs:
         run: python scripts/check_docs.py
       - name: Publication file set
         run: python -m scripts.check_publication
+      - name: Prepare an isolated lesson checkout
+        run: |
+          mkdir -p .local/notebook-check
+          git archive HEAD | tar -x -C .local/notebook-check
       - name: Executable CPU lessons
+        working-directory: .local/notebook-check
         run: python scripts/execute_notebooks.py
       - name: Portable generative evidence and source review
         run: |

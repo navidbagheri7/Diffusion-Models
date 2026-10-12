@@ -118,7 +118,7 @@ def main():
     for p in [
         template,
         script,
-        Path(__file__),
+        Path("scripts") / Path(__file__).name,
         Path("diffusion_lab/paths.py"),
         Path("diffusion_lab/data.py"),
     ]:
