@@ -2229,7 +2229,7 @@ LESSONS.append(
             ),
             (
                 "code",
-                'folder = project / "assets/adversarial/wasserstein_gp_42"\nmodel = load_generator(folder)\nsource = np.load(folder / "samples.npz", allow_pickle=False)\nwith torch.no_grad():\n    fresh = model(torch.from_numpy(source["latent"]))\nnp.testing.assert_array_equal(fresh.numpy(), source["generated"])\nfig, axes = plt.subplots(1, 2, figsize=(10, 4))\nfor ax, values, title in zip(\n    axes,\n    [source["reference"], fresh.numpy()],\n    ["Independent target", "Validation-selected WGAN-GP"],\n    strict=True,\n):\n    ax.scatter(*values.T, s=2, alpha=0.35)\n    ax.set(title=title, aspect="equal", xlim=(-5, 5), ylim=(-5, 5))\nplt.show()',
+                'folder = project / "assets/adversarial/wasserstein_gp_42"\nmodel = load_generator(folder)\nsource = np.load(folder / "samples.npz", allow_pickle=False)\nwith torch.no_grad():\n    fresh = model(torch.from_numpy(source["latent"]))\n# CPU BLAS implementations may differ in the last few float32 bits.\nnp.testing.assert_allclose(fresh.numpy(), source["generated"], rtol=2e-6, atol=5e-6)\nfig, axes = plt.subplots(1, 2, figsize=(10, 4))\nfor ax, values, title in zip(\n    axes,\n    [source["reference"], fresh.numpy()],\n    ["Independent target", "Validation-selected WGAN-GP"],\n    strict=True,\n):\n    ax.scatter(*values.T, s=2, alpha=0.35)\n    ax.set(title=title, aspect="equal", xlim=(-5, 5), ylim=(-5, 5))\nplt.show()',
             ),
             (
                 "code",

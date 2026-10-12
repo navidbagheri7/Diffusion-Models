@@ -39,7 +39,8 @@ def main():
                     for key in ["latent", "generated", "reference"]
                 ]
             with torch.no_grad():
-                torch.testing.assert_close(model(latent), samples, rtol=0, atol=0)
+                # CPU BLAS builds can differ by a few float32 rounding units.
+                torch.testing.assert_close(model(latent), samples, rtol=2e-6, atol=5e-6)
             np.testing.assert_array_equal(
                 latent.numpy(),
                 torch.randn(4096, 2, generator=torch.Generator().manual_seed(300000)).numpy(),

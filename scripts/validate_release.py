@@ -67,7 +67,9 @@ def main():
                     np.load(folder / "samples.npz", allow_pickle=False) as saved,
                 ):
                     np.testing.assert_array_equal(fresh["latent"], saved["latent"])
-                    np.testing.assert_array_equal(fresh["generated"], saved["generated"])
+                    np.testing.assert_allclose(
+                        fresh["generated"], saved["generated"], rtol=2e-6, atol=5e-6
+                    )
                 commands.append({"model": f"{method}_{seed}", "independent_predictions": 4096})
     report = {
         "status": "passed",

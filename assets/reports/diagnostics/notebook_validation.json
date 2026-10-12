@@ -92,12 +92,12 @@
     },
     {
       "notebook": "notebooks/10_adversarial_objectives.ipynb",
+      "sha256": "3816b276eecba8677581463a8357ae649ae50389a264fcd1cef60f52013661f2",
+      "seconds": 14.476595222949982,
+      "visual_outputs": 2,
       "code_cells": 4,
-      "seconds": 6.431597590446472,
       "status": "passed",
-      "sha256": "d9e7cd453d6769d1f0692b4518386342088c7bf4f0de017c3b4e09da6daec10c",
-      "markdown_cells": 3,
-      "visual_outputs": 2
+      "markdown_cells": 3
     }
   ],
   "all_executed": true,
@@ -107,5 +107,13 @@
   "default_kernel_matches_interpreter": true,
   "selected_subset": false,
   "optional_codec_enabled": false,
-  "optional_codec_device": "cpu"
+  "optional_codec_device": "cpu",
+  "publication_correction": {
+    "date": "2026-10-12",
+    "fresh_kernel_notebooks": [
+      "notebooks/10_adversarial_objectives.ipynb"
+    ],
+    "unchanged_notebooks_retaining_prior_execution_receipts": 10,
+    "scope": "Combined coverage of all listed notebook files. The portability-corrected lesson was rerun in a fresh CPU kernel; byte-unchanged lessons retain their prior successful execution receipts."
+  }
 }
