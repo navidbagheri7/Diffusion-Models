@@ -1,5 +1,7 @@
 # Diffusion & Flow Lab
 
+[Interactive demo](https://navidbagheri7.github.io/diffusion-flow-lab/) · [GitHub repository](https://github.com/navidbagheri7/diffusion-flow-lab) · [CI checks](https://github.com/navidbagheri7/diffusion-flow-lab/actions)
+
 **Learn generative modeling by following an equation into code, an experiment, and a visualization.**
 
 This laboratory connects diffusion models, score-based SDEs, flow matching,

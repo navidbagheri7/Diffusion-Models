@@ -21,6 +21,12 @@ text = ["diffusers>=0.30,<0.37", "safetensors>=0.4", "transformers>=4.40,<5", "r
 notebooks = ["jupyterlab>=4,<5", "nbformat>=5.9", "nbclient>=0.10", "ipykernel>=6", "ipywidgets>=8.1", "pandas>=2,<3"]
 dev = ["pytest>=7", "ruff>=0.6", "build>=1.2"]
 
+[project.urls]
+Repository = "https://github.com/navidbagheri7/diffusion-flow-lab"
+Documentation = "https://github.com/navidbagheri7/diffusion-flow-lab#readme"
+Demo = "https://navidbagheri7.github.io/diffusion-flow-lab/"
+Issues = "https://github.com/navidbagheri7/diffusion-flow-lab/issues"
+
 [tool.setuptools.packages.find]
 include = ["diffusion_lab*"]
 

@@ -23,3 +23,5 @@ prune multirun
 prune data
 exclude docs/release_artifacts.json
 recursive-exclude * __pycache__ *.py[cod]
+
+include index.html
