@@ -1,6 +1,6 @@
-# Diffusion & Flow Lab
+# Diffusion Models
 
-[Interactive demo](https://navidbagheri7.github.io/diffusion-flow-lab/) · [GitHub repository](https://github.com/navidbagheri7/diffusion-flow-lab) · [CI checks](https://github.com/navidbagheri7/diffusion-flow-lab/actions)
+[Interactive demo](https://navidbagheri7.github.io/Diffusion-Models/) · [GitHub repository](https://github.com/navidbagheri7/Diffusion-Models) · [CI checks](https://github.com/navidbagheri7/Diffusion-Models/actions)
 
 **Learn generative modeling by following an equation into code, an experiment, and a visualization.**
 

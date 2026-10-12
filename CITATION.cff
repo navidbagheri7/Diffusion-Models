@@ -1,7 +1,7 @@
 cff-version: 1.2.0
 message: "If you use this toolkit in your work, please cite this software."
 type: software
-title: "Diffusion & Flow Lab"
+title: "Diffusion Models"
 version: 0.5.0
 license: MIT
 date-released: 2026-10-07
@@ -17,5 +17,5 @@ keywords:
   - flow matching
   - generative modeling
   - educational software
-repository-code: "https://github.com/navidbagheri7/diffusion-flow-lab"
-url: "https://navidbagheri7.github.io/diffusion-flow-lab/"
+repository-code: "https://github.com/navidbagheri7/Diffusion-Models"
+url: "https://navidbagheri7.github.io/Diffusion-Models/"

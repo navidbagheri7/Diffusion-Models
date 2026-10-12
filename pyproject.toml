@@ -22,10 +22,10 @@ notebooks = ["jupyterlab>=4,<5", "nbformat>=5.9", "nbclient>=0.10", "ipykernel>=
 dev = ["pytest>=7", "ruff>=0.6", "build>=1.2"]
 
 [project.urls]
-Repository = "https://github.com/navidbagheri7/diffusion-flow-lab"
-Documentation = "https://github.com/navidbagheri7/diffusion-flow-lab#readme"
-Demo = "https://navidbagheri7.github.io/diffusion-flow-lab/"
-Issues = "https://github.com/navidbagheri7/diffusion-flow-lab/issues"
+Repository = "https://github.com/navidbagheri7/Diffusion-Models"
+Documentation = "https://github.com/navidbagheri7/Diffusion-Models#readme"
+Demo = "https://navidbagheri7.github.io/Diffusion-Models/"
+Issues = "https://github.com/navidbagheri7/Diffusion-Models/issues"
 
 [tool.setuptools.packages.find]
 include = ["diffusion_lab*"]
