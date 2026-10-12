@@ -57,9 +57,15 @@ def main():
                 n.name for n in ast.walk(tree) if isinstance(n, (ast.FunctionDef, ast.ClassDef))
             ]
         elif path.suffix in [".yml", ".yaml"]:
-            from omegaconf import OmegaConf
+            if path.parts[:2] == (".github", "workflows"):
+                # GitHub expressions use ${{ ... }}, not Hydra interpolation.
+                import yaml
 
-            OmegaConf.load(path)
+                yaml.safe_load(text)
+            else:
+                from omegaconf import OmegaConf
+
+                OmegaConf.load(path)
         elif path.suffix == ".json":
             json.loads(text)
         elif path.suffix == ".ipynb":

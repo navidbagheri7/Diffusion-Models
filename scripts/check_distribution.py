@@ -127,13 +127,14 @@ def main():
             ],
         )
     run("initialize_checkout", ["git", "init", "-q"], source)
-    run("archive_notebooks", [sys.executable, "scripts/execute_notebooks.py"], source)
     run(
         "archive_gan_metrics",
         [sys.executable, "scripts/audit_adversarial.py", "--public-only"],
         source,
     )
+    # Check the archived publication fixtures before lessons regenerate outputs.
     run("archive_validation", [sys.executable, "scripts/validate_release.py"], source)
+    run("archive_notebooks", [sys.executable, "scripts/execute_notebooks.py"], source)
     run("archive_asset_decode", [sys.executable, "scripts/review_public_assets.py"], source)
     run("archive_public_content", [sys.executable, "scripts/review_components.py"], source)
     run("archive_links", [sys.executable, "scripts/check_docs.py"], source)
