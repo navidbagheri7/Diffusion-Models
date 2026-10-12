@@ -1,6 +1,6 @@
 # GitHub publication and interactive demo
 
-Repository: [navidbagheri7/diffusion-flow-lab](https://github.com/navidbagheri7/Diffusion-Models). Interactive explorer: [https://navidbagheri7.github.io/Diffusion-Models/](https://navidbagheri7.github.io/Diffusion-Models/).
+Repository: [navidbagheri7/Diffusion-Models](https://github.com/navidbagheri7/Diffusion-Models). Interactive explorer: [https://navidbagheri7.github.io/Diffusion-Models/](https://navidbagheri7.github.io/Diffusion-Models/).
 
 The repository contains authored English code, executed notebooks and measured evidence. The numerical comparisons and documented limitations remain unchanged by publication. Private course originals, local environments, cached datasets and large training checkpoints remain outside Git history.
 
